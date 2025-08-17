@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.diosaraiva.activiti;
+package com.diosaraiva.activiti7;
 
 import static java.util.Arrays.asList;
 import static org.springframework.security.config.Customizer.withDefaults;
