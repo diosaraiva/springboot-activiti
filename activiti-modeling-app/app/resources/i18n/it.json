@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Applicazione",
+    "BACKEND_SERVICE": "Servizio di back-end",
+    "MORE_ACTIONS": "Altre azioni",
+    "VALIDATE_PROJECT": "Convalida progetto",
+    "DOWNLOAD_PROJECT": "Scarica progetto",
+    "ADD_ACTION": "Aggiungi nuova azione",
+    "ADD_EVENT": "Aggiungi nuovo evento",
+    "HEADER": {
+      "APP_NAME": "Applicazione di modellazione",
+      "SIGN_OUT": "Disconnetti",
+      "SETTINGS": "Impostazioni",
+      "ABOUT": "Informazioni su",
+      "LANGUAGE": "Lingua",
+      "SEARCH": "Cerca",
+      "APPEARANCE": "Aspetto"
+    },
+    "DIALOGS": {
+      "CANCEL": "Annulla",
+      "SAVE": "Salva",
+      "CREATE": "Crea",
+      "UPDATE": "Aggiorna",
+      "CLOSE": "Chiudi",
+      "DONT_SAVE": "Non salvare",
+      "UNSAVED_PAGE_TITLE": "Si desidera salvare le modifiche apportate a",
+      "EDIT_PROPERTIES": "Modifica variabili del processo",
+      "EDIT_PROCESS_MESSAGES": "Modifica messaggi",
+      "EDIT_PROCESS_ERRORS": "Modifica errori",
+      "EDIT_FORM_PROPERTIES": "Modifica variabili del modulo",
+      "EDIT_VISIBILITY_CONDITIONS": "Modifica condizioni di visibilità",
+      "ERROR": {
+        "TITLE": "Salvare comunque?",
+        "SUBTITLE": "Errori di convalida:",
+        "NAME_DOESNT_MATCH_PATTERN": "Il nome non coincide con il seguente modello",
+        "GENERAL_NAME_VALIDATION": "Il nome deve essere minuscolo e di lunghezza compresa fra 1 e 26 caratteri. Sono ammessi caratteri alfanumerici e trattini, tuttavia il nome deve cominciare con una lettera e terminare con una lettera o un numero.",
+        "PROCESS_NAME_VALIDATION": "Il nome deve avere una lunghezza compresa tra 1 e 26 caratteri e non può iniziare con uno spazio vuoto"
+      },
+      "CONFIRM": {
+        "TITLE": "Continuare?",
+        "SUBTITLE": "Eseguire questa azione?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Questa azione non può essere annullata",
+        "BUTTON": "Conferma",
+        "RELEASE": "Rilasciare una nuova versione di questo progetto?",
+        "TYPES": {
+          "DECISION": "tabella decisioni",
+          "DATA_MODEL": "modello di dati",
+          "UI": "UI",
+          "CONNECTOR": "connettore",
+          "FORM": "Modulo",
+          "PROCESS": "Processo",
+          "FILE": "file",
+          "SCRIPT": "script",
+          "TRIGGER": "Trigger",
+          "MODEL": "Modello di contenuto",
+          "CUSTOM-FORM-WIDGET": "Widget modulo"
+        },
+        "DELETE": {
+          "PROJECT": "Eliminare questo progetto?",
+          "DATA_MODEL": "Eliminare questo oggetto dati?"
+        },
+        "SAVE": {
+          "PROCESS": "Salvare questo processo?",
+          "DATA_MODEL": "Salvare questo oggetto dati?",
+          "EMAIL_TEMPLATE": "Sovrascrivere il modello di e-mail?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Copiare questo oggetto dati?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Scaricare l'immagine svg di questo processo?",
+          "DATA_MODEL": "Scaricare questo oggetto dati?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Modifica",
+      "DELETE": "Elimina",
+      "RELEASE": "Versione da pubblicare",
+      "COLLABORATORS": "Collaboratori",
+      "SEE_RELEASES": "Visualizza versioni",
+      "LOG_HISTORY": "Cronologia del registro",
+      "DOWNLOAD": "Scarica",
+      "SAVE_AS": "Salva con nome",
+      "EDITORS_MENU": "Menu Editor",
+      "MORE_MENU": "Menu Altro"
+    },
+    "SETTINGS": {
+      "HEADER": "Impostazioni applicazione"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Cambiare utente",
+        "NOT_VALID_JSON": "Oggetto JSON non valido",
+        "NOT_VALID_HTML": "Oggetto HTML non valido",
+        "NOT_VALID_SCHEMA": "L'oggetto JSON non coincide con lo schema"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Nome",
+      "DESCRIPTION": "Descrizione",
+      "TITLE": "Titolo applicazione"
+    },
+    "THEME": {
+      "LIGHT": "Tema chiaro",
+      "DARK": "Tema scuro"
+    }
+  }
+}

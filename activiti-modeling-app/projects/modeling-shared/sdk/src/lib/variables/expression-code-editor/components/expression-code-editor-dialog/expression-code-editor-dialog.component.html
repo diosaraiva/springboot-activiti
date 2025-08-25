@@ -1,0 +1,54 @@
+<h2 mat-dialog-title>
+    {{'SDK.EXPRESSION_CODE_EDITOR.EXPRESSION_EDITOR' | translate}}
+</h2>
+<mat-dialog-content class="ama-expression-code-editor-dialog-content"
+    data-automation-id="ama-expression-code-editor-dialog">
+    <mat-sidenav-container>
+        <mat-sidenav [opened]="simulation" mode="side" position="end" disableClose>
+            <modelingsdk-expression-simulator #simulator
+                [variables]="data.variables"
+                [expression]="expression"
+                [removeEnclosingBrackets]="data.removeEnclosingBrackets"
+                [expressionSyntax]="data.expressionSyntax">
+            </modelingsdk-expression-simulator>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <modelingsdk-expression-code-editor
+                [(expression)]="expression"
+                [language]="data.language"
+                [removeEnclosingBrackets]="data.removeEnclosingBrackets"
+                [variables]="data.variables"
+                [enableDialogEditor]="false"
+                [enableInlineEditor]="true"
+                [nonBracketedOutput]="data.nonBracketedOutput"
+                [removeLineNumbers]="data.removeLineNumbers"
+                [lineWrapping]="data.lineWrapping"
+                (expressionChange)="simulator.resetSimulation()"
+                [expressionSyntax]="data.expressionSyntax">
+            </modelingsdk-expression-code-editor>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+
+</mat-dialog-content>
+<mat-dialog-actions class="ama-expression-code-editor-dialog-actions">
+    <button mat-button color="accent" (click)="simulation = true" *ngIf="!simulation && !!expression && expression.trim().length > 0"
+        data-automation-id="ama-expression-code-editor-dialog-open-tester-button">
+        {{ 'SDK.EXPRESSION_CODE_EDITOR.OPEN_TESTER' | translate }}
+    </button>
+    <button mat-button color="accent" (click)="simulation = false" *ngIf="simulation"
+        data-automation-id="ama-expression-code-editor-dialog-close-tester-button">
+        {{ 'SDK.EXPRESSION_CODE_EDITOR.CLOSE_TESTER' | translate }}
+    </button>
+
+    <span class="adf-fill-remaining-space"></span>
+
+    <button mat-button mat-dialog-close (click)="onClose()"
+        data-automation-id="ama-expression-code-editor-dialog-close-button">
+        {{ 'APP.DIALOGS.CANCEL' | translate }}
+    </button>
+
+    <button class="adf-dialog-action-button studio-save-btn" color="primary" mat-button (click)="onSave()"
+        data-automation-id="ama-expression-code-editor-dialog-save-button">
+        {{ 'APP.DIALOGS.SAVE' | translate }}
+    </button>
+</mat-dialog-actions>

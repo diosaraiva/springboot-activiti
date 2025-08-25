@@ -1,0 +1,51 @@
+<mat-table [dataSource]="dataSource" data-automation-id="output-mapping-table" [ngClass]="'output-mapping'">
+    <ng-container matColumnDef="name">
+        <mat-header-cell data-automation-id="table-header-cell-name" *matHeaderCellDef [ngClass]="'output-mapping'">
+            {{ 'SDK.VARIABLE_MAPPING.PARAMETER' | translate }}</mat-header-cell>
+        <mat-cell *matCellDef="let parameter; let i = index;" [attr.data-automation-id]="'output-param-id-' + i">
+            <span>
+                <span [ngClass]="{'ama-variable-value-type-value': isValueMapping(parameter.name)}">
+                    {{ parameter.label || parameter.name | variablevalue }}
+                </span>
+            </span>
+            <mat-icon
+                matTooltip="{{ parameter.description }} ({{'SDK.MAPPING_DIALOG.TYPE' | translate}}: {{parameter.type}})"
+                matTooltipPosition="below" class="ama-help-icon">help</mat-icon>
+        </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="process-variable">
+        <mat-header-cell data-automation-id="table-header-cell-process-variables" *matHeaderCellDef
+            [ngClass]="'output-mapping'">
+            {{ 'SDK.VARIABLE_MAPPING.PROCESS_VARIABLE' | translate }}
+        </mat-header-cell>
+        <mat-cell *matCellDef="let parameter; let i = index;">
+            <modelingsdk-variable-selector-dropdown
+                [variables]="processProperties | outputMappingAvailableVariable: mapping: parameter.name" [placeholder]="'SDK.VARIABLE_MAPPING.PROCESS_VARIABLE' | translate"
+                [varIdSelected]="selectedVariablesArray[i]"
+                [noVariablePlaceholder]="'SDK.VARIABLE_MAPPING.NO_PROCESS_PROPERTIES'"
+                (variableSelected)="changeSelection($event,i, parameter)"
+                [typeFilter]="parameter | variablePrimitiveType"
+                [attr.data-automation-id]="'variable-selector-' + i" [ngClass]="'output-mapping'"
+                [required]="parameter.required || false"
+                [variablesPanelHeight]="300"
+                [variablesPanelWidth]="200"
+                [filterExpressionVariables]="true">
+            </modelingsdk-variable-selector-dropdown>
+            <button mat-icon-button
+                    class="modelingsdk-output-mapping-edit-button"
+                    [attr.data-automation-id]="'edit-output-mapping-button-' + parameter.id"
+                    [disabled]="isSystemVariable(i)"
+                    (click)="edit(i)">
+                <mat-icon class="modelingsdk-output-mapping-table__mapping-icon adf-textitem-action"
+                          [attr.data-automation-id]="'edit-output-mapping-icon-' + parameter.id"
+                          [matTooltipDisabled]="!isSystemVariable(i)"
+                          matTooltip="{{'SDK.VARIABLE_MAPPING.NOT_EDITABLE' | translate}}"
+                          matTooltipPosition="below">
+                    edit
+                </mat-icon>
+            </button>
+        </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns; let i = index;"></mat-row>
+</mat-table>

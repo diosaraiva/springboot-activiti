@@ -1,0 +1,50 @@
+.ama-user-menu {
+    font-family: var(--theme-font-family);
+
+    &-initials {
+
+        .ama-user-initials {
+            border-radius: 90%;
+            height: 32px;
+            margin-right: 0;
+            min-width: 32px;
+            padding: 0;
+            font-weight: bolder;
+            line-height: 32px !important;
+            text-align: center;
+            vertical-align: middle;
+            background: var(--theme-user-initials-bg);
+            color:var(--theme-user-initials-text);
+            border: none;
+            &:hover {
+                background-color: var(--theme-user-initials-bg-hover);
+            }
+            &:active {
+                background-color: var(--theme-user-initials-bg-pressed);
+            }
+        }
+
+        .ama-user-initials.ama-details {
+            margin-top: 15px;
+        }
+
+        .ama-user-name-mail {
+            margin-left: 15px;
+            line-height: 40px;
+        }
+
+        .ama-user-menu-name {
+            height: 24px;
+        }
+    }
+
+    &-initials.ama-details {
+        display: flex;
+        height: 66px;
+    }
+
+    &-admin {
+        text-decoration: none;
+        color: var(--theme-text-fg-color);
+    }
+}

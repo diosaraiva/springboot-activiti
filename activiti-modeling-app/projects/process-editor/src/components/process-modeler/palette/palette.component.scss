@@ -1,0 +1,167 @@
+ama-process-palette .mat-card {
+    width: 90px;
+    border: 1px solid var(--theme-border-color);
+    border-radius: 6px;
+    box-sizing: content-box;
+    padding: 0;
+    background: white;
+
+    .ama-palette-header {
+        height: 12px;
+        background: var(--theme-ama-palette-header-bg-color);
+        cursor: move;
+        position: relative;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+
+        mat-icon {
+            font-size: 10px;
+            width: 10px;
+            height: 10px;
+            margin: 0;
+            position: absolute;
+            right: 0;
+            top: 1px;
+        }
+    }
+
+    .ama-palette-body {
+        padding: 6px;
+        display: none;
+        background: var(--theme-ama-palette-bg-color);
+
+        &.ama-opened {
+            display: block;
+        }
+    }
+
+    .entry-parent {
+        display: inline-block;
+        padding: 7px;
+    }
+
+    .entry {
+        font-size: 25px;
+        border: 0;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+
+        &:not(:first-child) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        button {
+            cursor: pointer;
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            margin-left: -30px;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+
+        &:hover,
+        &.ama-selected {
+            color: var(--theme-primary-color);
+        }
+    }
+
+    .ama-separator {
+        border-color: var(--theme-ama-palette-separator-color);
+    }
+}
+
+ama-process-palette .mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+}
+
+.mat-card.ama-palette-drawer {
+    min-width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 38px;
+    overflow: auto;
+
+    .ama-palette-body {
+        padding: 6px;
+        background: var(--theme-ama-palette-bg-color);
+    }
+
+    .entry {
+        &.ama-svg {
+            width: 20px;
+            height: 20px;
+
+            button {
+                margin-left: -13px;
+                height: 3px;
+            }
+        }
+        button {
+            cursor: pointer;
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            margin-left: -30px;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+        svg {
+            cursor: pointer;
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            margin-left: -10px;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+
+        &:hover {
+            color: color(--theme-primary-color);
+            cursor: pointer;
+        }
+    }
+
+    .entry-parent {
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+
+    .ama-drawer-item-tag {
+        font-size: 12px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        margin-left: 6px;
+        width: 120px;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .bpmn-alfresco-icon-content-task {
+        float: left;
+    }
+
+    .bpmn-alfresco-icon-email-task {
+        float: left;
+    }
+
+    .bpmn-alfresco-icon-hxpcontent-task {
+        float: left;
+    }
+}

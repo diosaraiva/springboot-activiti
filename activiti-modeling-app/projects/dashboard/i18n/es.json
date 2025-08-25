@@ -1,0 +1,151 @@
+{
+  "DASHBOARD": {
+    "NEW_MENU": {
+      "LABEL": "Nuevo",
+      "CREATE_PROJECT_TITLE": "Crear proyecto",
+      "OVERRIDE_PROJECT_TITLE": "Ya existe un proyecto con ese nombre.",
+      "EDIT_PROJECT_TITLE": "Editar proyecto",
+      "PROJECT_CREATED": "Proyecto creado",
+      "PROJECT_UPLOADED": "Proyecto cargado",
+      "PROJECT_UPDATED": "Proyecto guardado",
+      "PROJECT_RELEASED": "Proyecto lanzado",
+      "PROJECT_DELETED": "Proyecto eliminado",
+      "MENU_ITEMS": {
+        "CREATE_PROJECT": "Crear proyecto",
+        "UPLOAD_PROJECT": "Cargar proyecto",
+        "CREATE_MODEL": "Modelo de contenido"
+      }
+    },
+    "DIALOGS": {
+      "PROJECT_NAME": "Nombre de proyecto:",
+      "PROJECT_DESC": "Descripción de proyecto:"
+    },
+    "NAVIGATION": {
+      "PROJECTS": {
+        "LABEL": "Proyectos",
+        "TOOLTIP": "Proyectos publicados"
+      },
+      "RELEASES": {
+        "LABEL": "Versiones",
+        "TOOLTIP": "Versiones"
+      },
+      "PROCESSES": {
+        "LABEL": "Procesos",
+        "TOOLTIP": "Procesos publicados"
+      },
+      "FAVORITES": {
+        "LABEL": "Favoritos",
+        "TOOLTIP": "Favoritos"
+      }
+    },
+    "SEARCH_PLACEHOLDER": "Buscar",
+    "TABLE": {
+      "COLUMN_NAME": "Nombre",
+      "COLUMN_VERSION": "Versión",
+      "COLUMN_CREATED": "Creado",
+      "COLUMN_CREATED_BY": "Creado por",
+      "COLUMN_MODIFIED": "Actualizado",
+      "COLUMN_OPTIONS": "Opciones",
+      "COLUMN_ACTIONS": "Acciones",
+      "COLUMN_COLLABORATORS": "Colaboradores",
+      "NO_ITEMS": "Crear o importar un proyecto para verlo en la lista.",
+      "NO_FAV_PROCESSES": "Marque un proceso como favorito para que esté disponible aquí.",
+      "NO_FAV_PROJECTS": "Marque un proyecto como favorito para que esté disponible aquí.",
+      "RELEASE_ID": "ID de versión",
+      "RELEASE_COMMENT": "Comentario",
+      "PROJECT_NAME": "Nombre de proyecto"
+    },
+    "ERROR": {
+      "LOAD_PROJECTS": "Ha surgido un problema al cargar los proyectos. Vuelva a intentar actualizar la página.",
+      "LOAD_RELEASES": "Ha surgido un problema al cargar las versiones. Vuelva a intentar actualizar la página.",
+      "LOAD_PROCESSES": "Ha surgido un problema al cargar los procesos. Vuelva a intentar actualizar la página."
+    }
+  },
+  "NEW_STUDIO_DASHBOARD": {
+    "NAME": "Modeling Application",
+    "NAVIGATION": {
+      "PROJECT_TITLE": "Proyectos",
+      "CONTENT_MODEL_TITLE": "Modelos de contenido",
+      "DATA_MODELS_TITLE": "Modelos de datos",
+      "HXP_DOC_TYPES_TITLE": "HxP Document Types",
+      "HXP_MIXINS_TITLE": "HxP Mixins",
+      "HXP_SCHEMAS_TITLE": "HxP Schemas",
+      "ALL_PROJECTS": {
+        "HEADER_LABEL": "Mis proyectos",
+        "LABEL": "Todos los proyectos",
+        "TOOLTIP": "Todos los proyectos publicados",
+        "ACTIONS": {
+          "CREATE": "Crear proyecto",
+          "UPLOAD": "Cargar proyecto"
+        }
+      },
+      "FAVORITE_PROJECTS": {
+        "HEADER_LABEL": "Mis proyectos favoritos",
+        "LABEL": "Proyectos favoritos",
+        "TOOLTIP": "Proyectos favoritos"
+      },
+      "MY_MODELS": {
+        "HEADER_LABEL": "Mis modelos",
+        "LABEL": "Mis modelos",
+        "TOOLTIP": "Modelos creados por el usuario",
+        "ACTIONS": {
+          "CREATE": "Crear modelo"
+        }
+      },
+      "SHARED_MODELS": {
+        "HEADER_LABEL": "Mis modelos compartidos",
+        "LABEL": "Modelos globales",
+        "TOOLTIP": "Modelos compartidos por los proyectos",
+        "ACTIONS": {
+          "CREATE": "Crear modelo de contenido"
+        }
+      },
+      "DATA_MODELS": {
+        "HEADER_LABEL": "Mis modelos de datos",
+        "LABEL": "Modelos globales",
+        "TOOLTIP": "Modelos de datos publicados",
+        "ACTIONS": {
+          "CREATE": "Crear modelo de datos"
+        }
+      },
+      "HXP_DOC_TYPES": {
+        "HEADER_LABEL": "My HxP Document Types",
+        "LABEL": "Global HxP Document Types",
+        "TOOLTIP": "Published HxP Document Types",
+        "ACTIONS": {
+          "CREATE": "Create HxP Document Type"
+        }
+      },
+      "HXP_MIXINS": {
+        "HEADER_LABEL": "My HxP Mixins",
+        "LABEL": "Global HxP Mixins",
+        "TOOLTIP": "Published HxP Mixins",
+        "ACTIONS": {
+          "CREATE": "Create HxP Mixin"
+        }
+      },
+      "HXP_SCHEMAS": {
+        "HEADER_LABEL": "My HxP Schemas",
+        "LABEL": "Global HxP Schemas",
+        "TOOLTIP": "Published HxP Schemas",
+        "ACTIONS": {
+          "CREATE": "Create HxP Schema"
+        }
+      }
+    },
+    "USER_INFO_MENU": {
+      "ADMIN": "Administrador",
+      "DOCUMENTATION": "Documentación"
+    },
+    "ADD_TO_FAVORITES": "Proyecto añadido a los favoritos",
+    "REMOVE_FROM_FAVORITES": "Proyecto eliminado de los favoritos",
+    "ERROR": {
+      "LOAD_FAVORITE_PROJECTS": "Ha surgido un problema al cargar los proyectos de los favoritos. Intente actualizar la página."
+    }
+  },
+  "SEARCH": {
+    "BUTTON": {
+      "TOOLTIP": "Buscar"
+    }
+  }
+}

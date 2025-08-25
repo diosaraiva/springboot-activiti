@@ -1,0 +1,151 @@
+{
+  "DASHBOARD": {
+    "NEW_MENU": {
+      "LABEL": "Ny",
+      "CREATE_PROJECT_TITLE": "Skapa projekt",
+      "OVERRIDE_PROJECT_TITLE": "Det finns redan ett projekt med det namnet.",
+      "EDIT_PROJECT_TITLE": "Redigera projekt",
+      "PROJECT_CREATED": "Projekt skapat",
+      "PROJECT_UPLOADED": "Projekt uppladdat",
+      "PROJECT_UPDATED": "Projekt sparat",
+      "PROJECT_RELEASED": "Projekt avsagt",
+      "PROJECT_DELETED": "Projekt raderat",
+      "MENU_ITEMS": {
+        "CREATE_PROJECT": "Skapa projekt",
+        "UPLOAD_PROJECT": "Ladda upp projekt",
+        "CREATE_MODEL": "Innehållsmodell"
+      }
+    },
+    "DIALOGS": {
+      "PROJECT_NAME": "Projektnamn:",
+      "PROJECT_DESC": "Projektbeskrivning"
+    },
+    "NAVIGATION": {
+      "PROJECTS": {
+        "LABEL": "Projekt",
+        "TOOLTIP": "Publicerade projekt"
+      },
+      "RELEASES": {
+        "LABEL": "Versioner",
+        "TOOLTIP": "Versioner"
+      },
+      "PROCESSES": {
+        "LABEL": "Processer",
+        "TOOLTIP": "Publicerade processer"
+      },
+      "FAVORITES": {
+        "LABEL": "Favoriter",
+        "TOOLTIP": "Favoriter"
+      }
+    },
+    "SEARCH_PLACEHOLDER": "Sök",
+    "TABLE": {
+      "COLUMN_NAME": "Namn",
+      "COLUMN_VERSION": "Version",
+      "COLUMN_CREATED": "Skapad",
+      "COLUMN_CREATED_BY": "Skapad av",
+      "COLUMN_MODIFIED": "Uppdaterad",
+      "COLUMN_OPTIONS": "Alternativ",
+      "COLUMN_ACTIONS": "Åtgärder",
+      "COLUMN_COLLABORATORS": "Medarbetare",
+      "NO_ITEMS": "Skapa eller importera ett projekt som ska visas i listan.",
+      "NO_FAV_PROCESSES": "Favoritmärk en process för att göra den tillgänglig här.",
+      "NO_FAV_PROJECTS": "Favoritmarkera ett projekt för att göra det tillgängligt här.",
+      "RELEASE_ID": "Versions-ID",
+      "RELEASE_COMMENT": "Kommentar",
+      "PROJECT_NAME": "Projektnamn"
+    },
+    "ERROR": {
+      "LOAD_PROJECTS": "Vi stötte på ett problem med att läsa in projekten. Prova att uppdatera sidan.",
+      "LOAD_RELEASES": "Vi stötte på ett problem med att läsa in avsägningarna. Prova att uppdatera sidan.",
+      "LOAD_PROCESSES": "Vi stötte på ett problem med att läsa in processerna. Prova att uppdatera sidan."
+    }
+  },
+  "NEW_STUDIO_DASHBOARD": {
+    "NAME": "Modeling Application",
+    "NAVIGATION": {
+      "PROJECT_TITLE": "Projekt",
+      "CONTENT_MODEL_TITLE": "Innehållsmodeller",
+      "DATA_MODELS_TITLE": "Datamodeller",
+      "HXP_DOC_TYPES_TITLE": "HxP Document Types",
+      "HXP_MIXINS_TITLE": "HxP Mixins",
+      "HXP_SCHEMAS_TITLE": "HxP Schemas",
+      "ALL_PROJECTS": {
+        "HEADER_LABEL": "Mina projekt",
+        "LABEL": "Alla projekt",
+        "TOOLTIP": "Alla publicerade projekt",
+        "ACTIONS": {
+          "CREATE": "Skapa projekt",
+          "UPLOAD": "Ladda upp projekt"
+        }
+      },
+      "FAVORITE_PROJECTS": {
+        "HEADER_LABEL": "Mina favoritprojekt",
+        "LABEL": "Favoritprojekt",
+        "TOOLTIP": "Favoritprojekt"
+      },
+      "MY_MODELS": {
+        "HEADER_LABEL": "Mina modeller",
+        "LABEL": "Mina modeller",
+        "TOOLTIP": "Modeller skapade av användaren",
+        "ACTIONS": {
+          "CREATE": "Skapa modell"
+        }
+      },
+      "SHARED_MODELS": {
+        "HEADER_LABEL": "Mina delade modeller",
+        "LABEL": "Globala modeller",
+        "TOOLTIP": "Modeller som delas över projekten",
+        "ACTIONS": {
+          "CREATE": "Skapa innehållsmodell"
+        }
+      },
+      "DATA_MODELS": {
+        "HEADER_LABEL": "Mina datamodeller",
+        "LABEL": "Globala modeller",
+        "TOOLTIP": "Publicerade datamodeller",
+        "ACTIONS": {
+          "CREATE": "Skapa datamodell"
+        }
+      },
+      "HXP_DOC_TYPES": {
+        "HEADER_LABEL": "My HxP Document Types",
+        "LABEL": "Global HxP Document Types",
+        "TOOLTIP": "Published HxP Document Types",
+        "ACTIONS": {
+          "CREATE": "Create HxP Document Type"
+        }
+      },
+      "HXP_MIXINS": {
+        "HEADER_LABEL": "My HxP Mixins",
+        "LABEL": "Global HxP Mixins",
+        "TOOLTIP": "Published HxP Mixins",
+        "ACTIONS": {
+          "CREATE": "Create HxP Mixin"
+        }
+      },
+      "HXP_SCHEMAS": {
+        "HEADER_LABEL": "My HxP Schemas",
+        "LABEL": "Global HxP Schemas",
+        "TOOLTIP": "Published HxP Schemas",
+        "ACTIONS": {
+          "CREATE": "Create HxP Schema"
+        }
+      }
+    },
+    "USER_INFO_MENU": {
+      "ADMIN": "Administratör",
+      "DOCUMENTATION": "Dokumentation"
+    },
+    "ADD_TO_FAVORITES": "Projekt lades till i favoriter",
+    "REMOVE_FROM_FAVORITES": "Projekt togs bort från favoriter",
+    "ERROR": {
+      "LOAD_FAVORITE_PROJECTS": "Vi stötte på ett problem vid inläsningen av favoritprojekten. Prova att uppdatera sidan."
+    }
+  },
+  "SEARCH": {
+    "BUTTON": {
+      "TOOLTIP": "Sök"
+    }
+  }
+}

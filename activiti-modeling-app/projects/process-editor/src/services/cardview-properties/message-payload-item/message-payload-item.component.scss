@@ -1,0 +1,60 @@
+.ama-message-payload-block {
+    .mat-form-field {
+        width: 100%;
+    }
+
+    .ama-messages-payload-add-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+
+        &-label {
+            margin-left: 2px;
+        }
+    }
+
+    .ama-message-list-item.mat-list-item {
+        font-size: 13px;
+        height: 35px !important;
+
+        .mat-list-item-content {
+            justify-content: space-between;
+        }
+
+        .mat-list-item-content {
+            padding: 0 !important;
+        }
+    }
+
+    .ama-message-list-item-properties {
+        display: flex;
+
+        .ama-message-list-item {
+            &-type {
+                color: var(--theme-text-color);
+            }
+
+            &-label {
+                width: 80px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                padding-right: 5px;
+            }
+        }
+
+        .ama-message-item-cell {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 180px;
+        }
+    }
+
+    .ama-messages-payload-remove-button {
+        color: var(--theme-warn-color);
+        border-radius: 50%;
+        font-size: 17px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+}

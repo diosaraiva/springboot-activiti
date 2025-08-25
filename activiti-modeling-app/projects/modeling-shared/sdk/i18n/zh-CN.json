@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "验证",
+      "RELEASE": "发布",
+      "SAVE_AS": "保存为",
+      "SAVE_AS_ICON": "另存为图标",
+      "DOWNLOAD": "下载项目",
+      "VIEW_RELEASES": "查看发布",
+      "VERSION": "版本",
+      "UNSAVED_DIALOG_TITLE": "未保存的模型",
+      "UNSAVED_VALIDATE_MESSAGE": "某些打开的模型中存在未保存的更改，请在验证之前保存这些更改",
+      "UNSAVED_RELEASE_MESSAGE": "某些打开的模型中存在未保存的更改，请在发布前保存这些更改",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "某些打开的模型中存在未保存的更改，请在返回仪表板之前保存这些更改"
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "确定要保存此 {{ modelType }} 吗？",
+        "CONFIRM_DELETE_MODEL": "确定要删除此 {{ modelType }} 吗？",
+        "CONFIRM_DOWNLOAD_MODEL": "确定要下载此 {{ modelType }}吗？",
+        "CONFIRM_SAVE_AS_MODEL": "确定要复制此 {{ modelType }} 吗？",
+        "INVALID_MODEL": "{{ modelType }} 包含验证错误。",
+        "VALID_MODEL": "{{ modelType }} 是有效的"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "粘贴的值必须遵循这个模式"
+    },
+    "ALL": "全部",
+    "VALUE": "值",
+    "EXPRESSION": "表达式",
+    "TYPE": "类型",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "是",
+      "NO": "否",
+      "DISPLAY_NAME": "显示名称",
+      "DISPLAY_NAME_AVAILABILITY": "在 Web 应用程序中可用",
+      "ENTER_DISPLAY_NAME": "输入显示名称",
+      "DISPLAY_NAME_TOOLTIP": "显示名称在 Web 应用程序中使用，例如作为任务列表、进程列表和 API 中的列名。"
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "需要名称",
+        "EMPTY_TYPE": "类型是必需的",
+        "EMPTY_DISPLAY_NAME": "显示名称是必需的",
+        "INVALID_NAME": "无效的变量名称",
+        "VARIABLE_NAME_TOOLTIP": "名称必须以字母开头，只能包含字母数字字符和下划线",
+        "NAME_ALREADY_EXISTS": "变量名称必须是唯一的",
+        "FILE_ALREADY_EXISTS": "文件已经存在"
+      },
+      "TABS": {
+        "VIEWER": "属性查看器",
+        "JSON_EDITOR": "JSON 编辑器"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "名称",
+        "COLUMN_TYPE": "类型",
+        "COLUMN_REQUIRED": "必需",
+        "COLUMN_VALUE": "值",
+        "NO_PROPERTIES": "选择或创建变量以查看其属性",
+        "CLEAR": "清除",
+        "ANALYTICS": "分析"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "参数",
+      "VALUE": "值",
+      "PROCESS_VARIABLE": "流程变量",
+      "SWITCH_VAR_VAL": "切换变量/值",
+      "NO_PROCESS_PROPERTIES": "没有流程属性",
+      "NO_PAYLOAD": "消息没有有效 payload。在消息抛出事件中添加有效 payload。",
+      "CLEAR_ASSIGNMENT": "清除分配",
+      "MAPPING_TYPE": "映射类型",
+      "MAP_VARIABLES": "映射变量",
+      "MAP_NO_VARIABLE": "不要映射变量",
+      "MAP_ALL": "映射所有的输入/输出变量",
+      "MAP_ALL_INPUTS": "映射所有的输入变量",
+      "MAP_ALL_OUTPUTS": "映射所有的输出变量",
+      "NONE": "无",
+      "NOT_EDITABLE": "这是一个系统参数。系统参数不能被编辑。"
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "流程消息",
+      "ERRORS": {
+        "EMPTY_NAME": "需要名称",
+        "NAME_ALREADY_EXISTS": "消息名称必须是唯一的"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "名称",
+        "COLUMN_ID": "ID",
+        "NO_MESSAGES": "选择或创建一个消息，以查看其属性"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "流程错误",
+      "ERRORS": {
+        "EMPTY_NAME": "需要名称",
+        "EMPTY_CODE": "需要有一个错误代码",
+        "NAME_ALREADY_EXISTS": "流程错误名称必须是唯一的"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "错误名称",
+        "COLUMN_CODE": "错误代码",
+        "COLUMN_ID": "错误 Id",
+        "NO_PROCESS_ERRORS": "选择或创建一个流程错误，以查看其属性"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "编辑变量映射",
+      "SELECTOR_TITLE": "选择要编辑的变量映射类型",
+      "INPUT_MAPPING": "输入映射",
+      "OUTPUT_MAPPING": "输出映射",
+      "PROCESS_VARIABLE": "流程变量",
+      "INPUT_PARAMETER": "输入参数",
+      "OUTPUT_PARAMETER": "输出参数",
+      "VALUE_MAPPING": "值",
+      "EXPRESSION_MAPPING": "表达式",
+      "NONE": "无",
+      "TYPE": "类型",
+      "WRONG_OUTPUT_MAPPING": "输出映射不正确。并非所有添加的映射都将表达式映射到变量"
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "保存为",
+      "FIELD_PROPERTIES": {
+        "NAME": "名称",
+        "DESCRIPTION": "说明"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "在对话框中编辑",
+      "EXPRESSION_EDITOR": "表达式编辑器",
+      "NO_BRACKETS_HINT": "此编辑器中的整个表达式将被保存在波形括号 (${...}) 内，因此不需要键入它们",
+      "JUEL_EXPRESSION_SIMULATOR": "JUEL 表达式模拟器",
+      "TEST": "测试",
+      "TEST_DISABLED_TOOLTIP": "执行测试之前，在测试中添加一个变量",
+      "TEST_ENABLED_TOOLTIP": "使用为变量提供的值测试表达式",
+      "OPEN_TESTER": "打开测试器",
+      "CLOSE_TESTER": "关闭测试器",
+      "SET_VARIABLES_VALUES": "设置变量的值",
+      "SET_VARIABLES_VALUES_TOOLTIP": "选择一个变量以在测试中设置其值",
+      "DELETE_VARIABLE_FROM_TEST": "从测试中删除变量"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "搜索"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "启动事件",
+        "PROCESS": "流程",
+        "SERVICE_TASK": "服务任务",
+        "CALLED_ELEMENT": "调用的元素",
+        "SCRIPT_TASK": "脚本任务",
+        "DECISION_TABLE": "决策表",
+        "USER_TASK": "用户任务",
+        "NONE": "无",
+        "EVENT": "事件",
+        "EMAIL_SERVICE_TASK": "电子邮件服务任务",
+        "DOCGEN_SERVICE": "Docgen 服务任务",
+        "PARTICIPANT": "流程",
+        "FORM_FIELDS": "表单字段",
+        "FORM_VARIABLES": "表单变量",
+        "CONTENT_SERVICE": "内容服务"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "变量",
+        "PROCESS_VARIABLE_TOOLTIP": "{{processName}}的进程变量",
+        "NONE_VARIABLE_TOOLTIP": "选择“无”以清除所选内容",
+        "OUTPUT_VARIABLE_TOOLTIP": "{{taskType}} {{taskName}} 的输出",
+        "PROPERTIES": "属性"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "变量",
+        "EXPRESSION": "表达式",
+        "OPEN_EXPRESSION_EDITOR": "打开表达式编辑器对话框",
+        "SWITCH_TO_VARIABLES": "切换到变量选择器",
+        "CLEAR_SELECTION": "清除选定内容"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "基元",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "自定义输入",
+      "DATE": {
+        "CURRENT_DATE": "今天",
+        "CLEAR_BUTTON": "清除"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "现在",
+        "CLEAR_BUTTON": "清除"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "要添加到数组中的值",
+        "ADD": "添加",
+        "EDIT_VALUE": "编辑值",
+        "EDIT": "编辑"
+      },
+      "VALIDATION": {
+        "REQUIRED": "需要输入",
+        "INVALID_FORMAT": "无效的输入格式: {{error}}",
+        "INVALID_MIN_LENGTH": "无效的最小长度: {{error}}",
+        "INVALID_MAX_LENGTH": "无效的最大长度: {{error}}",
+        "INVALID_MIN_VALUE": "无效的值。它应该大于或等于: {{error}}",
+        "INVALID_MAX_VALUE": "无效的值。它应该小于或等于: {{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "无效的值。它应该是以下数字的倍数: {{error}}",
+        "GENERIC_ERROR": "无效的值: {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "展开",
+      "COLLAPSE": "折叠",
+      "NAME": "名称",
+      "INVALID_NAME": "无效的名称",
+      "REQUIRED": "必需",
+      "REFERENCE": "引用",
+      "TITLE": "标题",
+      "ADD_PROPERTY": "添加属性",
+      "ADD_CHILD_ALL_OF": "将子项添加到 allOf",
+      "ADD_CHILD_ANY_OF": "将孩子添加到 anyOf",
+      "ADD_CHILD_ONE_OF": "将孩子添加到 oneOf",
+      "ADVANCED_SETTINGS": "高级设置",
+      "REMOVE_NODE": "移除结点",
+      "ADD_DEFINITION": "添加定义",
+      "BASIC_ATTRIBUTES": "基本属性",
+      "CUSTOM_ATTRIBUTES": "自定义属性",
+      "ADD_CUSTOM_ATTRIBUTE": "添加自定义属性",
+      "DELETE_CUSTOM_ATTRIBUTE": "删除自定义属性",
+      "ATTRIBUTE_NAME": "属性名",
+      "ATTRIBUTE_VALUE": "属性值",
+      "CONFIRM_ATTRIBUTE_ADDITION": "确认属性添加",
+      "CANCEL_ATTRIBUTE_ADDITION": "取消属性添加",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "JSON 模式类型",
+        "ENUMERATION": "枚举",
+        "MODELING_APP": "建模应用",
+        "COMPOSITION": "创作"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "说明",
+        "MAX_ITEMS": "最大项目",
+        "MIN_ITEMS": "最小项目",
+        "UNIQUE_ITEMS": "唯一项",
+        "ENUMERATED_VALUES": "枚举值",
+        "MAXIMUM": "最大",
+        "MINIMUM": "最小",
+        "EXCLUSIVE_MAXIMUM": "专用的最大值",
+        "EXCLUSIVE_MINIMUM": "专用的最小值",
+        "MAX_PROPERTIES": "最大属性",
+        "MIN_PROPERTIES": "最小属性",
+        "MAX_LENGTH": "最大长度",
+        "MIN_LENGTH": "最小长度",
+        "PATTERN": "模式",
+        "FORMAT": "格式",
+        "ADDITIONAL_PROPERTIES": "附加属性"
+      },
+      "PREVIEW": "预览"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "创建自定义模型",
+      "CREATE_MODEL_DESCRIPTION": "创建自定义模型并将其分配给实体",
+      "EDIT_MODEL": "编辑自定义模型",
+      "EDIT_MODEL_DESCRIPTION": "编辑以前创建的实体自定义模型"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "切换为首选"
+    }
+  }
+}

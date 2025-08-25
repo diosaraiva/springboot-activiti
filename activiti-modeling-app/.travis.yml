@@ -1,0 +1,94 @@
+language: node_js
+dist: jammy
+arch: arm64-graviton2
+node_js:
+  - '14.15.4'
+git:
+  depth: 100
+
+addons:
+  chrome: stable
+
+services:
+  - xvfb
+
+branches:
+  only:
+    - master
+
+stages:
+  - name: Lint
+  - name: Build
+  - name: Unit Test
+  - name: Package
+    if: type != pull_request
+  - name: Publish
+    if: type != pull_request
+
+before_install:
+  - |-
+    export DOCKER_IMAGE_REPO=activiti/activiti-modeling-app
+
+jobs:
+  fast_finish: true
+
+  include:
+
+    - stage: Lint
+      name: Lint
+      script: npm run lint:ci
+
+    - stage: Build
+      name: Build
+      script: npm run build modeling-ce -- --prod
+      workspaces:
+        create:
+          name: modeling-ce-build-artifact-cache
+          paths:
+            - dist
+        use:
+          - modeling-ce-build-artifact-cache
+
+    - stage: Unit Test
+      name: Unit Test
+      script: npm run test:ci
+
+    - stage: Package
+      name: Build Docker Image
+      install: skip
+      script:
+        - |-
+          docker build \
+            --build-arg PROJECT_NAME=modeling-ce \
+            --label org.opencontainers.image.source=https://github.com/$TRAVIS_REPO_SLUG \
+            --label org.opencontainers.image.version=$TRAVIS_BRANCH-$TRAVIS_BUILD_NUMBER \
+            --label org.opencontainers.image.url=$TRAVIS_BUILD_WEB_URL \
+            --label org.opencontainers.image.revision=$TRAVIS_COMMIT \
+            -t $DOCKER_IMAGE_REPO . || return 1
+          docker save $DOCKER_IMAGE_REPO | gzip > image.tar.gz
+      workspaces:
+        create:
+          name: modeling-ce-docker-cache
+          paths:
+            - image.tar.gz
+        use:
+          - modeling-ce-build-artifact-cache
+
+    - stage: Publish
+      name: Push Docker Image
+      install: skip
+      before_script: echo $DOCKER_REGISTRY_PASSWORD | docker login -u $DOCKER_REGISTRY_USERNAME --password-stdin $DOCKER_REGISTRY
+      script:
+        - |-
+          docker load < image.tar.gz
+          for DOCKER_TAG in $TRAVIS_BRANCH $TRAVIS_BRANCH-$TRAVIS_BUILD_NUMBER
+          do
+            docker tag $DOCKER_IMAGE_REPO $DOCKER_REGISTRY/$DOCKER_IMAGE_REPO:$DOCKER_TAG
+            docker push $DOCKER_REGISTRY/$DOCKER_IMAGE_REPO:$DOCKER_TAG
+          done
+      workspaces:
+        use:
+          - modeling-ce-docker-cache
+
+cache:
+  npm: true

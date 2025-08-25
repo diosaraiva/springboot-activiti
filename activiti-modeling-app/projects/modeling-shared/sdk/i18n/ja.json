@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "検証",
+      "RELEASE": "リリース",
+      "SAVE_AS": "名前を付けて保存",
+      "SAVE_AS_ICON": "アイコンとして保存",
+      "DOWNLOAD": "プロジェクトのダウンロード",
+      "VIEW_RELEASES": "リリースの表示",
+      "VERSION": "バージョン",
+      "UNSAVED_DIALOG_TITLE": "未保存のモデル",
+      "UNSAVED_VALIDATE_MESSAGE": "開いたモデルの一部に保存していない変更があります。検証する前に保存してください",
+      "UNSAVED_RELEASE_MESSAGE": "開いたモデルの一部に保存されていない変更があります。リリースする前に保存してください",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "開いたモデルの一部に保存されていない変更があります。ダッシュボードに戻る前に保存してください"
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "この{{ modelType }}を保存しますか?",
+        "CONFIRM_DELETE_MODEL": "この{{ modelType }}を削除しますか？",
+        "CONFIRM_DOWNLOAD_MODEL": "この{{ modelType }}をダウンロードしますか?",
+        "CONFIRM_SAVE_AS_MODEL": "この{{ modelType }}をコピーしますか？",
+        "INVALID_MODEL": "{{ modelType }}に検証エラーが含まれています。",
+        "VALID_MODEL": "{{ modelType }}は無効です"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "貼り付ける値は、次のパターンに従う必要があります"
+    },
+    "ALL": "すべて",
+    "VALUE": "値",
+    "EXPRESSION": "式",
+    "TYPE": "タイプ",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "はい",
+      "NO": "いいえ",
+      "DISPLAY_NAME": "表示名",
+      "DISPLAY_NAME_AVAILABILITY": "Webアプリケーションで利用可能",
+      "ENTER_DISPLAY_NAME": "表示名の入力",
+      "DISPLAY_NAME_TOOLTIP": "表示名は、タスクリスト、プロセスリスト、API の列名など、Web アプリケーションで使用されます。"
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "名前は必須です",
+        "EMPTY_TYPE": "タイプは必須です",
+        "EMPTY_DISPLAY_NAME": "表示名は必須です",
+        "INVALID_NAME": "無効な変数名",
+        "VARIABLE_NAME_TOOLTIP": "名前は文字で始まり、英数字とアンダースコアしか使用できません",
+        "NAME_ALREADY_EXISTS": "変数名は固有な必要があります",
+        "FILE_ALREADY_EXISTS": "既にファイルが存在しています"
+      },
+      "TABS": {
+        "VIEWER": "プロパティビューア",
+        "JSON_EDITOR": "JSON エディタ"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "名前",
+        "COLUMN_TYPE": "タイプ",
+        "COLUMN_REQUIRED": "必須",
+        "COLUMN_VALUE": "値",
+        "NO_PROPERTIES": "プロパティを表示する変数を選択するか作成してください",
+        "CLEAR": "消去",
+        "ANALYTICS": "分析"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "パラメータ",
+      "VALUE": "値",
+      "PROCESS_VARIABLE": "プロセス変数",
+      "SWITCH_VAR_VAL": "変数/値を切り替え",
+      "NO_PROCESS_PROPERTIES": "プロセスのプロパティがありません",
+      "NO_PAYLOAD": "メッセージにペイロードがありません。メッセージのスローイベントにペイロードを追加してください。",
+      "CLEAR_ASSIGNMENT": "割リ当てをクリア",
+      "MAPPING_TYPE": "マッピングタイプ",
+      "MAP_VARIABLES": "変数の割り当て",
+      "MAP_NO_VARIABLE": "変数をマップしない",
+      "MAP_ALL": "すべての入力/出力変数をマップ",
+      "MAP_ALL_INPUTS": "すべての入力変数をマップ",
+      "MAP_ALL_OUTPUTS": "すべての出力変数をマップ",
+      "NONE": "なし",
+      "NOT_EDITABLE": "これはシステムパラメーターです。システムパラメータを編集することはできません。"
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "プロセスメッセージ",
+      "ERRORS": {
+        "EMPTY_NAME": "名前は必須です",
+        "NAME_ALREADY_EXISTS": "メッセージ名は固有な必要があります"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "名前",
+        "COLUMN_ID": "ID",
+        "NO_MESSAGES": "メッセージを選択または作成してプロパティを表示"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "プロセスエラー",
+      "ERRORS": {
+        "EMPTY_NAME": "名前は必須です",
+        "EMPTY_CODE": "エラーコードは必須です",
+        "NAME_ALREADY_EXISTS": "プロセスエラー名は、固有な必要があります"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "エラー名",
+        "COLUMN_CODE": "エラーコード",
+        "COLUMN_ID": "エラーID",
+        "NO_PROCESS_ERRORS": "プロセスエラーを選択または作成してプロパティを表示"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "変数マッピングの編集",
+      "SELECTOR_TITLE": "変数マッピングタイプを選択して編集",
+      "INPUT_MAPPING": "入力割り当て",
+      "OUTPUT_MAPPING": "出力割り当て",
+      "PROCESS_VARIABLE": "プロセス変数",
+      "INPUT_PARAMETER": "入力パラメーター",
+      "OUTPUT_PARAMETER": "出力パラメーター",
+      "VALUE_MAPPING": "値",
+      "EXPRESSION_MAPPING": "式",
+      "NONE": "なし",
+      "TYPE": "タイプ",
+      "WRONG_OUTPUT_MAPPING": "出力マッピングが正しくありません。追加したすべてのマッピングが式を変数にマップするわけではありません"
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "名前を付けて保存",
+      "FIELD_PROPERTIES": {
+        "NAME": "名前",
+        "DESCRIPTION": "説明"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "ダイアログで編集",
+      "EXPRESSION_EDITOR": "式エディタ",
+      "NO_BRACKETS_HINT": "このエディタの全体式は中括弧（$ {...}）で囲まれて保存されるため、入力する必要はありません",
+      "JUEL_EXPRESSION_SIMULATOR": "JUEL式シミュレーター",
+      "TEST": "テスト",
+      "TEST_DISABLED_TOOLTIP": "実行する前に変数をテストに追加します",
+      "TEST_ENABLED_TOOLTIP": "変数用に提供された値を使用して式をテストします",
+      "OPEN_TESTER": "テスターを開く",
+      "CLOSE_TESTER": "テスターを閉じる",
+      "SET_VARIABLES_VALUES": "変数値の設定",
+      "SET_VARIABLES_VALUES_TOOLTIP": "テストで値を設定する変数を選択します",
+      "DELETE_VARIABLE_FROM_TEST": "テストからの変数の削除"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "検索"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "開始イベント",
+        "PROCESS": "プロセス",
+        "SERVICE_TASK": "サービスタスク",
+        "CALLED_ELEMENT": "呼び出された要素",
+        "SCRIPT_TASK": "スクリプトタスク",
+        "DECISION_TABLE": "意思決定表",
+        "USER_TASK": "ユーザータスク",
+        "NONE": "なし",
+        "EVENT": "イベント",
+        "EMAIL_SERVICE_TASK": "Eメールサービスタスク",
+        "DOCGEN_SERVICE": "Docgenサービスタスク",
+        "PARTICIPANT": "プロセス",
+        "FORM_FIELDS": "フォームフィールド",
+        "FORM_VARIABLES": "フォームの変数",
+        "CONTENT_SERVICE": "コンテンツサービス"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "変数",
+        "PROCESS_VARIABLE_TOOLTIP": "{{processName}}のプロセス変数",
+        "NONE_VARIABLE_TOOLTIP": "選択を解除するには「なし」を選択",
+        "OUTPUT_VARIABLE_TOOLTIP": "{{taskType}} {{taskName}}の出力",
+        "PROPERTIES": "プロパティ"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "変数",
+        "EXPRESSION": "式",
+        "OPEN_EXPRESSION_EDITOR": "式編集ダイアログを開く",
+        "SWITCH_TO_VARIABLES": "変数セレクターに切り替え",
+        "CLEAR_SELECTION": "選択を解除"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "プリミティブ",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "カスタム入力",
+      "DATE": {
+        "CURRENT_DATE": "今日",
+        "CLEAR_BUTTON": "消去"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "現在",
+        "CLEAR_BUTTON": "消去"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "配列に追加された値",
+        "ADD": "追加",
+        "EDIT_VALUE": "値の編集",
+        "EDIT": "編集"
+      },
+      "VALIDATION": {
+        "REQUIRED": "入力は必須です",
+        "INVALID_FORMAT": "無効な入力形式：{{error}}",
+        "INVALID_MIN_LENGTH": "無効な最小の長さ：{{error}}",
+        "INVALID_MAX_LENGTH": "無効な最大の長さ：{{error}}",
+        "INVALID_MIN_VALUE": "無効な値。より大きいか等しくなければなりません：{{error}}",
+        "INVALID_MAX_VALUE": "無効な値。より小さいか等しくなければなりません：{{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "無効な値。倍数でなければなりません：{{error}}",
+        "GENERIC_ERROR": "無効な値： {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "展開",
+      "COLLAPSE": "折りたたみ",
+      "NAME": "名前",
+      "INVALID_NAME": "無効な名前",
+      "REQUIRED": "必須",
+      "REFERENCE": "参照",
+      "TITLE": "タイトル",
+      "ADD_PROPERTY": "プロパティの追加",
+      "ADD_CHILD_ALL_OF": "allOfに子を追加",
+      "ADD_CHILD_ANY_OF": "anyOfに子を追加",
+      "ADD_CHILD_ONE_OF": "oneOfに子を追加",
+      "ADVANCED_SETTINGS": "詳細設定",
+      "REMOVE_NODE": "ノードの削除",
+      "ADD_DEFINITION": "定義の追加",
+      "BASIC_ATTRIBUTES": "基本属性",
+      "CUSTOM_ATTRIBUTES": "カスタム属性",
+      "ADD_CUSTOM_ATTRIBUTE": "カスタム属性の追加",
+      "DELETE_CUSTOM_ATTRIBUTE": "カスタム属性の削除",
+      "ATTRIBUTE_NAME": "属性名",
+      "ATTRIBUTE_VALUE": "属性値",
+      "CONFIRM_ATTRIBUTE_ADDITION": "属性追加の確認",
+      "CANCEL_ATTRIBUTE_ADDITION": "属性の追加をキャンセル",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "JSONスキーマタイプ",
+        "ENUMERATION": "列挙",
+        "MODELING_APP": "モデリングアプリケーション",
+        "COMPOSITION": "作成"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "説明",
+        "MAX_ITEMS": "最大項目数",
+        "MIN_ITEMS": "最小項目数",
+        "UNIQUE_ITEMS": "固有な項目",
+        "ENUMERATED_VALUES": "列挙値",
+        "MAXIMUM": "最大",
+        "MINIMUM": "最小",
+        "EXCLUSIVE_MAXIMUM": "排他的排除",
+        "EXCLUSIVE_MINIMUM": "排他的最小",
+        "MAX_PROPERTIES": "最大プロパティ数",
+        "MIN_PROPERTIES": "最小プロパティ数",
+        "MAX_LENGTH": "最大の長さ",
+        "MIN_LENGTH": "最小の長さ",
+        "PATTERN": "パターン",
+        "FORMAT": "フォーマット",
+        "ADDITIONAL_PROPERTIES": "追加のプロパティ"
+      },
+      "PREVIEW": "プレビュー"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "カスタムモデルの作成",
+      "CREATE_MODEL_DESCRIPTION": "カスタムモデルを作成し、エンティティに割り当てます",
+      "EDIT_MODEL": "カスタムモデルの編集",
+      "EDIT_MODEL_DESCRIPTION": "前に作成したエンティティのカスタムモデルを編集します"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "優先に切り替え"
+    }
+  }
+}

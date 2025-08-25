@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "App",
+    "BACKEND_SERVICE": "Backend-tjeneste",
+    "MORE_ACTIONS": "Flere handlinger",
+    "VALIDATE_PROJECT": "Validér projekt",
+    "DOWNLOAD_PROJECT": "Downloade projekt",
+    "ADD_ACTION": "Tilføj ny handling",
+    "ADD_EVENT": "Tilføj ny hændelse",
+    "HEADER": {
+      "APP_NAME": "Modelleringsapp",
+      "SIGN_OUT": "Log af",
+      "SETTINGS": "Indstillinger",
+      "ABOUT": "Om",
+      "LANGUAGE": "Sprog",
+      "SEARCH": "Søg",
+      "APPEARANCE": "Udseende"
+    },
+    "DIALOGS": {
+      "CANCEL": "Annuller",
+      "SAVE": "Gem",
+      "CREATE": "Opret",
+      "UPDATE": "Opdater",
+      "CLOSE": "Luk",
+      "DONT_SAVE": "Gem ikke",
+      "UNSAVED_PAGE_TITLE": "Vil du gemme ændringerne i",
+      "EDIT_PROPERTIES": "Redigér procesvariabler",
+      "EDIT_PROCESS_MESSAGES": "Redigér meddelelser",
+      "EDIT_PROCESS_ERRORS": "Redigér fejl",
+      "EDIT_FORM_PROPERTIES": "Redigér formularvariabler",
+      "EDIT_VISIBILITY_CONDITIONS": "Redigér synlighedsbetingelser",
+      "ERROR": {
+        "TITLE": "Vil du gemme den alligevel?",
+        "SUBTITLE": "Valideringsfejl:",
+        "NAME_DOESNT_MATCH_PATTERN": "Navnet matcher ikke følgende mønster",
+        "GENERAL_NAME_VALIDATION": "Navnet skal bestå af 1-26 små bogstaver. Alfanumeriske tegn og bindestreg er tilladt. Navnet skal dog starte med et bogstav og slutte med et alfanumerisk tegn.",
+        "PROCESS_NAME_VALIDATION": "Navnet skal være mellem 1 og 26 tegn langt og kan ikke starte med mellemrum"
+      },
+      "CONFIRM": {
+        "TITLE": "Er du sikker?",
+        "SUBTITLE": "Er du sikker på, at du vil udføre denne handling?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Denne handling kan ikke fortrydes",
+        "BUTTON": "Bekræft",
+        "RELEASE": "Er du sikker på, at du vil frigive en ny version af dette projekt?",
+        "TYPES": {
+          "DECISION": "beslutningstabel",
+          "DATA_MODEL": "datamodel",
+          "UI": "UI",
+          "CONNECTOR": "forbindelse",
+          "FORM": "Formular",
+          "PROCESS": "Proces",
+          "FILE": "fil",
+          "SCRIPT": "script",
+          "TRIGGER": "Trigger",
+          "MODEL": "Indholdsmodel",
+          "CUSTOM-FORM-WIDGET": "Formularwidget"
+        },
+        "DELETE": {
+          "PROJECT": "Er du sikker på, at du vil slette dette projekt?",
+          "DATA_MODEL": "Er du sikker på, at du vil slette dette dataobjekt?"
+        },
+        "SAVE": {
+          "PROCESS": "Er du sikker på, at du vil gemme denne proces?",
+          "DATA_MODEL": "Er du sikker på, at du vil gemme dette dataobjekt?",
+          "EMAIL_TEMPLATE": "Er du sikker på, at du vil overskrive e-mail-skabelonen?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Er du sikker på, at du vil gemme dette dataobjekt?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Er du sikker på, at du vil downloade svg-billedet for denne proces?",
+          "DATA_MODEL": "Er du sikker på, at du vil downloade dette dataobjekt?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Rediger",
+      "DELETE": "Slet",
+      "RELEASE": "Frigiv",
+      "COLLABORATORS": "Samarbejdspartnere",
+      "SEE_RELEASES": "Vis frigivelser",
+      "LOG_HISTORY": "Loghistorie",
+      "DOWNLOAD": "Download",
+      "SAVE_AS": "Gem som",
+      "EDITORS_MENU": "Menuen Editorer",
+      "MORE_MENU": "Menuen Mere"
+    },
+    "SETTINGS": {
+      "HEADER": "Appindstillinger"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Skift bruger",
+        "NOT_VALID_JSON": "Ugyldigt JSON-objekt",
+        "NOT_VALID_HTML": "Ugyldigt HTML-objekt",
+        "NOT_VALID_SCHEMA": "JSON-objektet matcher ikke skemaet"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Navn",
+      "DESCRIPTION": "Beskrivelse",
+      "TITLE": "Programtitel"
+    },
+    "THEME": {
+      "LIGHT": "Tema lyst",
+      "DARK": "Tema mørkt"
+    }
+  }
+}

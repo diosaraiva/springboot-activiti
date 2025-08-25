@@ -1,0 +1,80 @@
+.ama-studio-project-header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--theme-ama-border-color);
+
+    &-navigation {
+        display: flex;
+        padding-left: 15px;
+        flex: 0 1 30%;
+
+        button {
+            color: var(--theme-text-color);
+        }
+    }
+
+    &-add-collaborators {
+        margin-left: 10px;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 1 1 auto;
+
+        &-version {
+            user-select: none;
+            outline: none;
+            border: none;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 48px;
+            height: 48px;
+            padding: 0 16px;
+            text-align: left;
+            text-decoration: none;
+            max-width: 100%;
+        }
+    }
+
+    &-user-info {
+        margin-right: 12px;
+    }
+
+    adf-notification-history {
+        .mat-badge-content {
+            background: var(--theme-primary-color);
+        }
+        margin-right: 12px;
+    }
+
+    &-action {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 12px;
+        flex: 0 1 30%;
+        justify-content: flex-end;
+
+        &-validate.mat-flat-button {
+            background: rgba(33, 33, 33, 0.12);
+            border-radius: 6px;
+            margin-right: 12px;
+        }
+
+        &-release.mat-flat-button {
+            background-color: var(--theme-primary-color);
+            border-radius: 6px;
+        }
+
+        modelingsdk-project-collaborators {
+            margin-right: 8px;
+        }
+    }
+
+}

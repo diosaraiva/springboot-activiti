@@ -1,0 +1,152 @@
+{
+    "DASHBOARD": {
+        "NEW_MENU": {
+            "LABEL": "New",
+            "CREATE_PROJECT_TITLE": "Create Project",
+            "OVERRIDE_PROJECT_TITLE": "A project with that name already exists.",
+            "EDIT_PROJECT_TITLE": "Edit Project",
+            "PROJECT_CREATED": "Project created",
+            "PROJECT_UPLOADED": "Project uploaded",
+            "PROJECT_UPDATED": "Project saved",
+            "PROJECT_RELEASED": "Project released",
+            "PROJECT_DELETED": "Project deleted",
+            "MENU_ITEMS": {
+                "CREATE_PROJECT": "Create Project",
+                "UPLOAD_PROJECT": "Upload Project",
+                "CREATE_MODEL": "Content Model"
+            }
+        },
+        "DIALOGS": {
+            "PROJECT_NAME": "Project name",
+            "PROJECT_DESC": "Project description",
+            "PROJECT_SUBMIT_TEXT": "Create Project"
+        },
+        "NAVIGATION": {
+            "PROJECTS": {
+                "LABEL": "Projects",
+                "TOOLTIP": "Published Projects"
+            },
+            "RELEASES": {
+                "LABEL": "Releases",
+                "TOOLTIP": "Releases"
+            },
+            "PROCESSES": {
+                "LABEL": "Processes",
+                "TOOLTIP": "Published Processes"
+            },
+            "FAVORITES": {
+                "LABEL": "Favorites",
+                "TOOLTIP": "Favorites"
+            }
+        },
+        "SEARCH_PLACEHOLDER": "Search",
+        "TABLE": {
+            "COLUMN_NAME": "Name",
+            "COLUMN_VERSION": "Version",
+            "COLUMN_CREATED": "Created",
+            "COLUMN_CREATED_BY": "Created By",
+            "COLUMN_MODIFIED": "Updated",
+            "COLUMN_OPTIONS": "Options",
+            "COLUMN_ACTIONS": "Actions",
+            "COLUMN_COLLABORATORS": "Collaborators",
+            "NO_ITEMS": "Create or import a project to view it in the list.",
+            "NO_FAV_PROCESSES": "Favorite a process to make it available here.",
+            "NO_FAV_PROJECTS": "Favorite a project to make it available here.",
+            "RELEASE_ID": "Release ID",
+            "RELEASE_COMMENT": "Comment",
+            "PROJECT_NAME": "Project Name"
+        },
+        "ERROR": {
+            "LOAD_PROJECTS": "We hit a problem loading the projects. Try refreshing the page.",
+            "LOAD_RELEASES": "We hit a problem loading the releases. Try refreshing the page",
+            "LOAD_PROCESSES": "We hit a problem loading the processes. Try refreshing the page"
+        }
+    },
+    "NEW_STUDIO_DASHBOARD" :{
+        "NAME": "Modeling Application",
+        "NAVIGATION": {
+            "PROJECT_TITLE": "Projects",
+            "CONTENT_MODEL_TITLE": "Content Models",
+            "DATA_MODELS_TITLE": "Data Models",
+            "HXP_DOC_TYPES_TITLE": "HxP Document Types",
+            "HXP_MIXINS_TITLE": "Mixins",
+            "HXP_SCHEMAS_TITLE": "HxP Schemas",
+            "ALL_PROJECTS": {
+                "HEADER_LABEL": "My projects",
+                "LABEL": "All projects",
+                "TOOLTIP": "All Published Projects",
+                "ACTIONS": {
+                    "CREATE": "Create Project",
+                    "UPLOAD": "Upload Project"
+                }
+            },
+            "FAVORITE_PROJECTS": {
+                "HEADER_LABEL": "My favorite projects",
+                "LABEL": "Favorite projects",
+                "TOOLTIP": "Favorites Projects"
+            },
+            "MY_MODELS": {
+                "HEADER_LABEL": "My models",
+                "LABEL": "My models",
+                "TOOLTIP": "Models created by the user",
+                "ACTIONS": {
+                    "CREATE": "Create Model"
+                }
+            },
+            "SHARED_MODELS": {
+                "HEADER_LABEL": "My shared models",
+                "LABEL": "Global models",
+                "TOOLTIP": "Models shared across the projects",
+                "ACTIONS": {
+                    "CREATE": "Create content model"
+                }
+            },
+            "DATA_MODELS": {
+                "HEADER_LABEL": "My data models",
+                "LABEL": "Global models",
+                "TOOLTIP": "Published data models",
+                "ACTIONS": {
+                    "CREATE": "Create data model"
+                }
+            },
+            "HXP_DOC_TYPES": {
+                "HEADER_LABEL": "My HxP Document Types",
+                "LABEL": "Global HxP Document Types",
+                "TOOLTIP": "Published HxP Document Types",
+                "ACTIONS": {
+                    "CREATE": "Create HxP Document Type"
+                }
+            },
+            "HXP_MIXINS": {
+                "HEADER_LABEL": "My Mixins",
+                "LABEL": "Global Mixins",
+                "TOOLTIP": "Published Mixins",
+                "ACTIONS": {
+                    "CREATE": "Create Mixin"
+                }
+            },
+            "HXP_SCHEMAS": {
+                "HEADER_LABEL": "My HxP Schemas",
+                "LABEL": "Global HxP Schemas",
+                "TOOLTIP": "Published HxP Schemas",
+                "ACTIONS": {
+                    "CREATE": "Create HxP Schema"
+                }
+            }
+        },
+        "USER_INFO_MENU": {
+            "ADMIN": "Admin",
+            "DOCUMENTATION": "Documentation"
+        },
+        "ADD_TO_FAVORITES": "Project added to favorites",
+        "REMOVE_FROM_FAVORITES": "Project removed from favorites",
+        "ERROR": {
+            "LOAD_FAVORITE_PROJECTS": "We hit a problem loading the favorite projects. Try refreshing the page."
+        }
+    },
+    "SEARCH": {
+        "BUTTON": {
+            "TOOLTIP": "Search"
+        }
+    }
+}

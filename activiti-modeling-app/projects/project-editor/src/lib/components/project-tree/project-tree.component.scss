@@ -1,0 +1,28 @@
+.ama-project-tree {
+
+    &__filter_details {
+        width: calc(100% - 40px);
+    }
+
+    &-filter {
+        display: flex;
+        align-items: center;
+    }
+
+    &-chevron-icon {
+      margin-top: 3px;
+      align-self: flex-start;
+    }
+
+    .mat-expansion-panel {
+        background: transparent;
+
+        &-spacing {
+            margin: 0;
+        }
+
+        &:not([class*=mat-elevation-z]) {
+            box-shadow: none;
+        }
+    }
+}

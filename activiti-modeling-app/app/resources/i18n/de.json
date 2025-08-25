@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Anwendung",
+    "BACKEND_SERVICE": "Backend-Service",
+    "MORE_ACTIONS": "Weitere Aktionen",
+    "VALIDATE_PROJECT": "Projekt validieren",
+    "DOWNLOAD_PROJECT": "Projekt herunterladen",
+    "ADD_ACTION": "Neue Aktion hinzufügen",
+    "ADD_EVENT": "Neues Ereignis hinzufügen",
+    "HEADER": {
+      "APP_NAME": "Modellieranwendung",
+      "SIGN_OUT": "Abmelden",
+      "SETTINGS": "Einstellungen",
+      "ABOUT": "Info",
+      "LANGUAGE": "Sprache",
+      "SEARCH": "Suchen",
+      "APPEARANCE": "Aussehen"
+    },
+    "DIALOGS": {
+      "CANCEL": "Abbrechen",
+      "SAVE": "Speichern",
+      "CREATE": "Erstellen",
+      "UPDATE": "Aktualisieren",
+      "CLOSE": "Schließen",
+      "DONT_SAVE": "Nicht speichern",
+      "UNSAVED_PAGE_TITLE": "Möchten Sie die Änderungen an Folgendem speichern? –",
+      "EDIT_PROPERTIES": "Prozessvariablen bearbeiten",
+      "EDIT_PROCESS_MESSAGES": "Mitteilungen bearbeiten",
+      "EDIT_PROCESS_ERRORS": "Fehler bearbeiten",
+      "EDIT_FORM_PROPERTIES": "Formularvariablen bearbeiten",
+      "EDIT_VISIBILITY_CONDITIONS": "Sichtbarkeitsbedingungen bearbeiten",
+      "ERROR": {
+        "TITLE": "Trotzdem speichern?",
+        "SUBTITLE": "Validierungsfehler:",
+        "NAME_DOESNT_MATCH_PATTERN": "Der Name entspricht nicht dem folgenden Muster",
+        "GENERAL_NAME_VALIDATION": "Der Name darf nur Kleinbuchstaben enthalten und muss zwischen 1 und 26 Zeichen lang sein. Alphanumerische Zeichen und Bindestriche sind erlaubt, aber der Name muss mit einem Buchstaben beginnen und das letzte Zeichen muss ein alphanumerisches Zeichen sein.",
+        "PROCESS_NAME_VALIDATION": "Der Name muss zwischen 1 bis 26 Zeichen lang sein und darf nicht mit einem Leerzeichen beginnen."
+      },
+      "CONFIRM": {
+        "TITLE": "Sind Sie sicher?",
+        "SUBTITLE": "Möchten Sie dies wirklich tun?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Diese Aktion kann nicht rückgängig gemacht werden.",
+        "BUTTON": "Bestätigen",
+        "RELEASE": "Sind Sie sicher, dass Sie eine neue Version dieses Projekts freigeben möchten?",
+        "TYPES": {
+          "DECISION": "Entscheidungstabelle",
+          "DATA_MODEL": "Datenmodell",
+          "UI": "UI",
+          "CONNECTOR": "Connector",
+          "FORM": "Formular",
+          "PROCESS": "Prozess",
+          "FILE": "Datei",
+          "SCRIPT": "Skript",
+          "TRIGGER": "Trigger",
+          "MODEL": "Content-Modell",
+          "CUSTOM-FORM-WIDGET": "Formular-Widget"
+        },
+        "DELETE": {
+          "PROJECT": "Möchten Sie dieses Projekt wirklich löschen?",
+          "DATA_MODEL": "Möchten Sie dieses Datenobjekt wirklich löschen?"
+        },
+        "SAVE": {
+          "PROCESS": "Möchten Sie diesen Prozess wirklich löschen?",
+          "DATA_MODEL": "Möchten Sie dieses Datenobjekt wirklich speichern?",
+          "EMAIL_TEMPLATE": "Möchten Sie die E-Mail-Vorlage wirklich überschreiben?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Möchten Sie dieses Datenobjekt wirklich kopieren?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Möchten Sie das SVG-Bild dieses Prozesses wirklich herunterladen?",
+          "DATA_MODEL": "Möchten Sie dieses Datenobjekt wirklich herunterladen?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "RELEASE": "Version",
+      "COLLABORATORS": "Mitarbeiter",
+      "SEE_RELEASES": "Versionen anzeigen",
+      "LOG_HISTORY": "Protokollchronik",
+      "DOWNLOAD": "Herunterladen",
+      "SAVE_AS": "Speichern unter",
+      "EDITORS_MENU": "Editoren-Menü",
+      "MORE_MENU": "Mehr-Menü"
+    },
+    "SETTINGS": {
+      "HEADER": "Anwendungseinstellungen"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Benutzer ändern",
+        "NOT_VALID_JSON": "Unzulässiges JSON-Objekt",
+        "NOT_VALID_HTML": "Ungültiges HTML-Objekt",
+        "NOT_VALID_SCHEMA": "Das JSON-Objekt stimmt nicht mit dem Schema überein"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Name",
+      "DESCRIPTION": "Beschreibung",
+      "TITLE": "Anwendungstitel"
+    },
+    "THEME": {
+      "LIGHT": "Helles Schema",
+      "DARK": "Dunkles Schema"
+    }
+  }
+}

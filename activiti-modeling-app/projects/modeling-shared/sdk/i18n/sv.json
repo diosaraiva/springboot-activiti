@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "Validera",
+      "RELEASE": "Version",
+      "SAVE_AS": "Spara som",
+      "SAVE_AS_ICON": "Spara som ikon",
+      "DOWNLOAD": "Ladda ner projekt",
+      "VIEW_RELEASES": "Visa versioner",
+      "VERSION": "Version",
+      "UNSAVED_DIALOG_TITLE": "Ej sparade modeller",
+      "UNSAVED_VALIDATE_MESSAGE": "Det finns ändringar som inte har sparats i några av de öppnade modellerna.Spara dem innan du bekräftar dem.",
+      "UNSAVED_RELEASE_MESSAGE": "Det finns ändringar som inte sparats i några av de öppnade modellerna. Spara dem innan du släpper dem.",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "Det finns ändringar som inte sparats i några av de öppnade modellerna. Spara dem innan du går tillbaka till instrumentpanelen."
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "Är du säker på att du vill spara den här {{ modelType }}?",
+        "CONFIRM_DELETE_MODEL": "Är du säker på att du vill radera den här {{ modelType }}?",
+        "CONFIRM_DOWNLOAD_MODEL": "Är du säker på att du vill ladda ner den här {{ modelType }}?",
+        "CONFIRM_SAVE_AS_MODEL": "Vill du verkligen kopiera den här {{ modelType }}?",
+        "INVALID_MODEL": "{{ modelType }} innehåller valideringsfel.",
+        "VALID_MODEL": "{{ modelType }} är giltig"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "Klistrade värden måste följa detta mönster"
+    },
+    "ALL": "Alla",
+    "VALUE": "Värde",
+    "EXPRESSION": "Uttryck",
+    "TYPE": "Typ",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "Ja",
+      "NO": "Nej",
+      "DISPLAY_NAME": "Displaynamn",
+      "DISPLAY_NAME_AVAILABILITY": "Tillgänglig i webbapplikationen",
+      "ENTER_DISPLAY_NAME": "Ange visningsnamn",
+      "DISPLAY_NAME_TOOLTIP": "Visningsnamn används i webbapplikationen, t.ex. som kolumnrubrik i Uppgiftslistan, Processlistan och i API."
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "Ett namn krävs",
+        "EMPTY_TYPE": "En typ krävs",
+        "EMPTY_DISPLAY_NAME": "Ett visningsnamn krävs",
+        "INVALID_NAME": "Ogiltigt variabelnamn",
+        "VARIABLE_NAME_TOOLTIP": "Namnet kan börja med en bokstav och kan endast innehålla alfanumeriska tecken och understrykningar",
+        "NAME_ALREADY_EXISTS": "Variabla namn måste vara unika",
+        "FILE_ALREADY_EXISTS": "Filen finns redan"
+      },
+      "TABS": {
+        "VIEWER": "Egenskap granskare",
+        "JSON_EDITOR": "JSON-editor"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Namn",
+        "COLUMN_TYPE": "Typ",
+        "COLUMN_REQUIRED": "Obligatorisk",
+        "COLUMN_VALUE": "Värde",
+        "NO_PROPERTIES": "Välj eller skapa en variabel för att visa dess egenskaper",
+        "CLEAR": "Rensa",
+        "ANALYTICS": "Analytics"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "Parameter",
+      "VALUE": "Värde",
+      "PROCESS_VARIABLE": "Processvariabel",
+      "SWITCH_VAR_VAL": "Växla variabel/värde",
+      "NO_PROCESS_PROPERTIES": "Inga processegenskaper",
+      "NO_PAYLOAD": "Meddelandet har ingen nyttolast. Lägg till en nyttolast i meddelandets kasthändelse.",
+      "CLEAR_ASSIGNMENT": "Rensa tilldelning",
+      "MAPPING_TYPE": "Mappningstyp",
+      "MAP_VARIABLES": "Mappa variabler",
+      "MAP_NO_VARIABLE": "Mappa inte variabler",
+      "MAP_ALL": "Mappa alla inmatningar/utmatningar variabler",
+      "MAP_ALL_INPUTS": "Mappa alla inmatningar variabler",
+      "MAP_ALL_OUTPUTS": "Mappa alla utmatningar variabler",
+      "NONE": "Ingen",
+      "NOT_EDITABLE": "Detta är en systemparameter. Systemparametrar kan inte redigeras."
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "Processmeddelanden",
+      "ERRORS": {
+        "EMPTY_NAME": "Ett namn krävs",
+        "NAME_ALREADY_EXISTS": "Meddelandets namn måste vara unika"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Namn",
+        "COLUMN_ID": "ID",
+        "NO_MESSAGES": "Välj eller skapa ett meddelande för att visa dess egenskaper"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "Processfel",
+      "ERRORS": {
+        "EMPTY_NAME": "Ett namn krävs",
+        "EMPTY_CODE": "En felkod krävs",
+        "NAME_ALREADY_EXISTS": "Processfelnamn måste vara unika"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Felnamn",
+        "COLUMN_CODE": "Felkod",
+        "COLUMN_ID": "Fel-ID",
+        "NO_PROCESS_ERRORS": "Välj eller skapa ett processfel för att visa dess egenskaper"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "Redigera variabel mappning",
+      "SELECTOR_TITLE": "Välj den variabla mappningstyp som ska redigeras",
+      "INPUT_MAPPING": "Indata-mappning",
+      "OUTPUT_MAPPING": "Utdata-mappning",
+      "PROCESS_VARIABLE": "Processvariabel",
+      "INPUT_PARAMETER": "Inmatningsparameter",
+      "OUTPUT_PARAMETER": "Utmatningsparameter",
+      "VALUE_MAPPING": "Värde",
+      "EXPRESSION_MAPPING": "Uttryck",
+      "NONE": "Ingen",
+      "TYPE": "Typ",
+      "WRONG_OUTPUT_MAPPING": "Utmatningen av utdata är felaktig. Inte alla de tillagda mappningarna mappar ett uttryck till en variabel."
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "Spara som",
+      "FIELD_PROPERTIES": {
+        "NAME": "Namn",
+        "DESCRIPTION": "Beskrivning"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "Redigera i dialog",
+      "EXPRESSION_EDITOR": "Uttryckseditor",
+      "NO_BRACKETS_HINT": "Hela uttrycket i den här editor kommer att sparas inrymt i lockiga parenteser ($ {...}) så att du inte behöver skriva dem",
+      "JUEL_EXPRESSION_SIMULATOR": "JUEL-uttryckssimulator",
+      "TEST": "Test",
+      "TEST_DISABLED_TOOLTIP": "Lägg till en variabel till testet innan du kör det",
+      "TEST_ENABLED_TOOLTIP": "Testa uttrycket med värdena som tillhandahålls för variablerna",
+      "OPEN_TESTER": "Öppna testare",
+      "CLOSE_TESTER": "Stäng testare",
+      "SET_VARIABLES_VALUES": "Ange variabelns värden",
+      "SET_VARIABLES_VALUES_TOOLTIP": "Välj en variabel för att ställ in dess värden i testet",
+      "DELETE_VARIABLE_FROM_TEST": "Radera variabeln från testet"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "Sök"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "Starthändelse",
+        "PROCESS": "Process",
+        "SERVICE_TASK": "Serviceuppgift",
+        "CALLED_ELEMENT": "Anropat element",
+        "SCRIPT_TASK": "Skriptuppgift",
+        "DECISION_TABLE": "Beslutstabell",
+        "USER_TASK": "Användaruppgift",
+        "NONE": "Ingen",
+        "EVENT": "Händelse",
+        "EMAIL_SERVICE_TASK": "E-post serviceuppgift",
+        "DOCGEN_SERVICE": "Docgen serviceuppgift",
+        "PARTICIPANT": "Process",
+        "FORM_FIELDS": "Formulärfält",
+        "FORM_VARIABLES": "Formulärvariabler",
+        "CONTENT_SERVICE": "Innehållstjänst"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "Variabel",
+        "PROCESS_VARIABLE_TOOLTIP": "Processvariabel av {{processName}}",
+        "NONE_VARIABLE_TOOLTIP": "Välj 'Ingen' för att rensa urvalet",
+        "OUTPUT_VARIABLE_TOOLTIP": "Utmatning av {{taskType}} {{taskName}}",
+        "PROPERTIES": "Egenskaper"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "Variabler",
+        "EXPRESSION": "Uttryck",
+        "OPEN_EXPRESSION_EDITOR": "Öppna dialog för uttryckseditor",
+        "SWITCH_TO_VARIABLES": "Byt till variabelväljaren",
+        "CLEAR_SELECTION": "Rensa urval"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "Primitiva",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "Anpassad inmatning",
+      "DATE": {
+        "CURRENT_DATE": "I dag",
+        "CLEAR_BUTTON": "Rensa"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "Nu",
+        "CLEAR_BUTTON": "Rensa"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "Värdet som ska läggas till i matrisen",
+        "ADD": "Lägg till",
+        "EDIT_VALUE": "Redigera värde",
+        "EDIT": "Redigera"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Inmatning krävs",
+        "INVALID_FORMAT": "Ogiltigt inmatningsformat: {{error}}",
+        "INVALID_MIN_LENGTH": "Ogiltig minimilängd: {{error}}",
+        "INVALID_MAX_LENGTH": "Ogiltig maximilängd: {{error}}",
+        "INVALID_MIN_VALUE": "Ogiltigt värde. Det måste vara större än eller lika med: {{error}}",
+        "INVALID_MAX_VALUE": "Ogiltigt värde. Det måste vara mindre än eller lika med: {{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "Ogiltigt värde. Det måste vara en multipel av: {{error}}",
+        "GENERIC_ERROR": "Ogiltigt värde: {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "Expandera",
+      "COLLAPSE": "Minimera",
+      "NAME": "Namn",
+      "INVALID_NAME": "Ogiltigt namn",
+      "REQUIRED": "Obligatorisk",
+      "REFERENCE": "Referens",
+      "TITLE": "Titel",
+      "ADD_PROPERTY": "Lägg till egenskap",
+      "ADD_CHILD_ALL_OF": "Lägg till underordnad till allOf",
+      "ADD_CHILD_ANY_OF": "Lägg till underordnad till anyOf",
+      "ADD_CHILD_ONE_OF": "Lägg till underordnad till oneOf",
+      "ADVANCED_SETTINGS": "Avancerade inställningar",
+      "REMOVE_NODE": "Ta bort nod",
+      "ADD_DEFINITION": "Lägg till definition",
+      "BASIC_ATTRIBUTES": "Grundläggande attribut",
+      "CUSTOM_ATTRIBUTES": "Anpassade attribut",
+      "ADD_CUSTOM_ATTRIBUTE": "Lägg till anpassat attribut",
+      "DELETE_CUSTOM_ATTRIBUTE": "Radera anpassat attribut",
+      "ATTRIBUTE_NAME": "Attributnamn",
+      "ATTRIBUTE_VALUE": "Attributvärde",
+      "CONFIRM_ATTRIBUTE_ADDITION": "Bekräfta attributtillägg",
+      "CANCEL_ATTRIBUTE_ADDITION": "Avbryt attributtillägg",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "JSON-schematyper",
+        "ENUMERATION": "Uppräkning",
+        "MODELING_APP": "Modelleringsapp",
+        "COMPOSITION": "Sammansättning"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "Beskrivning",
+        "MAX_ITEMS": "Max. antal artiklar",
+        "MIN_ITEMS": "Min. antal artiklar",
+        "UNIQUE_ITEMS": "Unika artiklar",
+        "ENUMERATED_VALUES": "Uppräknade artiklar",
+        "MAXIMUM": "Maximalt",
+        "MINIMUM": "Minimalt",
+        "EXCLUSIVE_MAXIMUM": "Exklusive maximalt",
+        "EXCLUSIVE_MINIMUM": "Exklusive minimalt",
+        "MAX_PROPERTIES": "Max. antal egenskaper",
+        "MIN_PROPERTIES": "Min. antal egenskaper",
+        "MAX_LENGTH": "Max. längd",
+        "MIN_LENGTH": "Min. längd",
+        "PATTERN": "Mönster",
+        "FORMAT": "Format",
+        "ADDITIONAL_PROPERTIES": "Ytterligare egenskaper"
+      },
+      "PREVIEW": "Förhandsgranskning"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "Skapa anpassad modell",
+      "CREATE_MODEL_DESCRIPTION": "Skapa en anpassad modell och tilldela den till entiteten",
+      "EDIT_MODEL": "Redigera anpassad modell",
+      "EDIT_MODEL_DESCRIPTION": "Redigera tidigare skapad anpassad modell av entiteten"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "Ställ in som föredragen"
+    }
+  }
+}

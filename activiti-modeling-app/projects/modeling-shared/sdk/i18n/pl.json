@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "Weryfikuj",
+      "RELEASE": "Zwolnij",
+      "SAVE_AS": "Zapisz jako",
+      "SAVE_AS_ICON": "Zapisz jako ikonę",
+      "DOWNLOAD": "Pobierz projekt",
+      "VIEW_RELEASES": "Wyświetl wydania",
+      "VERSION": "Wersja",
+      "UNSAVED_DIALOG_TITLE": "Niezapisane modele",
+      "UNSAVED_VALIDATE_MESSAGE": "W niektórych otwartych modelach są niezapisane zmiany, zapisz je przed zatwierdzeniem",
+      "UNSAVED_RELEASE_MESSAGE": "W niektórych otwartych modelach są niezapisane zmiany, zapisz je przed zwolnieniem",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "W niektórych otwartych modelach są niezapisane zmiany, zapisz je przed powrotem do pulpitu nawigacyjnego"
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "Czy na pewno chcesz zapisać ten {{ modelType }}?",
+        "CONFIRM_DELETE_MODEL": "Czy na pewno chcesz usunąć ten {{ modelType }}?",
+        "CONFIRM_DOWNLOAD_MODEL": "Czy na pewno chcesz pobrać ten {{ modelType }}?",
+        "CONFIRM_SAVE_AS_MODEL": "Czy na pewno chcesz skopiować ten {{ modelType }}?",
+        "INVALID_MODEL": "{{ modelType }} zawiera błędy weryfikacji.",
+        "VALID_MODEL": "{{ modelType }} jest prawidłowy"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "Wklejone wartości muszą być zgodne z tym wzorem"
+    },
+    "ALL": "Wszystkie",
+    "VALUE": "Wartość",
+    "EXPRESSION": "Wyrażenie",
+    "TYPE": "Typ",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "Tak",
+      "NO": "Nie",
+      "DISPLAY_NAME": "Nazwa wyświetlana",
+      "DISPLAY_NAME_AVAILABILITY": "Dostępna w aplikacji internetowej",
+      "ENTER_DISPLAY_NAME": "Wprowadź wyświetlaną nazwę",
+      "DISPLAY_NAME_TOOLTIP": "Wyświetlana nazwa jest używana w aplikacji internetowej, na przykład jako nazwa kolumny na Liście zadań, na Liście procesów oraz w interfejsie API."
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "Nazwa jest wymagana",
+        "EMPTY_TYPE": "Typ jest wymagany",
+        "EMPTY_DISPLAY_NAME": "Wyświetlana nazwa jest wymagana",
+        "INVALID_NAME": "Nieprawidłowa nazwa zmiennej",
+        "VARIABLE_NAME_TOOLTIP": "Nazwa musi zaczynać się literą i może zawierać tylko znaki alfanumeryczne i podkreślenia",
+        "NAME_ALREADY_EXISTS": "Nazwy zmiennych muszą być unikatowe",
+        "FILE_ALREADY_EXISTS": "Plik już istnieje"
+      },
+      "TABS": {
+        "VIEWER": "Przeglądarka właściwości",
+        "JSON_EDITOR": "Edytor JSON"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Nazwa",
+        "COLUMN_TYPE": "Typ",
+        "COLUMN_REQUIRED": "Wymagane",
+        "COLUMN_VALUE": "Wartość",
+        "NO_PROPERTIES": "Wybierz lub utwórz zmienną, aby wyświetlić jej właściwości",
+        "CLEAR": "Wyczyść",
+        "ANALYTICS": "ANALITYKA"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "Parametr",
+      "VALUE": "Wartość",
+      "PROCESS_VARIABLE": "Zmienna procesu",
+      "SWITCH_VAR_VAL": "Przełącz zmienną/wartość",
+      "NO_PROCESS_PROPERTIES": "Brak właściwości procesu",
+      "NO_PAYLOAD": "Komunikat nie ma ładunku. Dodaj ładunek do zdarzenia wyrzucania komunikatu.",
+      "CLEAR_ASSIGNMENT": "Wyczyść przydział",
+      "MAPPING_TYPE": "Typ mapowania",
+      "MAP_VARIABLES": "Mapuj zmienne",
+      "MAP_NO_VARIABLE": "Nie odwzorowuj zmiennych",
+      "MAP_ALL": "Odzworuj wszystkie zmienne wejściowe/wyjściowe",
+      "MAP_ALL_INPUTS": "Odwzoruj wszystkie zmienne wejściowe",
+      "MAP_ALL_OUTPUTS": "Odwzoruj wszystkie zmienne wyjściowe",
+      "NONE": "Brak",
+      "NOT_EDITABLE": "To jest parametr systemowy. Parametrów systemowych nie można edytować."
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "Komunikaty procesu",
+      "ERRORS": {
+        "EMPTY_NAME": "Nazwa jest wymagana",
+        "NAME_ALREADY_EXISTS": "Nazwy komunikatów muszą być unikatowe"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Nazwa",
+        "COLUMN_ID": "Identyfikator",
+        "NO_MESSAGES": "Wybierz lub utwórz komunikat, aby wyświetlić jego właściwości"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "Błędy procesu",
+      "ERRORS": {
+        "EMPTY_NAME": "Nazwa jest wymagana",
+        "EMPTY_CODE": "Kod błędu jest wymagany",
+        "NAME_ALREADY_EXISTS": "Nazwy błędów procesu muszą być unikatowe"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Nazwa błędu",
+        "COLUMN_CODE": "Kod błędu",
+        "COLUMN_ID": "ID błędu",
+        "NO_PROCESS_ERRORS": "Wybierz lub utwórz błąd procesu, aby wyświetlić jego właściwości"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "Edytuj odwzorowanie zmiennej",
+      "SELECTOR_TITLE": "Wybierz typ odwzorowania zmiennej do edycji",
+      "INPUT_MAPPING": "Mapowanie wejściowe",
+      "OUTPUT_MAPPING": "Mapowanie wyjściowe",
+      "PROCESS_VARIABLE": "Zmienna procesu",
+      "INPUT_PARAMETER": "Parametr wejściowy",
+      "OUTPUT_PARAMETER": "Parametr wyjściowy",
+      "VALUE_MAPPING": "Wartość",
+      "EXPRESSION_MAPPING": "Wyrażenie",
+      "NONE": "Brak",
+      "TYPE": "Typ",
+      "WRONG_OUTPUT_MAPPING": "Mapowanie wyjścia jest nieprawidłowe. Nie wszystkie dodane mapowania mapują wyrażenie na zmienną"
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "Zapisz jako",
+      "FIELD_PROPERTIES": {
+        "NAME": "Nazwa",
+        "DESCRIPTION": "Opis"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "Edytuj w oknie dialogowym",
+      "EXPRESSION_EDITOR": "Edytor wyrażeń",
+      "NO_BRACKETS_HINT": "Całe wyrażenie w tym edytorze zostanie zapisane wewnątrz nawiasów klamrowych (${...}), więc nie trzeba ich wpisywać.",
+      "JUEL_EXPRESSION_SIMULATOR": "Symulator wyrażeń JUEL",
+      "TEST": "Test",
+      "TEST_DISABLED_TOOLTIP": "Dodaj zmienną do testu przed jego wykonaniem",
+      "TEST_ENABLED_TOOLTIP": "Przetestuj wyrażenie, używając podanych wartości zmiennych",
+      "OPEN_TESTER": "Otwórz tester",
+      "CLOSE_TESTER": "Zamknij tester",
+      "SET_VARIABLES_VALUES": "Ustaw wartości zmiennej",
+      "SET_VARIABLES_VALUES_TOOLTIP": "Wybierz zmienną, aby ustawić jej wartość w teście",
+      "DELETE_VARIABLE_FROM_TEST": "Usuń zmienną z testu"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "Szukaj"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "Zdarzenie początkowe",
+        "PROCESS": "Proces",
+        "SERVICE_TASK": "Zadanie usługi",
+        "CALLED_ELEMENT": "Wywołany element",
+        "SCRIPT_TASK": "Zadanie skryptu",
+        "DECISION_TABLE": "Tabela decyzji",
+        "USER_TASK": "Zadanie użytkownika",
+        "NONE": "Brak",
+        "EVENT": "Zdarzenie",
+        "EMAIL_SERVICE_TASK": "Zadanie usługi e-mail",
+        "DOCGEN_SERVICE": "Zadanie usługi docgen",
+        "PARTICIPANT": "Proces",
+        "FORM_FIELDS": "Pola formularza",
+        "FORM_VARIABLES": "Zmienne formularza",
+        "CONTENT_SERVICE": "Usługa treści"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "Zmienna",
+        "PROCESS_VARIABLE_TOOLTIP": "Zmienna procesu {{processName}}",
+        "NONE_VARIABLE_TOOLTIP": "Wybierz „Brak”, aby wyczyścić zaznaczenie",
+        "OUTPUT_VARIABLE_TOOLTIP": "Dane wyjściowe {{taskType}} {{taskName}}",
+        "PROPERTIES": "Właściwości"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "Zmienne",
+        "EXPRESSION": "Wyrażenie",
+        "OPEN_EXPRESSION_EDITOR": "Otwórz okno dialogowe edytora wyrażeń",
+        "SWITCH_TO_VARIABLES": "Przełącz na selektor zmiennych",
+        "CLEAR_SELECTION": "Wyczyść zaznaczenie"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "Wartości pierwotne",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "Niestandardowe dane wejściowe",
+      "DATE": {
+        "CURRENT_DATE": "Dzisiaj",
+        "CLEAR_BUTTON": "Wyczyść"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "Teraz",
+        "CLEAR_BUTTON": "Wyczyść"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "Wartość do dodania do macierzy",
+        "ADD": "Dodaj",
+        "EDIT_VALUE": "Edytuj wartość",
+        "EDIT": "Edytuj"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Dane wejściowe są wymagane",
+        "INVALID_FORMAT": "Nieprawidłowy format danych wejściowych: {{error}}",
+        "INVALID_MIN_LENGTH": "Nieprawidłowa długość minimalna: {{error}}",
+        "INVALID_MAX_LENGTH": "Nieprawidłowa długość maksymalna: {{error}}",
+        "INVALID_MIN_VALUE": "Nieprawidłowa wartość. Powinna być większa lub równa: {{error}}",
+        "INVALID_MAX_VALUE": "Nieprawidłowa wartość. Powinna być mniejsza lub równa: {{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "Nieprawidłowa wartość. Powinna być wielokrotnością: {{error}}",
+        "GENERIC_ERROR": "Nieprawidłowa wartość:  {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "Rozwiń",
+      "COLLAPSE": "Zwiń",
+      "NAME": "Nazwa",
+      "INVALID_NAME": "Nazwa jest nieprawidłowa",
+      "REQUIRED": "Wymagane",
+      "REFERENCE": "Odniesienie",
+      "TITLE": "Tytuł",
+      "ADD_PROPERTY": "Dodaj właściwość",
+      "ADD_CHILD_ALL_OF": "Dodaj element podrzędny allOf",
+      "ADD_CHILD_ANY_OF": "Dodaj element podrzędny anyOf",
+      "ADD_CHILD_ONE_OF": "Dodaj element podrzędny oneOf",
+      "ADVANCED_SETTINGS": "Ustawienie zaawansowane",
+      "REMOVE_NODE": "Usuń węzeł",
+      "ADD_DEFINITION": "Dodaj definicję",
+      "BASIC_ATTRIBUTES": "Atrybuty podstawowe",
+      "CUSTOM_ATTRIBUTES": "Atrybuty niestandardowe",
+      "ADD_CUSTOM_ATTRIBUTE": "Dodaj atrybut niestandardowy",
+      "DELETE_CUSTOM_ATTRIBUTE": "Usuń atrybut niestandardowy",
+      "ATTRIBUTE_NAME": "Nazwa atrybutu",
+      "ATTRIBUTE_VALUE": "Wartość atrybutu",
+      "CONFIRM_ATTRIBUTE_ADDITION": "Potwierdź dodanie atrybutu",
+      "CANCEL_ATTRIBUTE_ADDITION": "Anuluj dodanie atrybutu",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "Typy schematu JSON",
+        "ENUMERATION": "Wyliczenie",
+        "MODELING_APP": "Aplikacja do modelowania",
+        "COMPOSITION": "Kompozycja"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "Opis",
+        "MAX_ITEMS": "Maks. liczba pozycji",
+        "MIN_ITEMS": "Min. liczba pozycji",
+        "UNIQUE_ITEMS": "Unikatowe pozycje",
+        "ENUMERATED_VALUES": "Wyliczone wartości",
+        "MAXIMUM": "Maksimum",
+        "MINIMUM": "Minimum",
+        "EXCLUSIVE_MAXIMUM": "Wyłączne maksimum",
+        "EXCLUSIVE_MINIMUM": "Wyłączne minimum",
+        "MAX_PROPERTIES": "Maks. liczba właściwości",
+        "MIN_PROPERTIES": "Min. liczba właściwości",
+        "MAX_LENGTH": "Maks. długość",
+        "MIN_LENGTH": "Min. długość",
+        "PATTERN": "Wzorzec",
+        "FORMAT": "Format",
+        "ADDITIONAL_PROPERTIES": "Dodatkowe właściwości"
+      },
+      "PREVIEW": "Podgląd"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "Utwórz model niestandardowy",
+      "CREATE_MODEL_DESCRIPTION": "Utwórz model niestandardowy i przypisz go do jednostki",
+      "EDIT_MODEL": "Edytuj model niestandardowy",
+      "EDIT_MODEL_DESCRIPTION": "Edytuj poprzednio utworzony model niestandardowy jednostki"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "Przełącz na preferowane"
+    }
+  }
+}

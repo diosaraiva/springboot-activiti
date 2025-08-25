@@ -1,0 +1,24 @@
+{
+  "ADV_CONNECTOR_EDITOR": {
+    "DOWNLOAD_CONNECTOR": "Pobierz łącznik",
+    "VALIDATE_CONNECTOR": "Weryfikuj łącznik",
+    "SAVE_CONNECTOR": "Zapisz łącznik",
+    "CONNECTOR_VALID": "Łącznik jest prawidłowy",
+    "CONNECTOR_INVALID": "Łącznik zawiera błędy weryfikacji.",
+    "UPLOAD_SUCCESS": "Łącznik przesłany",
+    "TABS": {
+      "CONNECTOR_EDITOR": "Edytor łącznika",
+      "JSON_EDITOR": "Edytor JSON"
+    },
+    "ERRORS": {
+      "GET_CONNECTOR": "Wystąpił problem podczas ładowania łącznika. Spróbuj załadować go ponownie."
+    },
+    "DIALOG": {
+      "TITLE": "Ustawienia edytora łącznika",
+      "SHOW": "Pokaż łączniki z szablonami na lewym pasku bocznym",
+      "CANCEL": "Anuluj",
+      "APPLY": "Zastosuj"
+    },
+    "NAME": "Edytor łącznika"
+  }
+}

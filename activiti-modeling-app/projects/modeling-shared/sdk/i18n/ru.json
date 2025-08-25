@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "Проверить",
+      "RELEASE": "Выпуск",
+      "SAVE_AS": "Сохранить как",
+      "SAVE_AS_ICON": "Сохранить как значок",
+      "DOWNLOAD": "Скачать проект",
+      "VIEW_RELEASES": "Просмотреть выпуски",
+      "VERSION": "Версия",
+      "UNSAVED_DIALOG_TITLE": "Несохраненные модели",
+      "UNSAVED_VALIDATE_MESSAGE": "В некоторых открытых моделях есть несохраненные изменения, сохраните их перед проверкой.",
+      "UNSAVED_RELEASE_MESSAGE": "В некоторых открытых моделях есть несохраненные изменения, сохраните их перед выпуском.",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "В некоторых открытых моделях есть несохраненные изменения, пожалуйста, сохраните их, прежде чем вернуться на главную страницу."
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "Вы действительно хотите сохранить данную {{ modelType }}?",
+        "CONFIRM_DELETE_MODEL": "Вы действительно хотите удалить данную {{ modelType }}?",
+        "CONFIRM_DOWNLOAD_MODEL": "Вы действительно хотите скачать данную {{ modelType }}?",
+        "CONFIRM_SAVE_AS_MODEL": "Вы действительно хотите скопировать данную {{ modelType }}?",
+        "INVALID_MODEL": "{{ modelType }} содержит ошибку (ошибки) проверки.",
+        "VALID_MODEL": "{{ modelType }} проверена"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "Вставленные значения должны соответствовать этому шаблону"
+    },
+    "ALL": "Все",
+    "VALUE": "Значение",
+    "EXPRESSION": "Выражение",
+    "TYPE": "Тип",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "Да",
+      "NO": "Нет",
+      "DISPLAY_NAME": "Отображаемое имя",
+      "DISPLAY_NAME_AVAILABILITY": "Доступно в веб-приложении",
+      "ENTER_DISPLAY_NAME": "Введите отображаемое имя",
+      "DISPLAY_NAME_TOOLTIP": "Отображаемое имя используется в веб-приложении, например, в качестве имени столбца в Списке задач, в Списке процессов и в API-интерфейсе."
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "Необходимо указать имя",
+        "EMPTY_TYPE": "Необходимо указать тип",
+        "EMPTY_DISPLAY_NAME": "Требуется отображаемое имя",
+        "INVALID_NAME": "Недопустимое имя переменной",
+        "VARIABLE_NAME_TOOLTIP": "Имя должно начинаться с буквы и может содержать только буквенно-цифровые символы и символы подчеркивания",
+        "NAME_ALREADY_EXISTS": "Имена переменных должны быть уникальными",
+        "FILE_ALREADY_EXISTS": "Файл уже существует"
+      },
+      "TABS": {
+        "VIEWER": "Средство просмотра свойств",
+        "JSON_EDITOR": "Редактор JSON"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Имя",
+        "COLUMN_TYPE": "Тип",
+        "COLUMN_REQUIRED": "Обязательно",
+        "COLUMN_VALUE": "Значение",
+        "NO_PROPERTIES": "Выберите либо создайте переменную, чтобы увидеть ее свойства",
+        "CLEAR": "Очистить",
+        "ANALYTICS": "Анализ данных"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "Параметр",
+      "VALUE": "Значение",
+      "PROCESS_VARIABLE": "Переменная процесса",
+      "SWITCH_VAR_VAL": "Переключение переменной/значения",
+      "NO_PROCESS_PROPERTIES": "Нет свойств процесса",
+      "NO_PAYLOAD": "У сообщения нет полезной нагрузки. Добавьте полезную нагрузку в событие-инициатор",
+      "CLEAR_ASSIGNMENT": "Очистить назначение",
+      "MAPPING_TYPE": "Тип сопоставления",
+      "MAP_VARIABLES": "Сопоставить переменные",
+      "MAP_NO_VARIABLE": "Не сопоставлять переменные",
+      "MAP_ALL": "Сопоставить все входные/выходные переменные",
+      "MAP_ALL_INPUTS": "Сопоставить все входные переменные",
+      "MAP_ALL_OUTPUTS": "Сопоставить все выходные переменные",
+      "NONE": "Нет",
+      "NOT_EDITABLE": "Это системный параметр. Системные параметры невозможно изменить."
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "Сообщения процесса",
+      "ERRORS": {
+        "EMPTY_NAME": "Необходимо указать имя",
+        "NAME_ALREADY_EXISTS": "Имена сообщений должны быть уникальными"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Имя",
+        "COLUMN_ID": "Идентификатор",
+        "NO_MESSAGES": "Выберите или создайте сообщение, чтобы просмотреть его свойства"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "Ошибки процесса",
+      "ERRORS": {
+        "EMPTY_NAME": "Необходимо указать имя",
+        "EMPTY_CODE": "Необходимо указать код ошибки",
+        "NAME_ALREADY_EXISTS": "Имена ошибок процесса должны быть уникальными"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Имя ошибки",
+        "COLUMN_CODE": "Код ошибки",
+        "COLUMN_ID": "Идентификатор ошибки",
+        "NO_PROCESS_ERRORS": "Выберите или создайте ошибку процесса для просмотра ее свойств"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "Редактировать сопоставление переменных",
+      "SELECTOR_TITLE": "Выберите тип сопоставления переменных для редактирования",
+      "INPUT_MAPPING": "Сопоставление ввода",
+      "OUTPUT_MAPPING": "Сопоставление вывода",
+      "PROCESS_VARIABLE": "Переменная процесса",
+      "INPUT_PARAMETER": "Входной параметр",
+      "OUTPUT_PARAMETER": "Выходной параметр",
+      "VALUE_MAPPING": "Значение",
+      "EXPRESSION_MAPPING": "Выражение",
+      "NONE": "Нет",
+      "TYPE": "Тип",
+      "WRONG_OUTPUT_MAPPING": "Сопоставление вывода неверно. Не все добавленные сопоставления сопоставляют выражение с переменной."
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "Сохранить как",
+      "FIELD_PROPERTIES": {
+        "NAME": "Имя",
+        "DESCRIPTION": "Описание"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "Редактировать в диалоговом окне",
+      "EXPRESSION_EDITOR": "Редактор выражений",
+      "NO_BRACKETS_HINT": "Все выражение в этом редакторе будет сохранено в фигурных скобках (${...}), поэтому вам не нужно их вводить.",
+      "JUEL_EXPRESSION_SIMULATOR": "Средство моделирования выражений JUEL",
+      "TEST": "Тест",
+      "TEST_DISABLED_TOOLTIP": "Добавьте переменную в тест перед его выполнением",
+      "TEST_ENABLED_TOOLTIP": "Протестировать выражение, используя значения, предусмотренные для переменных",
+      "OPEN_TESTER": "Открыть средство тестирования",
+      "CLOSE_TESTER": "Закрыть средство тестирования",
+      "SET_VARIABLES_VALUES": "Установить значения переменной",
+      "SET_VARIABLES_VALUES_TOOLTIP": "Выберите переменную, чтобы установить ее значение в тесте",
+      "DELETE_VARIABLE_FROM_TEST": "Удалить переменную из теста"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "Поиск"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "Стартовое событие",
+        "PROCESS": "Процесс",
+        "SERVICE_TASK": "Сервисная задача",
+        "CALLED_ELEMENT": "Вызванный элемент",
+        "SCRIPT_TASK": "Задача сценария",
+        "DECISION_TABLE": "Таблица принятия решения",
+        "USER_TASK": "Задача пользователя",
+        "NONE": "Нет",
+        "EVENT": "Событие",
+        "EMAIL_SERVICE_TASK": "Задача для почтового сервиса",
+        "DOCGEN_SERVICE": "Сервисная задача docgen",
+        "PARTICIPANT": "Процесс",
+        "FORM_FIELDS": "Поле формы",
+        "FORM_VARIABLES": "Переменные форм",
+        "CONTENT_SERVICE": "Служба содержимого"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "Переменная",
+        "PROCESS_VARIABLE_TOOLTIP": "Переменная процесса {{processName}}",
+        "NONE_VARIABLE_TOOLTIP": "Выберите «Нет», чтобы очистить выбор",
+        "OUTPUT_VARIABLE_TOOLTIP": "Вывод {{taskType}} {{taskName}}",
+        "PROPERTIES": "Свойства"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "Переменные",
+        "EXPRESSION": "Выражение",
+        "OPEN_EXPRESSION_EDITOR": "Открыть диалоговое окно редактора выражений",
+        "SWITCH_TO_VARIABLES": "Переключить на средство выбора переменных",
+        "CLEAR_SELECTION": "Очистить выбор"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "Примитивы",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "Пользовательский ввод",
+      "DATE": {
+        "CURRENT_DATE": "Сегодня",
+        "CLEAR_BUTTON": "Очистить"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "Сейчас",
+        "CLEAR_BUTTON": "Очистить"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "Значение, которое нужно добавить в массив",
+        "ADD": "Добавить",
+        "EDIT_VALUE": "Редактировать значение",
+        "EDIT": "Редактировать"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Необходимо ввести данные",
+        "INVALID_FORMAT": "Недопустимый формат входных данных: {{error}}",
+        "INVALID_MIN_LENGTH": "Недопустимая минимальная длина: {{error}}",
+        "INVALID_MAX_LENGTH": "Недопустимая максимальная длина: {{error}}",
+        "INVALID_MIN_VALUE": "Недопустимое значение. Оно должно быть больше или равно: {{error}}",
+        "INVALID_MAX_VALUE": "Недопустимое значение. Оно должно быть меньше или равно: {{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "Недопустимое значение. Оно должно быть кратно: {{error}}",
+        "GENERIC_ERROR": "Недопустимое значение: {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "Развернуть",
+      "COLLAPSE": "Свернуть",
+      "NAME": "Имя",
+      "INVALID_NAME": "Недопустимое имя",
+      "REQUIRED": "Обязательно",
+      "REFERENCE": "Ссылка",
+      "TITLE": "Название",
+      "ADD_PROPERTY": "Добавить свойство",
+      "ADD_CHILD_ALL_OF": "Добавить дочерний элемент к allOf",
+      "ADD_CHILD_ANY_OF": "Добавить дочерний элемент к anyOf",
+      "ADD_CHILD_ONE_OF": "Добавить дочерний элемент к oneOf",
+      "ADVANCED_SETTINGS": "Расширенные параметры",
+      "REMOVE_NODE": "Удалить узел",
+      "ADD_DEFINITION": "Добавить определение",
+      "BASIC_ATTRIBUTES": "Основные атрибуты",
+      "CUSTOM_ATTRIBUTES": "Настраиваемые атрибуты",
+      "ADD_CUSTOM_ATTRIBUTE": "Добавить настраиваемый атрибут",
+      "DELETE_CUSTOM_ATTRIBUTE": "Удалить настраиваемый атрибут",
+      "ATTRIBUTE_NAME": "Имя атрибута",
+      "ATTRIBUTE_VALUE": "Значение атрибута",
+      "CONFIRM_ATTRIBUTE_ADDITION": "Подтвердить добавление атрибута",
+      "CANCEL_ATTRIBUTE_ADDITION": "Отменить добавление атрибута",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "Типы схем JSON",
+        "ENUMERATION": "Перечисление",
+        "MODELING_APP": "Приложение моделирования",
+        "COMPOSITION": "Состав"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "Описание",
+        "MAX_ITEMS": "Макс. количество элементов",
+        "MIN_ITEMS": "Мин. количество элементов",
+        "UNIQUE_ITEMS": "Уникальные элементы",
+        "ENUMERATED_VALUES": "Перечисленные значения",
+        "MAXIMUM": "Максимум",
+        "MINIMUM": "Минимум",
+        "EXCLUSIVE_MAXIMUM": "Эксклюзивный максимум",
+        "EXCLUSIVE_MINIMUM": "Эксклюзивный минимум",
+        "MAX_PROPERTIES": "Макс. количество свойств",
+        "MIN_PROPERTIES": "Мин. количество свойств",
+        "MAX_LENGTH": "Макс. длина",
+        "MIN_LENGTH": "Мин. длина",
+        "PATTERN": "Шаблон",
+        "FORMAT": "Формат",
+        "ADDITIONAL_PROPERTIES": "Дополнительные свойства"
+      },
+      "PREVIEW": "Предварительный просмотр"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "Создать пользовательскую модель",
+      "CREATE_MODEL_DESCRIPTION": "Создать пользовательскую модель и назначить ее объекту",
+      "EDIT_MODEL": "Редактировать пользовательскую модель",
+      "EDIT_MODEL_DESCRIPTION": "Редактировать ранее созданную пользовательскую модель объекта"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "Переключение на предпочтительный вариант"
+    }
+  }
+}

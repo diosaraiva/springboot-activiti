@@ -1,0 +1,36 @@
+.ama-model-importer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-tab-group {
+        width: 100%;
+
+        .mat-tab-labels {
+            width: 100%;
+            justify-content: space-evenly;
+
+            .mat-tab-label {
+                display: flex;
+                flex: 1 auto;
+            }
+        }
+
+        .mat-list-base {
+            display: unset;
+        }
+    }
+
+    mat-tab-body {
+        height: 300px;
+    }
+
+    &-spinner {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+}

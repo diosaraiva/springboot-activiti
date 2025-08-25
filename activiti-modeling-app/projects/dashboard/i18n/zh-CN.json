@@ -1,0 +1,151 @@
+{
+  "DASHBOARD": {
+    "NEW_MENU": {
+      "LABEL": "新建",
+      "CREATE_PROJECT_TITLE": "创建项目",
+      "OVERRIDE_PROJECT_TITLE": "具有此名称的项目已存在。",
+      "EDIT_PROJECT_TITLE": "编辑项目",
+      "PROJECT_CREATED": "项目已创建",
+      "PROJECT_UPLOADED": "项目已上传",
+      "PROJECT_UPDATED": "项目已保存",
+      "PROJECT_RELEASED": "项目已发布",
+      "PROJECT_DELETED": "项目已删除",
+      "MENU_ITEMS": {
+        "CREATE_PROJECT": "创建项目",
+        "UPLOAD_PROJECT": "上传项目",
+        "CREATE_MODEL": "内容模型"
+      }
+    },
+    "DIALOGS": {
+      "PROJECT_NAME": "项目名称：",
+      "PROJECT_DESC": "项目描述:"
+    },
+    "NAVIGATION": {
+      "PROJECTS": {
+        "LABEL": "项目",
+        "TOOLTIP": "已发布的项目"
+      },
+      "RELEASES": {
+        "LABEL": "发布",
+        "TOOLTIP": "发布"
+      },
+      "PROCESSES": {
+        "LABEL": "流程",
+        "TOOLTIP": "已发布的流程"
+      },
+      "FAVORITES": {
+        "LABEL": "收藏夹",
+        "TOOLTIP": "收藏夹"
+      }
+    },
+    "SEARCH_PLACEHOLDER": "搜索",
+    "TABLE": {
+      "COLUMN_NAME": "名称",
+      "COLUMN_VERSION": "版本",
+      "COLUMN_CREATED": "已创建",
+      "COLUMN_CREATED_BY": "创建者",
+      "COLUMN_MODIFIED": "已更新",
+      "COLUMN_OPTIONS": "选项",
+      "COLUMN_ACTIONS": "操作",
+      "COLUMN_COLLABORATORS": "协作者",
+      "NO_ITEMS": "创建或导入项目以在列表中查看它。",
+      "NO_FAV_PROCESSES": "收藏流程以使其在此处可用。",
+      "NO_FAV_PROJECTS": "收藏项目以使其在此处可用。",
+      "RELEASE_ID": "发布 ID",
+      "RELEASE_COMMENT": "注释",
+      "PROJECT_NAME": "项目名称"
+    },
+    "ERROR": {
+      "LOAD_PROJECTS": "加载项目时遇到问题。尝试刷新页面。",
+      "LOAD_RELEASES": "加载发布时遇到问题。尝试刷新页面",
+      "LOAD_PROCESSES": "加载流程时遇到问题。尝试刷新页面"
+    }
+  },
+  "NEW_STUDIO_DASHBOARD": {
+    "NAME": "建模应用程序",
+    "NAVIGATION": {
+      "PROJECT_TITLE": "项目",
+      "CONTENT_MODEL_TITLE": "内容模型",
+      "DATA_MODELS_TITLE": "数据模型",
+      "HXP_DOC_TYPES_TITLE": "HxP Document Types",
+      "HXP_MIXINS_TITLE": "HxP Mixins",
+      "HXP_SCHEMAS_TITLE": "HxP Schemas",
+      "ALL_PROJECTS": {
+        "HEADER_LABEL": "我的项目",
+        "LABEL": "所有项目",
+        "TOOLTIP": "所有已发布的项目",
+        "ACTIONS": {
+          "CREATE": "创建项目",
+          "UPLOAD": "上传项目"
+        }
+      },
+      "FAVORITE_PROJECTS": {
+        "HEADER_LABEL": "我的收藏项目",
+        "LABEL": "收藏项目",
+        "TOOLTIP": "收藏项目"
+      },
+      "MY_MODELS": {
+        "HEADER_LABEL": "我的模型",
+        "LABEL": "我的模型",
+        "TOOLTIP": "用户创建的模型",
+        "ACTIONS": {
+          "CREATE": "创建模型"
+        }
+      },
+      "SHARED_MODELS": {
+        "HEADER_LABEL": "我的共享模型",
+        "LABEL": "全球模型",
+        "TOOLTIP": "项目间共享的模型",
+        "ACTIONS": {
+          "CREATE": "创建内容模型"
+        }
+      },
+      "DATA_MODELS": {
+        "HEADER_LABEL": "我的数据模型",
+        "LABEL": "全球模型",
+        "TOOLTIP": "发布的数据模型",
+        "ACTIONS": {
+          "CREATE": "创建数据模型"
+        }
+      },
+      "HXP_DOC_TYPES": {
+        "HEADER_LABEL": "My HxP Document Types",
+        "LABEL": "Global HxP Document Types",
+        "TOOLTIP": "Published HxP Document Types",
+        "ACTIONS": {
+          "CREATE": "Create HxP Document Type"
+        }
+      },
+      "HXP_MIXINS": {
+        "HEADER_LABEL": "My HxP Mixins",
+        "LABEL": "Global HxP Mixins",
+        "TOOLTIP": "Published HxP Mixins",
+        "ACTIONS": {
+          "CREATE": "Create HxP Mixin"
+        }
+      },
+      "HXP_SCHEMAS": {
+        "HEADER_LABEL": "My HxP Schemas",
+        "LABEL": "Global HxP Schemas",
+        "TOOLTIP": "Published HxP Schemas",
+        "ACTIONS": {
+          "CREATE": "Create HxP Schema"
+        }
+      }
+    },
+    "USER_INFO_MENU": {
+      "ADMIN": "管理员",
+      "DOCUMENTATION": "文档"
+    },
+    "ADD_TO_FAVORITES": "添加到收藏夹的项目",
+    "REMOVE_FROM_FAVORITES": "从收藏夹中移除项目",
+    "ERROR": {
+      "LOAD_FAVORITE_PROJECTS": "加载收藏项目时遇到问题。尝试刷新页面。"
+    }
+  },
+  "SEARCH": {
+    "BUTTON": {
+      "TOOLTIP": "搜索"
+    }
+  }
+}

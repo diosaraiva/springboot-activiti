@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "アプリケーション",
+    "BACKEND_SERVICE": "バックエンドサービス",
+    "MORE_ACTIONS": "その他の処理",
+    "VALIDATE_PROJECT": "プロジェクトの検証",
+    "DOWNLOAD_PROJECT": "プロジェクトのダウンロード",
+    "ADD_ACTION": "新規処理の追加",
+    "ADD_EVENT": "新規イベントの追加",
+    "HEADER": {
+      "APP_NAME": "モデリングアプリケーション",
+      "SIGN_OUT": "サインアウト",
+      "SETTINGS": "設定",
+      "ABOUT": "バージョン情報",
+      "LANGUAGE": "言語",
+      "SEARCH": "検索",
+      "APPEARANCE": "外観"
+    },
+    "DIALOGS": {
+      "CANCEL": "キャンセル",
+      "SAVE": "保存",
+      "CREATE": "作成",
+      "UPDATE": "更新",
+      "CLOSE": "閉じる",
+      "DONT_SAVE": "保存しない",
+      "UNSAVED_PAGE_TITLE": "加えた変更を保存しますか",
+      "EDIT_PROPERTIES": "プロセス変数の編集",
+      "EDIT_PROCESS_MESSAGES": "メッセージの編集",
+      "EDIT_PROCESS_ERRORS": "エラーの編集",
+      "EDIT_FORM_PROPERTIES": "フォーム変数の編集",
+      "EDIT_VISIBILITY_CONDITIONS": "表示条件の編集",
+      "ERROR": {
+        "TITLE": "保存しますか?",
+        "SUBTITLE": "検証エラー:",
+        "NAME_DOESNT_MATCH_PATTERN": "名前が次のパターンと一致しません",
+        "GENERAL_NAME_VALIDATION": "名前は小文字 (1 ～ 26 文字) で入力してください。英数字とハイフンを使用できますが、先頭の文字は英字、末尾の文字は英数字にする必要があります。",
+        "PROCESS_NAME_VALIDATION": "名前は1～26文字で入力し、空白スペースで始めることはできません"
+      },
+      "CONFIRM": {
+        "TITLE": "実行しますか?",
+        "SUBTITLE": "この処理を実行しますか?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "このアクションは元に戻せません",
+        "BUTTON": "確認",
+        "RELEASE": "このプロジェクトの新しいバージョンをリリースしますか?",
+        "TYPES": {
+          "DECISION": "ディシジョンテーブル",
+          "DATA_MODEL": "データモデル",
+          "UI": "UI",
+          "CONNECTOR": "コネクタ",
+          "FORM": "フォーム",
+          "PROCESS": "プロセス",
+          "FILE": "ファイル",
+          "SCRIPT": "スクリプト",
+          "TRIGGER": "トリガー",
+          "MODEL": "コンテンツモデル",
+          "CUSTOM-FORM-WIDGET": "フォームウィジェット"
+        },
+        "DELETE": {
+          "PROJECT": "このプロジェクトを削除しますか?",
+          "DATA_MODEL": "このデータオブジェクトを削除しますか?"
+        },
+        "SAVE": {
+          "PROCESS": "このプロセスを保存しますか?",
+          "DATA_MODEL": "このデータオブジェクトを保存しますか?",
+          "EMAIL_TEMPLATE": "Eメールテンプレートを上書きしますか？"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "このデータオブジェクトをコピーしますか？"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "このプロセスの svg 画像をダウンロードしますか?",
+          "DATA_MODEL": "このデータオブジェクトをダウンロードしますか?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "編集",
+      "DELETE": "削除",
+      "RELEASE": "リリース",
+      "COLLABORATORS": "コラボレーター",
+      "SEE_RELEASES": "リリースの表示",
+      "LOG_HISTORY": "ログ履歴",
+      "DOWNLOAD": "ダウンロード",
+      "SAVE_AS": "名前を付けて保存",
+      "EDITORS_MENU": "エディターメニュー",
+      "MORE_MENU": "その他のメニュー"
+    },
+    "SETTINGS": {
+      "HEADER": "アプリケーションの設定"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "ユーザーの変更",
+        "NOT_VALID_JSON": "JSON オブジェクトが無効です",
+        "NOT_VALID_HTML": "無効なHTMLオブジェクト",
+        "NOT_VALID_SCHEMA": "JSON オブジェクトがスキーマと一致しません"
+      }
+    },
+    "EDITOR": {
+      "NAME": "名前",
+      "DESCRIPTION": "説明",
+      "TITLE": "アプリケーションタイトル"
+    },
+    "THEME": {
+      "LIGHT": "薄い色のテーマ",
+      "DARK": "暗い色のテーマ"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.ama-submit-button {
+    background-color: var(--theme-primary-color);
+}
+
+.ama-cancel-button {
+    color: var(--theme-primary-color);
+}
+
+.ama-entity-dialog-content-loading-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

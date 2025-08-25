@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Sovellus",
+    "BACKEND_SERVICE": "Taustapalvelu",
+    "MORE_ACTIONS": "Lisää toimintoja",
+    "VALIDATE_PROJECT": "Vahvista projekti",
+    "DOWNLOAD_PROJECT": "Lataa projekti",
+    "ADD_ACTION": "Lisää uusi toiminto",
+    "ADD_EVENT": "Lisää uusi tapahtuma",
+    "HEADER": {
+      "APP_NAME": "Mallinnussovellus",
+      "SIGN_OUT": "Kirjaudu ulos",
+      "SETTINGS": "Asetukset",
+      "ABOUT": "Tietoja",
+      "LANGUAGE": "Kieli",
+      "SEARCH": "Hae",
+      "APPEARANCE": "Ulkonäkö"
+    },
+    "DIALOGS": {
+      "CANCEL": "Peruuta",
+      "SAVE": "Tallenna",
+      "CREATE": "Luo",
+      "UPDATE": "Päivitä",
+      "CLOSE": "Sulje",
+      "DONT_SAVE": "Älä tallenna",
+      "UNSAVED_PAGE_TITLE": "Haluatko tallentaa tähän tehdyt muutokset",
+      "EDIT_PROPERTIES": "Muokkaa prosessimuuttujia",
+      "EDIT_PROCESS_MESSAGES": "Muokkaa viestejä",
+      "EDIT_PROCESS_ERRORS": "Muokkaa virheitä",
+      "EDIT_FORM_PROPERTIES": "Muokkaa lomakkeen muuttujia",
+      "EDIT_VISIBILITY_CONDITIONS": "Muokkaa näkyvyysehtoja",
+      "ERROR": {
+        "TITLE": "Haluatko silti tallentaa?",
+        "SUBTITLE": "Vahvistusvirheet:",
+        "NAME_DOESNT_MATCH_PATTERN": "Nimi ei vastaa seuraavaa kaavaa",
+        "GENERAL_NAME_VALIDATION": "Nimi on kirjoitettava pienin kirjaimin, ja sen on oltava 1-26 merkin pituinen. Alfanumeeriset merkit ja viivamerkit ovat sallittuja, mutta nimen on alettava kirjaimella ja päätyttävä alfanumeeriseen merkkiin.",
+        "PROCESS_NAME_VALIDATION": "Nimen tulee olla 1-26 merkkiä pitkä, ja se ei voi alkaa tyhjällä tilalla"
+      },
+      "CONFIRM": {
+        "TITLE": "Oletko varma?",
+        "SUBTITLE": "Haluatko varmasti suorittaa tämän toiminnon?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Toimintoa ei voi kumota",
+        "BUTTON": "Vahvista",
+        "RELEASE": "Haluatko varmasti julkaista uuden version tästä projektista?",
+        "TYPES": {
+          "DECISION": "päätöstaulukko",
+          "DATA_MODEL": "tietomalli",
+          "UI": "käyttöliittymä",
+          "CONNECTOR": "liitin",
+          "FORM": "Lomake",
+          "PROCESS": "prosessi",
+          "FILE": "tiedosto",
+          "SCRIPT": "komentosarja",
+          "TRIGGER": "Laukaisija",
+          "MODEL": "Sisältömalli",
+          "CUSTOM-FORM-WIDGET": "Lomakepiensovellus"
+        },
+        "DELETE": {
+          "PROJECT": "Haluatko varmasti poistaa tämän projektin?",
+          "DATA_MODEL": "Haluatko varmasti poistaa tämän dataobjektin?"
+        },
+        "SAVE": {
+          "PROCESS": "Haluatko varmasti tallentaa tämän prosessin?",
+          "DATA_MODEL": "Haluatko varmasti tallentaa tämän dataobjektin?",
+          "EMAIL_TEMPLATE": "Haluatko varmasti korvata tämän sähköpostimallin?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Haluatko varmasti kopioida tämän dataobjektin?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Haluatko varmasti ladata tämän prosessin svg-kuvan?",
+          "DATA_MODEL": "Haluatko varmasti ladata tämän dataobjektin?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Muokkaa",
+      "DELETE": "Poista",
+      "RELEASE": "Julkaisu",
+      "COLLABORATORS": "Yhteistyökumppanit",
+      "SEE_RELEASES": "Näytä julkaisut",
+      "LOG_HISTORY": "Lokihistoria",
+      "DOWNLOAD": "Lataa",
+      "SAVE_AS": "Tallenna nimellä",
+      "EDITORS_MENU": "Editorin valikko",
+      "MORE_MENU": "Laajempi valikko"
+    },
+    "SETTINGS": {
+      "HEADER": "Sovellusasetukset"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Vaihda käyttäjää",
+        "NOT_VALID_JSON": "JSON-objekti ei kelpaa",
+        "NOT_VALID_HTML": "Virheellinen HTML-objekti",
+        "NOT_VALID_SCHEMA": "JSON-objekti ei vastaa rakennetta"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Nimi",
+      "DESCRIPTION": "Kuvaus",
+      "TITLE": "Sovelluksen otsikko"
+    },
+    "THEME": {
+      "LIGHT": "Vaalea teema",
+      "DARK": "Tumma teema"
+    }
+  }
+}

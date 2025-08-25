@@ -1,0 +1,78 @@
+.modelingsdk-output-mapping-table {
+    .mat-table {
+        border: 1px solid var(--theme-border-color);
+    }
+
+    .mat-header-cell:first-of-type {
+        padding-left: 0;
+    }
+
+    .mat-header-cell:last-of-type {
+        padding-right: 0;
+    }
+
+    .ama-required-parameter {
+        color: var(--theme-warn-color);
+    }
+
+    .mat-cell {
+        margin: 0;
+        padding: 0;
+        min-height: initial;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+    .ama-variable-value-type-value {
+        font-style: italic;
+    }
+
+    .mat-header-cell {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    &__mapped-value {
+        border: 1px solid var(--theme-border-color);
+        margin-top: 0;
+    }
+
+    &__mapping-icon.mat-icon {
+        vertical-align: middle;
+        margin-left: 5px;
+        width: 16px;
+        height: 16px;
+        font-size: 16px;
+        padding: 4px 0;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.modelingsdk-output-mapping-edit-button.mat-button-disabled {
+    .modelingsdk-output-mapping-table {
+        &__mapping-icon.mat-icon {
+            color: var(--theme-text-disabled-color);
+        }
+    }
+}
+
+.ama-help-icon {
+    line-height: 10px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 4px;
+    padding: 0 4px;
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Program",
+    "BACKEND_SERVICE": "Serverdel-tjeneste",
+    "MORE_ACTIONS": "Flere handlinger",
+    "VALIDATE_PROJECT": "Valider prosjekt",
+    "DOWNLOAD_PROJECT": "Last ned prosjekt",
+    "ADD_ACTION": "Legg til ny handling",
+    "ADD_EVENT": "Legg til ny hendelse",
+    "HEADER": {
+      "APP_NAME": "Modeling Application",
+      "SIGN_OUT": "Logg ut",
+      "SETTINGS": "Innstillinger",
+      "ABOUT": "Om",
+      "LANGUAGE": "Språk",
+      "SEARCH": "Søk",
+      "APPEARANCE": "Utseende"
+    },
+    "DIALOGS": {
+      "CANCEL": "Avbryt",
+      "SAVE": "Lagre",
+      "CREATE": "Opprett",
+      "UPDATE": "Oppdater",
+      "CLOSE": "Lukk",
+      "DONT_SAVE": "Ikke lagre",
+      "UNSAVED_PAGE_TITLE": "Vil du lagre endringene foretatt i",
+      "EDIT_PROPERTIES": "Rediger prosessvariabler",
+      "EDIT_PROCESS_MESSAGES": "Rediger meldinger",
+      "EDIT_PROCESS_ERRORS": "Rediger feil",
+      "EDIT_FORM_PROPERTIES": "Rediger skjemavariabler",
+      "EDIT_VISIBILITY_CONDITIONS": "Rediger synlighetsbetingelser",
+      "ERROR": {
+        "TITLE": "Vil du lagre det likevel?",
+        "SUBTITLE": "Valideringsfeil:",
+        "NAME_DOESNT_MATCH_PATTERN": "Navnet stemmer ikke overens med følgende mønster",
+        "GENERAL_NAME_VALIDATION": "Navnet må bestå av små bokstaver og være mellom 1 og 26 tegn langt. Alfanumeriske tegn og bindestreker er tillatt, men navnet må begynne med en bokstav og ende alfanumerisk.",
+        "PROCESS_NAME_VALIDATION": "Navnet må bestå av mellom 1 og 26 tegn og kan ikke begynne med et tomt mellomrom"
+      },
+      "CONFIRM": {
+        "TITLE": "Er du sikker?",
+        "SUBTITLE": "Er du sikker på at du vil utføre denne handlingen?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Du kan ikke endre denne handlingen",
+        "BUTTON": "Bekreft",
+        "RELEASE": "Er du sikker på at du vil utgi en ny versjon av dette prosjektet?",
+        "TYPES": {
+          "DECISION": "beslutningstabell",
+          "DATA_MODEL": "datamodell",
+          "UI": "Brukergrensesnitt",
+          "CONNECTOR": "kobling",
+          "FORM": "skjema",
+          "PROCESS": "Prosess",
+          "FILE": "fil",
+          "SCRIPT": "skript",
+          "TRIGGER": "Utløser",
+          "MODEL": "Innholdsmodell",
+          "CUSTOM-FORM-WIDGET": "Skjema-widget"
+        },
+        "DELETE": {
+          "PROJECT": "Er du sikker på at du vil slette dette prosjektet?",
+          "DATA_MODEL": "Er du sikker på at du vil slette dette dataobjektet?"
+        },
+        "SAVE": {
+          "PROCESS": "Er du sikker på at du vil lagre denne prosessen?",
+          "DATA_MODEL": "Er du sikker på at du vil lagre dette dataobjektet?",
+          "EMAIL_TEMPLATE": "Er du sikker på at du vil overskrive e-postmalen?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Er du sikker på at du vil kopiere dette dataobjektet?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Er du sikker på at du vil laste ned SVG-bildet for denne prosessen?",
+          "DATA_MODEL": "Er du sikker på at du vil laste ned dette dataobjektet?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Rediger",
+      "DELETE": "Slett",
+      "RELEASE": "Versjon som skal utgis",
+      "COLLABORATORS": "Samarbeidspartnere",
+      "SEE_RELEASES": "Vis utgivelser",
+      "LOG_HISTORY": "Logghistorikk",
+      "DOWNLOAD": "Last ned",
+      "SAVE_AS": "Lagre som",
+      "EDITORS_MENU": "Redaktørmeny",
+      "MORE_MENU": "Mer-meny"
+    },
+    "SETTINGS": {
+      "HEADER": "Programinnstillinger"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Endre bruker",
+        "NOT_VALID_JSON": "Ugyldig JSON-objekt",
+        "NOT_VALID_HTML": "Ugyldig HTML-objekt",
+        "NOT_VALID_SCHEMA": "JSON-objektet stemmer ikke overens med skjemaet"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Navn",
+      "DESCRIPTION": "Beskrivelse",
+      "TITLE": "Programtittel"
+    },
+    "THEME": {
+      "LIGHT": "Lyst tema",
+      "DARK": "Mørkt tema"
+    }
+  }
+}

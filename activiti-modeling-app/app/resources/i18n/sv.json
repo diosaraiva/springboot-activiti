@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Program",
+    "BACKEND_SERVICE": "Serverdelservice",
+    "MORE_ACTIONS": "Fler åtgärder",
+    "VALIDATE_PROJECT": "Validera projekt",
+    "DOWNLOAD_PROJECT": "Ladda ner projekt",
+    "ADD_ACTION": "Lägg till ny åtgärd",
+    "ADD_EVENT": "Lägg till ny händelse",
+    "HEADER": {
+      "APP_NAME": "Modeling Application",
+      "SIGN_OUT": "Logga ut",
+      "SETTINGS": "Inställningar",
+      "ABOUT": "Om",
+      "LANGUAGE": "Språk",
+      "SEARCH": "Sök",
+      "APPEARANCE": "Utseende"
+    },
+    "DIALOGS": {
+      "CANCEL": "Avbryt",
+      "SAVE": "Spara",
+      "CREATE": "Skapa",
+      "UPDATE": "Uppdatera",
+      "CLOSE": "Stäng",
+      "DONT_SAVE": "Spara ej",
+      "UNSAVED_PAGE_TITLE": "Vill du spara ändringarna som gjordes av",
+      "EDIT_PROPERTIES": "Redigera processvariabler",
+      "EDIT_PROCESS_MESSAGES": "Redigera meddelanden",
+      "EDIT_PROCESS_ERRORS": "Redigera fel",
+      "EDIT_FORM_PROPERTIES": "Redigera formulärvariabler",
+      "EDIT_VISIBILITY_CONDITIONS": "Redigera synlighetsvillkor",
+      "ERROR": {
+        "TITLE": "Vill du ändå spara den?",
+        "SUBTITLE": "Valideringsfel:",
+        "NAME_DOESNT_MATCH_PATTERN": "Namnet motsvarar inte följande mönster",
+        "GENERAL_NAME_VALIDATION": "Namnet måste vara i gemener och mellan 1 och 26 tecken långt. Alfanumeriska tecken och bindestreck är tillåtna, men namnet måste börja med en bokstav och sluta alfanumeriskt.",
+        "PROCESS_NAME_VALIDATION": "Namnet måste vara mellan 1 och 26 tecken långt och kan inte innehålla blanksteg"
+      },
+      "CONFIRM": {
+        "TITLE": "Är du säker?",
+        "SUBTITLE": "Är du säker på att du vill genomföra denna åtgärd?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Denna åtgärd kan inte ångras",
+        "BUTTON": "Bekräfta",
+        "RELEASE": "Är du säker på att du vill avsäga en ny version av det här projektet?",
+        "TYPES": {
+          "DECISION": "beslutstabell",
+          "DATA_MODEL": "datamodell",
+          "UI": "Gränssnitt",
+          "CONNECTOR": "konnektor",
+          "FORM": "Formulär",
+          "PROCESS": "Process",
+          "FILE": "fil",
+          "SCRIPT": "skript",
+          "TRIGGER": "Utlösare",
+          "MODEL": "Innehållsmodell",
+          "CUSTOM-FORM-WIDGET": "Widgetform"
+        },
+        "DELETE": {
+          "PROJECT": "Är du säker på att du vill radera det här projektet?",
+          "DATA_MODEL": "Är du säker på att du vill radera det här dataobjektet?"
+        },
+        "SAVE": {
+          "PROCESS": "Är du säker på att du vill spara den här processen?",
+          "DATA_MODEL": "Är du säker på att du vill spara det här dataobjektet?",
+          "EMAIL_TEMPLATE": "Vill du verkligen skriva över e-postmallen?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Vill du verkligen kopiera detta dataobjekt?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Är du säker på att du vill ladda ner svg-bilden av denna process?",
+          "DATA_MODEL": "Är du säker på att du vill ladda ner det här dataobjeketet?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Redigera",
+      "DELETE": "Radera",
+      "RELEASE": "Version",
+      "COLLABORATORS": "Medarbetare",
+      "SEE_RELEASES": "Visa versioner",
+      "LOG_HISTORY": "Logghistorik",
+      "DOWNLOAD": "Ladda ner",
+      "SAVE_AS": "Spara som",
+      "EDITORS_MENU": "Meny Editor",
+      "MORE_MENU": "Meny Mer"
+    },
+    "SETTINGS": {
+      "HEADER": "Programinställningar"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Ändra användare",
+        "NOT_VALID_JSON": "Ogiltigt JSON-objekt",
+        "NOT_VALID_HTML": "Ogiltigt HTML-objekt",
+        "NOT_VALID_SCHEMA": "JSON-objektet matchar inte schemat"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Namn",
+      "DESCRIPTION": "Beskrivning",
+      "TITLE": "Programtitel"
+    },
+    "THEME": {
+      "LIGHT": "Ljustema",
+      "DARK": "Mörkt tema"
+    }
+  }
+}

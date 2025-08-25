@@ -1,0 +1,14 @@
+.ama-about-container {
+    padding: 16px;
+    height: 100%;
+}
+
+.ama-environment-info-small .adf-environment-info
+.mat-accordion .mat-expansion-panel .mat-expansion-panel-header {
+    display: table;
+}
+
+.ama-environment-info-large .adf-environment-info
+.mat-accordion .mat-expansion-panel .mat-expansion-panel-header {
+    display: flex;
+}

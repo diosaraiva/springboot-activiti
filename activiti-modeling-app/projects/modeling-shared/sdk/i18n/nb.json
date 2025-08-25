@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "Validere",
+      "RELEASE": "Versjon som skal utgis",
+      "SAVE_AS": "Lagre som",
+      "SAVE_AS_ICON": "Lagre som ikon",
+      "DOWNLOAD": "Last ned prosjekt",
+      "VIEW_RELEASES": "Vis utgivelser",
+      "VERSION": "Versjon",
+      "UNSAVED_DIALOG_TITLE": "Ulagrede modeller",
+      "UNSAVED_VALIDATE_MESSAGE": "Det er ulagrede endringer i noen av de åpne modellene. Du må lagre disse før validering",
+      "UNSAVED_RELEASE_MESSAGE": "Det er ulagrede endringer i noen av de åpne modellene. DU må lagre disse før lansering",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "Det er ulagrede endringer i noen av de åpne modellene. De må lagres før du går tilbake til dashbordet"
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "Er du sikker på at du vil lagre denne {{ modelType }}?",
+        "CONFIRM_DELETE_MODEL": "Er du sikker på at du vil slette denne {{ modelType }}?",
+        "CONFIRM_DOWNLOAD_MODEL": "Er du sikker på at du vil laste ned denne {{ modelType }}?",
+        "CONFIRM_SAVE_AS_MODEL": "Er du sikker på at du vil kopiere denne {{ modelType }}?",
+        "INVALID_MODEL": "{{ modelType }} inneholder valideringsfeil.",
+        "VALID_MODEL": "{{ modelType }} er gyldig"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "Innlimte verdier må følge dette mønsteret"
+    },
+    "ALL": "Alle",
+    "VALUE": "Verdi",
+    "EXPRESSION": "Uttrykk",
+    "TYPE": "Type",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "Ja",
+      "NO": "Nei",
+      "DISPLAY_NAME": "Visningsnavn",
+      "DISPLAY_NAME_AVAILABILITY": "Tilgjengelig i nettapplikasjonen",
+      "ENTER_DISPLAY_NAME": "Skriv inn visningsnavn",
+      "DISPLAY_NAME_TOOLTIP": "Visningsnavnet brukes i nettapplikasjonen, for eksempel som kolonnenavn i oppgavelisten, i prosesslisten og i API."
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "Et navn er påkrevd",
+        "EMPTY_TYPE": "Et type er påkrevd",
+        "EMPTY_DISPLAY_NAME": "Et visningsnavn er påkrevd",
+        "INVALID_NAME": "Ugyldig variabelnavn",
+        "VARIABLE_NAME_TOOLTIP": "Navnet må begynne med en bokstav og kan kun inneholde alfanumeriske tegn og understrekingstegn",
+        "NAME_ALREADY_EXISTS": "Variabelnavn må være unike",
+        "FILE_ALREADY_EXISTS": "Filen finnes alt"
+      },
+      "TABS": {
+        "VIEWER": "Egenskapsvisning",
+        "JSON_EDITOR": "JSON-redigering"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Navn",
+        "COLUMN_TYPE": "Type",
+        "COLUMN_REQUIRED": "Påkrevd",
+        "COLUMN_VALUE": "Verdi",
+        "NO_PROPERTIES": "Velg eller opprett en variabel for å vise egenskapene dens",
+        "CLEAR": "Fjern",
+        "ANALYTICS": "Analyser"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "Parameter",
+      "VALUE": "Verdi",
+      "PROCESS_VARIABLE": "Prosessvariabel",
+      "SWITCH_VAR_VAL": "Aktiver/deaktiver variabel/verdi",
+      "NO_PROCESS_PROPERTIES": "Ingen prosessegenskaper",
+      "NO_PAYLOAD": "Meldingen har ingen nyttelast. Legg til en nyttelast i meldingens kasthendelse.",
+      "CLEAR_ASSIGNMENT": "Fjern tilordning",
+      "MAPPING_TYPE": "Tilordningstype",
+      "MAP_VARIABLES": "Tilordne variabler",
+      "MAP_NO_VARIABLE": "Ikke tilordne variabler",
+      "MAP_ALL": "Tilordne alle inndata-/utdata-variabler",
+      "MAP_ALL_INPUTS": "Tilordne alle inndatavariabler",
+      "MAP_ALL_OUTPUTS": "Tilordne alle utdatavariabler",
+      "NONE": "Ingen",
+      "NOT_EDITABLE": "Dette er et systemparameter. Systemparametere kan ikke redigeres."
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "Prosessmeldinger",
+      "ERRORS": {
+        "EMPTY_NAME": "Et navn er påkrevd",
+        "NAME_ALREADY_EXISTS": "Meldingsnavn må være unike"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Navn",
+        "COLUMN_ID": "ID",
+        "NO_MESSAGES": "Velg eller opprett en melding for å vise egenskapene dens"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "Prosessfeil",
+      "ERRORS": {
+        "EMPTY_NAME": "Et navn er påkrevd",
+        "EMPTY_CODE": "En feilkode er påkrevd",
+        "NAME_ALREADY_EXISTS": "Prosessfeilnavn må være unike"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Feilnavn",
+        "COLUMN_CODE": "Feilkode",
+        "COLUMN_ID": "Feil-ID",
+        "NO_PROCESS_ERRORS": "Velg eller opprett en prosessfeil for å vise egenskapene dens"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "Rediger variabeltilordning",
+      "SELECTOR_TITLE": "Velg typen variabeltilordning du vil redigere",
+      "INPUT_MAPPING": "Tilordning av inndata",
+      "OUTPUT_MAPPING": "Tilordning av utdata",
+      "PROCESS_VARIABLE": "Prosessvariabel",
+      "INPUT_PARAMETER": "Inndataparameter",
+      "OUTPUT_PARAMETER": "Utdataparameter",
+      "VALUE_MAPPING": "Verdi",
+      "EXPRESSION_MAPPING": "Uttrykk",
+      "NONE": "Ingen",
+      "TYPE": "Type",
+      "WRONG_OUTPUT_MAPPING": "Utgangsmappingen er ikke korrekt. Merk at alle mappinger kobler et begrep til en variabel"
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "Lagre som",
+      "FIELD_PROPERTIES": {
+        "NAME": "Navn",
+        "DESCRIPTION": "Beskrivelse"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "Rediger i dialog",
+      "EXPRESSION_EDITOR": "Uttrykksredigering",
+      "NO_BRACKETS_HINT": "Hele uttrykket i denne redigeringen vil bli lagret inne i klemmeparanteser (${...}), slik at du slipper å skrive dem inn",
+      "JUEL_EXPRESSION_SIMULATOR": "JUEL-uttrykkssimulator",
+      "TEST": "Test",
+      "TEST_DISABLED_TOOLTIP": "Legg en variabel til testen før du kjører den",
+      "TEST_ENABLED_TOOLTIP": "Test uttrykket ved hjelp av verdiene oppgitt for variablene",
+      "OPEN_TESTER": "Åpne tester",
+      "CLOSE_TESTER": "Lukk tester",
+      "SET_VARIABLES_VALUES": "Angi variabelens verdier",
+      "SET_VARIABLES_VALUES_TOOLTIP": "Velg en variabel for å angi dens verdi i testen",
+      "DELETE_VARIABLE_FROM_TEST": "Slett variabel fra test"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "Søk"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "Start-hendelse",
+        "PROCESS": "Prosess",
+        "SERVICE_TASK": "Serviceoppgave",
+        "CALLED_ELEMENT": "Anropt element",
+        "SCRIPT_TASK": "Skriptoppgave",
+        "DECISION_TABLE": "Beslutningstabell",
+        "USER_TASK": "Brukeroppgaver",
+        "NONE": "Ingen",
+        "EVENT": "Hendelse",
+        "EMAIL_SERVICE_TASK": "Serviceoppgave for e-post",
+        "DOCGEN_SERVICE": "Docgen-tjenesteoppgave",
+        "PARTICIPANT": "Prosess",
+        "FORM_FIELDS": "Skjemafelt",
+        "FORM_VARIABLES": "Skjemavariabler",
+        "CONTENT_SERVICE": "Innholdstjeneste"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "Variabel",
+        "PROCESS_VARIABLE_TOOLTIP": "Prosessvariabel for {{processName}}",
+        "NONE_VARIABLE_TOOLTIP": "Velg 'Ingen' for å fjerne valget",
+        "OUTPUT_VARIABLE_TOOLTIP": "Utdata for {{taskType}} {{taskName}}",
+        "PROPERTIES": "Egenskaper"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "Variabler",
+        "EXPRESSION": "Uttrykk",
+        "OPEN_EXPRESSION_EDITOR": "Åpne dialogen for uttrykksredigering",
+        "SWITCH_TO_VARIABLES": "Bytt til variabelvelger",
+        "CLEAR_SELECTION": "Fjern valg"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "Primitiver",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "Egendefinerte inndata",
+      "DATE": {
+        "CURRENT_DATE": "I dag",
+        "CLEAR_BUTTON": "Fjern"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "Nå",
+        "CLEAR_BUTTON": "Fjern"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "Verdi som skal legges til i matrisen",
+        "ADD": "Legg til",
+        "EDIT_VALUE": "Rediger verdi",
+        "EDIT": "Rediger"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Inndata er påkrevd",
+        "INVALID_FORMAT": "Ugyldig inndataformat: {{error}}",
+        "INVALID_MIN_LENGTH": "Ugyldig minimumslengde: {{error}}",
+        "INVALID_MAX_LENGTH": "Ugyldig maksimumslengde: {{error}}",
+        "INVALID_MIN_VALUE": "Ugyldig verdi. Den skal være større enn eller lik: {{error}}",
+        "INVALID_MAX_VALUE": "Ugyldig verdi. Den skal være mindre enn eller lik: {{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "Ugyldig verdi. Den skal være et multiplum av: {{error}}",
+        "GENERIC_ERROR": "Ugyldig verdi: {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "Utvid",
+      "COLLAPSE": "Skjul",
+      "NAME": "Navn",
+      "INVALID_NAME": "Ugyldig navn",
+      "REQUIRED": "Påkrevd",
+      "REFERENCE": "Referanse",
+      "TITLE": "Tittel",
+      "ADD_PROPERTY": "Legg til egenskap",
+      "ADD_CHILD_ALL_OF": "Legg underordnet til alle",
+      "ADD_CHILD_ANY_OF": "Legg underordnet til hvilke som helst av",
+      "ADD_CHILD_ONE_OF": "Legg underordnet til én av",
+      "ADVANCED_SETTINGS": "Avanserte innstillinger",
+      "REMOVE_NODE": "Fjern node",
+      "ADD_DEFINITION": "Legg til definisjon",
+      "BASIC_ATTRIBUTES": "Grunnleggende attributter",
+      "CUSTOM_ATTRIBUTES": "Egendefinerte attributter",
+      "ADD_CUSTOM_ATTRIBUTE": "Legg til egendefinert attributt",
+      "DELETE_CUSTOM_ATTRIBUTE": "Slett egendefinert attributt",
+      "ATTRIBUTE_NAME": "Attributtnavn",
+      "ATTRIBUTE_VALUE": "Attributtverdi",
+      "CONFIRM_ATTRIBUTE_ADDITION": "Bekreft tillegg av attributt",
+      "CANCEL_ATTRIBUTE_ADDITION": "Avbryt tillegg av attributt",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "JSON-skjematyper",
+        "ENUMERATION": "Oppregning",
+        "MODELING_APP": "Modelleringsapp",
+        "COMPOSITION": "Sammensetning"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "Beskrivelse",
+        "MAX_ITEMS": "Maks elementer",
+        "MIN_ITEMS": "Min. elementer",
+        "UNIQUE_ITEMS": "Unike elementer",
+        "ENUMERATED_VALUES": "Oppregnede verdier",
+        "MAXIMUM": "Maksimum",
+        "MINIMUM": "Minimum",
+        "EXCLUSIVE_MAXIMUM": "Eksklusivt maksimum",
+        "EXCLUSIVE_MINIMUM": "Eksklusivt minimum",
+        "MAX_PROPERTIES": "Maks egenskaper",
+        "MIN_PROPERTIES": "Min. egenskaper",
+        "MAX_LENGTH": "Maks lengde",
+        "MIN_LENGTH": "Min lengde",
+        "PATTERN": "Mønster",
+        "FORMAT": "Format",
+        "ADDITIONAL_PROPERTIES": "Tilleggsegenskaper"
+      },
+      "PREVIEW": "Forhåndsvis"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "Opprett egendefinert modell",
+      "CREATE_MODEL_DESCRIPTION": "Opprett en egendefinert modell og tilordne den til enheten",
+      "EDIT_MODEL": "Rediger egendefinert modell",
+      "EDIT_MODEL_DESCRIPTION": "Rediger den tidligere opprettede egendefinerte modellen for enheten"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "Veksle til foretrukket"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "التطبيق",
+    "BACKEND_SERVICE": "Backend service",
+    "MORE_ACTIONS": "إجراءات أكثر",
+    "VALIDATE_PROJECT": "التحقق من صحة المشروع",
+    "DOWNLOAD_PROJECT": "تنزيل المشروع",
+    "ADD_ACTION": "إضافة إجراء جديد",
+    "ADD_EVENT": "إضافة حدث جديد",
+    "HEADER": {
+      "APP_NAME": "تطبيق التصميم",
+      "SIGN_OUT": "تسجيل الخروج",
+      "SETTINGS": "الإعدادات",
+      "ABOUT": "حول",
+      "LANGUAGE": "اللغة",
+      "SEARCH": "بحث",
+      "APPEARANCE": "مظهر"
+    },
+    "DIALOGS": {
+      "CANCEL": "إلغاء",
+      "SAVE": "حفظ",
+      "CREATE": "إنشاء",
+      "UPDATE": "تحديث",
+      "CLOSE": "إغلاق",
+      "DONT_SAVE": "عدم الحفظ",
+      "UNSAVED_PAGE_TITLE": "هل تريد حفظ التغييرات التي أجريت على",
+      "EDIT_PROPERTIES": "تحرير متغيرات العملية",
+      "EDIT_PROCESS_MESSAGES": "تحرير الرسائل",
+      "EDIT_PROCESS_ERRORS": "تحرير الأخطاء",
+      "EDIT_FORM_PROPERTIES": "تحرير متغيرات النموذج",
+      "EDIT_VISIBILITY_CONDITIONS": "تحرير شروط الرؤية",
+      "ERROR": {
+        "TITLE": "هل تريد حفظه بأي حال؟",
+        "SUBTITLE": "أخطاء التحقق من الصحة:",
+        "NAME_DOESNT_MATCH_PATTERN": "الاسم لا يطابق النمط التالي",
+        "GENERAL_NAME_VALIDATION": "يجب أن يكون الاسم بأحرف صغيرة وبين 1 و26 طولاً. يُسمح بالأحرف الأبجدية الرقمية والشرطات، لكن يجب أن يبدأ الاسم بحرف وينتهي بحرف أبجدي رقمي.",
+        "PROCESS_NAME_VALIDATION": "يجب أن يتراوح طول الاسم بين 1 و 26 حرفًا ولا يمكن أن يبدأ بمسافة فارغة"
+      },
+      "CONFIRM": {
+        "TITLE": "هل أنت متأكد؟",
+        "SUBTITLE": "هل أنت متأكد أنك تريد تنفيذ هذا الإجراء؟",
+        "EMAIL_TEMPLATE_DESCRIPTION": "لا يمكن التراجع عن هذا الإجراء",
+        "BUTTON": "تأكيد",
+        "RELEASE": "هل أنت متأكد أنك تريد  إصدار الإصدار الجديد من هذا المشروع؟",
+        "TYPES": {
+          "DECISION": "جدول القرارات",
+          "DATA_MODEL": "نموذج البيانات",
+          "UI": "UI",
+          "CONNECTOR": "الموصل",
+          "FORM": "نموذج",
+          "PROCESS": "العملية",
+          "FILE": "الملف",
+          "SCRIPT": "البرنامج النصي",
+          "TRIGGER": "المشغل",
+          "MODEL": "نموذج المحتوى",
+          "CUSTOM-FORM-WIDGET": "عنصر واجهة النموذج"
+        },
+        "DELETE": {
+          "PROJECT": "هل أنت متأكد أنك تريد حذف هذا المشروع؟",
+          "DATA_MODEL": "هل أنت متأكد أنك تريد حذف كائن البيانات هذا؟"
+        },
+        "SAVE": {
+          "PROCESS": "هل أنت متأكد أنك تريد حفظ هذه العملية؟",
+          "DATA_MODEL": "هل أنت متأكد أنك تريد حفظ كائن البيانات هذا؟",
+          "EMAIL_TEMPLATE": "هل أنت متأكد أنك تريد الكتابة فوق قالب البريد الإلكتروني؟"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "هل أنت متأكد أنك تريد نسخ كائن البيانات هذا؟"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "هل تريد بالتأكيد تنزيل صورة svg لهذه العملية؟",
+          "DATA_MODEL": "هل أنت متأكد أنك تريد حفظ كائن البيانات هذا؟"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "تحرير",
+      "DELETE": "حذف",
+      "RELEASE": "إصدار",
+      "COLLABORATORS": "المتعاونون",
+      "SEE_RELEASES": "عرض الإصدارات",
+      "LOG_HISTORY": "سجل التاريخ",
+      "DOWNLOAD": "تنزيل",
+      "SAVE_AS": "حفظ باسم",
+      "EDITORS_MENU": "قائمة المحررين",
+      "MORE_MENU": "قائمة المزيد"
+    },
+    "SETTINGS": {
+      "HEADER": "إعدادات التطبيق"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "تغيير المستخدم",
+        "NOT_VALID_JSON": "كائن JSON غير صحيح",
+        "NOT_VALID_HTML": "كائن HTML غير صالح",
+        "NOT_VALID_SCHEMA": "كائن JSON لا يطابق المخطط"
+      }
+    },
+    "EDITOR": {
+      "NAME": "الاسم",
+      "DESCRIPTION": "الوصف",
+      "TITLE": "عنوان التطبيق"
+    },
+    "THEME": {
+      "LIGHT": "نسق فاتح",
+      "DARK": "نسق داكن"
+    }
+  }
+}

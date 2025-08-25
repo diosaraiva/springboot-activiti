@@ -1,0 +1,22 @@
+.ama-called-element-dialog-content {
+    height: 230px;
+    .mat-tab-header {
+        margin-bottom: 30px;
+    }
+}
+
+.ama-called-element-dialog-expression-input {
+    width: 100%;
+    .mat-form-field-infix {
+        border-top: 0;
+    }
+}
+
+.ama-called-element-dialog-expression {
+    display: block;
+    height: 150px;
+
+    .ama-expression-code-editor {
+        height: 120px;
+    }
+}

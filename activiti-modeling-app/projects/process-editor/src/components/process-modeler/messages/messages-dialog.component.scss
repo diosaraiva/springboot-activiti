@@ -1,0 +1,80 @@
+.ama-message-dialog {
+    display: flex;
+
+    .ama-message-table {
+        min-height: 90px;
+        margin-top: 10px;
+        width: 600px;
+
+        .mat-table {
+            border: 1px solid var(--theme-border-color);
+            height: 300px;
+            overflow: scroll;
+        }
+
+        .mat-header-row {
+            top: 0;
+            position: sticky;
+            background-color: var(--theme-card-background-color);
+        }
+
+        .mat-row {
+            cursor: pointer;
+
+            &.active {
+                background-color: var(--theme-border-color);
+
+                .mat-cell {
+                    color: var(--theme-text-fg-color);
+                }
+            }
+
+            &:last-of-type {
+                border-bottom: 0;
+            }
+        }
+
+        .ama-add-btn {
+            float: right;
+            padding: 0 10px;
+            min-width: 30px;
+            margin-top: 10px;
+        }
+
+        .mat-column-delete {
+            max-width: 30px;
+        }
+
+        .mat-column-id {
+            max-width: 150px;
+        }
+    }
+
+    .ama-message-form {
+        text-align: left;
+        width: 300px;
+        margin-left: 40px;
+
+        .adf-messages-form-label {
+            margin-bottom: 5px;
+        }
+
+        .mat-form-field {
+            display: block;
+        }
+    }
+
+    .ama-no-messages {
+        color:  var(--theme-text-color);
+        width: 300px;
+        font-size: 16px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .ama-error-message.mat-error {
+        font-size: 12px;
+        margin-left: 0;
+        margin-top: -18px;
+    }
+}

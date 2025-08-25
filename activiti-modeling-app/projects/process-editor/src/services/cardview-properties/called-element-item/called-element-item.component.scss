@@ -1,0 +1,37 @@
+.ama-called-element-block {
+    .mat-form-field {
+        width: 100%;
+    }
+
+    .adf-card-view-array-item-container {
+        margin-bottom: 15px;
+    }
+
+    .adf-property-label {
+        margin-bottom: 5px;
+    }
+
+    .mat-row,
+    .mat-header-row {
+        padding: 0 8px;
+    }
+
+    .ama-action-form-field-error {
+        color: var(--theme-warn-color);
+
+        .adf-property-label,
+        .mat-select-arrow {
+            color: var(--theme-warn-color);
+        }
+        .mat-form-field-ripple,
+        .mat-form-field-underline {
+            background-color: var(--theme-warn-color);
+        }
+    }
+
+    &-spinner {
+        mat-spinner {
+            margin: auto;
+        }
+    }
+}

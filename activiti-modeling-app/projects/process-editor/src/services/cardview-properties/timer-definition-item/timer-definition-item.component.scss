@@ -1,0 +1,36 @@
+.ama-timer-definition-block {
+
+    .mat-form-field {
+        width: 100%;
+    }
+
+    .mat-input-element {
+        margin-top: 7px;
+    }
+}
+
+.ama-timer-duration-time {
+    display: flex;
+    justify-content: space-between;
+
+    .mat-form-field {
+        width: 31%;
+    }
+}
+
+.ama-timer-duration-date {
+    display: flex;
+    justify-content: space-between;
+
+    .mat-form-field {
+        width: 48%;
+    }
+}
+
+.ama-timer-date {
+    .mat-datetimepicker-toggle {
+        position: absolute;
+        left: -25px;
+        top: 7px;
+    }
+}

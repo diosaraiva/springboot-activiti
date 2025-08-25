@@ -1,0 +1,227 @@
+<div class="ama-properties-viewer">
+
+    <div class="ama-properties-viewer__flex-row">
+        <mat-form-field class="ama-variables-filter">
+            <mat-label>{{filterPlaceholder | translate}}</mat-label>
+            <input [(ngModel)]="filterValue" matInput autocomplete="false" data-automation-id="variable-filter" (ngModelChange)="applyFilter($event)">
+            <button mat-button *ngIf="filterValue" matSuffix mat-icon-button attr.aria-label="{{'SDK.VARIABLES_EDITOR.TABLE.CLEAR' | translate}}" (click)="clearFilterInput()"
+                data-automation-id="variable-clear-filter">
+                <mat-icon>close</mat-icon>
+            </button>
+        </mat-form-field>
+        <button mat-raised-button class="ama-add-btn" color="primary" (click)="addRow()" [disabled]="error"
+            data-automation-id="add-variable">
+            <mat-icon>add</mat-icon>
+        </button>
+    </div>
+
+    <mat-table [dataSource]="dataSource" matSort class="ama-properties-viewer__table">
+        <ng-container matColumnDef="name">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'SDK.VARIABLES_EDITOR.TABLE.COLUMN_NAME' | translate
+                }}
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element" [attr.data-automation-id]="'variable-name-cell-' + element.name"
+                class="ama-ellipsis-cell">
+                {{element.name}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="type">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'SDK.VARIABLES_EDITOR.TABLE.COLUMN_TYPE' | translate
+                }}
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element" [attr.data-automation-id]="'variable-type-cell-' + element.type">
+                {{element.type}}</mat-cell>
+        </ng-container>
+
+        <ng-container *ngIf="requiredCheckbox" matColumnDef="required">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'SDK.VARIABLES_EDITOR.TABLE.COLUMN_REQUIRED' |
+                translate }}
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element"
+                [attr.data-automation-id]="'variable-required-cell-' + element.required">
+                {{element.required}}
+            </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="displayName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'SDK.DISPLAY_NAME_VISIBILITY.DISPLAY_NAME' |
+                translate }}
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element" class="ama-ellipsis-cell">
+                {{element.displayName}}
+            </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="value">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'SDK.VARIABLES_EDITOR.TABLE.COLUMN_VALUE' | translate
+                }}
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element; index as i" [attr.data-automation-id]="'variable-value-cell-' + i"
+                class="ama-ellipsis-cell">
+                <div class="ama-properties-viewer__flex-row">
+                    <div class="ama-properties-viewer__table__icon-wrapper">
+                        <mat-icon
+                            *ngIf="getValueErrorMessage(element.value, element.type) as error"
+                            [matTooltip]="error | translate"
+                            class="ama-properties-viewer__table__icon"
+                            color="warn">
+                            error
+                        </mat-icon>
+                    </div>
+                    <p class="ama-properties-viewer__text-ellipsis">{{ element.value | variablevalue }}</p>
+                </div>
+            </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="delete">
+            <mat-header-cell *matHeaderCellDef></mat-header-cell>
+            <mat-cell *matCellDef="let element, let i = index">
+                <mat-icon (click)="deleteRow(element.id)" color="primary" class="delete-btn"
+                    data-automation-id="delete-variable">
+                    delete
+                </mat-icon>
+            </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns; let i = index;" (click)="editRow(row, i)"
+            [class.active]="i == position" [attr.data-automation-id]="'variable-row-' + i + '-' + row.id"></mat-row>
+    </mat-table>
+</div>
+
+<ng-container *ngIf="showForm; else noProjectsTemplate">
+    <div class="ama-properties-form {{!allowExpressions ? 'ama-space-top' : ''}}">
+        <mat-form-field floatLabel="never"
+            [ngClass]="{'mat-form-field-has-error':(form.name.length && !isValid(form.name)) || (!form.name.length)}">
+            <input
+                matInput
+                placeholder="Name"
+                [(ngModel)]="form.name"
+                (keyup)="saveChanges()"
+                data-automation-id="variable-name">
+            <p class="mat-error" *ngIf="!form.name.length">{{ 'SDK.VARIABLES_EDITOR.ERRORS.EMPTY_NAME' | translate }}</p>
+
+            <p class="mat-error" *ngIf="form.name.length && !isValid(form.name)">{{ 'SDK.VARIABLES_EDITOR.ERRORS.INVALID_NAME' |
+                translate }}
+                <mat-icon class="ama-variable-name-info-icon" data-automation-id="variable-name-info-icon" color="warn"
+                    [matTooltip]="'SDK.VARIABLES_EDITOR.ERRORS.VARIABLE_NAME_TOOLTIP' | translate">info</mat-icon>
+            </p>
+        </mat-form-field>
+        <div class="ama-variable-type-required-row">
+            <modelingsdk-property-type-selector-smart
+                [attr.data-automation-id]="'variable-type-selector'"
+                [automationId]="'variable-type'"
+                [onlyPrimitiveTypes]="true"
+                [(ngModel)]="form"
+                (change)="onTypeChange()"
+                [required]="true">
+            </modelingsdk-property-type-selector-smart>
+            <mat-checkbox *ngIf="requiredCheckbox && allowExpressions" [(ngModel)]="form.required" (change)="saveChanges()" color="primary"
+                data-automation-id="variable-required" class="ama-variable-required">
+                {{ 'SDK.VARIABLES_EDITOR.TABLE.COLUMN_REQUIRED' | translate }}
+            </mat-checkbox>
+        </div>
+        <div class="ama-variable-analytics-row" *ngIf="allowAnalytics && showAnalyticsInput">
+            <mat-checkbox
+                [(ngModel)]="form.analytics"
+                (change)="saveChanges()"
+                color="primary"
+                data-automation-id="variable-analytics"
+                class="ama-variable-analytics">
+                {{ 'SDK.VARIABLES_EDITOR.TABLE.ANALYTICS' | translate }}
+            </mat-checkbox>
+        </div>
+
+        <div *ngIf="['string', 'date', 'datetime', 'integer', 'boolean'].includes(form.type) && allowExpressions">
+            <div class="ama-display-name-tooltip">
+                <span class="adf-property-label">{{ 'SDK.DISPLAY_NAME_VISIBILITY.DISPLAY_NAME_AVAILABILITY' | translate }}</span>
+                <mat-icon matTooltip="{{ 'SDK.DISPLAY_NAME_VISIBILITY.DISPLAY_NAME_TOOLTIP' | translate }}">info_outline</mat-icon>
+            </div>
+
+            <mat-button-toggle-group class='ama-display-name-toggle' (change)="showDisplayName($event.value)">
+                <mat-button-toggle data-automation-id='ama-display-name-visible-toggle'
+                    [value]="true"
+                    [checked]="form?.display">
+                {{ 'SDK.DISPLAY_NAME_VISIBILITY.YES' | translate }}
+                </mat-button-toggle>
+
+                <mat-button-toggle
+                    [value]="false"
+                    [checked]="!form?.display">
+                {{ 'SDK.DISPLAY_NAME_VISIBILITY.NO' | translate }}
+                </mat-button-toggle>
+            </mat-button-toggle-group>
+
+            <div *ngIf="form.display" class="ama-visible-column">
+                <mat-form-field [ngClass]="{'mat-form-field-has-error':!form.displayName}">
+                    <mat-label>{{ 'SDK.DISPLAY_NAME_VISIBILITY.ENTER_DISPLAY_NAME' | translate }}</mat-label>
+                    <input matInput
+                        [(ngModel)]="form.displayName"
+                        (keyup)="saveChanges()"
+                        data-automation-id="ama-display-name-input">
+                    <p
+                        class="mat-error"
+                        *ngIf="!form.displayName"
+                        data-automation-id="ama-display-name-input-error">
+                        {{ 'SDK.VARIABLES_EDITOR.ERRORS.EMPTY_DISPLAY_NAME' | translate }}
+                    </p>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <mat-tab-group *ngIf="allowExpressions && form.type" [selectedIndex]="tabIndex" class="ama-variable-tab--auto-height">
+            <mat-tab label="{{'SDK.MAPPING_DIALOG.VALUE_MAPPING'| translate}}">
+                <modelingsdk-value-type-input #valueTypeInput
+                    (onChange)="updateVariableValue($event)"
+                    [ngModel]="form.value"
+                    [index]="position"
+                    [type]="form.type"
+                    [model]="form.model"
+                    [autocompletionContext]="autocompletionContext"
+                    [extendedProperties]="extendedProperties">
+                </modelingsdk-value-type-input>
+            </mat-tab>
+            <mat-tab label="{{'SDK.MAPPING_DIALOG.EXPRESSION_MAPPING'| translate}}">
+                <modelingsdk-expression-code-editor
+                    [attr.data-automation-id]="'variable-value'"
+                    [expression]="expression"
+                    (expressionChange)="updateVariableExpression($event)"
+                    [variables]="autocompletionContext"
+                    [removeEnclosingBrackets]="false"
+                    [enableDialogEditor]="true"
+                    [enableInlineEditor]="true"
+                    [removeLineNumbers]="true"
+                    [lineWrapping]="false"
+                    [nonBracketedOutput]="false">
+                </modelingsdk-expression-code-editor>
+            </mat-tab>
+        </mat-tab-group>
+
+        <modelingsdk-value-type-input #valueTypeInput
+            *ngIf="!allowExpressions && form.type"
+            (onChange)="updateVariableValue($event)"
+            [(ngModel)]="form.value"
+            [index]="position"
+            [type]="form.type"
+            [model]="form.model"
+            [autocompletionContext]="autocompletionContext"
+            [extendedProperties]="extendedProperties">
+        </modelingsdk-value-type-input>
+
+        <mat-checkbox *ngIf="requiredCheckbox && !allowExpressions" [(ngModel)]="form.required" (change)="saveChanges()" color="primary"
+            data-automation-id="variable-required" class="ama-variable-required">
+            {{ 'SDK.VARIABLES_EDITOR.TABLE.COLUMN_REQUIRED' | translate }}
+        </mat-checkbox>
+
+        <div class="ama-properties-viewer-error">
+            <div class="ama-properties-viewer-error__info" *ngIf="currentValueErrorMessage">
+                <mat-icon class="ama-properties-viewer-error__icon" color="warn">error</mat-icon>
+                <p class="ama-properties-viewer-error__text">{{ currentValueErrorMessage | translate  }}</p>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+<ng-template #noProjectsTemplate>
+    <p class="ama-no-properties">{{'SDK.VARIABLES_EDITOR.TABLE.NO_PROPERTIES' | translate}}</p>
+</ng-template>

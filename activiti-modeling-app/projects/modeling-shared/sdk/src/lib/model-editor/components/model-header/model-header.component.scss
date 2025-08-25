@@ -1,0 +1,15 @@
+.ama-model-header {
+    .adf-toolbar {
+        .mat-toolbar-single-row {
+            border: none;
+            height: 42px;
+        }
+    }
+
+    &-toolbar {
+        &-standard-buttons {
+            padding-right: 8px;
+        }
+    }
+}
+

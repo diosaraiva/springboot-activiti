@@ -1,0 +1,270 @@
+{
+  "SDK": {
+    "PROJECT_HEADER": {
+      "VALIDATE": "Ověřit",
+      "RELEASE": "Vzdát se",
+      "SAVE_AS": "Uložit jako",
+      "SAVE_AS_ICON": "Uložit jako ikonu",
+      "DOWNLOAD": "Stáhnout projekt",
+      "VIEW_RELEASES": "Zobrazit verze",
+      "VERSION": "Verze",
+      "UNSAVED_DIALOG_TITLE": "Neuložené modely",
+      "UNSAVED_VALIDATE_MESSAGE": "V některých otevřených modelech jsou neuložené změny, před validací je uložte.",
+      "UNSAVED_RELEASE_MESSAGE": "V některých otevřených modelech jsou neuložené změny, před vydáním je uložte.",
+      "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "V některých otevřených modelech jsou neuložené změny, před návratem zpět na řídicí panel je uložte."
+    },
+    "MODEL_EDITOR": {
+      "DIALOG": {
+        "CONFIRM_INVALID_MODEL_SAVE": "Opravdu chcete uložit tento {{ modelType }}?",
+        "CONFIRM_DELETE_MODEL": "Opravdu chcete odstranit tento {{ modelType }}?",
+        "CONFIRM_DOWNLOAD_MODEL": "Opravdu chcete stáhnout tento {{ modelType }}?",
+        "CONFIRM_SAVE_AS_MODEL": "Opravdu chcete kopírovat tento {{ modelType }}?",
+        "INVALID_MODEL": "{{ modelType }} obsahuje chyby ověření.",
+        "VALID_MODEL": "{{ modelType }} je platný"
+      }
+    },
+    "SNACKBAR": {
+      "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "Vložené hodnoty musí dodržovat tento vzorec"
+    },
+    "ALL": "Vše",
+    "VALUE": "Hodnota",
+    "EXPRESSION": "Výraz",
+    "TYPE": "Typ",
+    "DISPLAY_NAME_VISIBILITY": {
+      "YES": "Ano",
+      "NO": "Ne",
+      "DISPLAY_NAME": "Zobrazované jméno",
+      "DISPLAY_NAME_AVAILABILITY": "K dispozici ve webové aplikaci",
+      "ENTER_DISPLAY_NAME": "Zadejte název zobrazení",
+      "DISPLAY_NAME_TOOLTIP": "Název zobrazení se používá ve webové aplikaci, například jako název sloupce v Seznamu úkolů, v Seznamu procesů a v rozhraní API."
+    },
+    "VARIABLES_EDITOR": {
+      "ERRORS": {
+        "EMPTY_NAME": "Název je povinný",
+        "EMPTY_TYPE": "Typ je povinný",
+        "EMPTY_DISPLAY_NAME": "Název zobrazení je povinný",
+        "INVALID_NAME": "Neplatný název proměnné",
+        "VARIABLE_NAME_TOOLTIP": "Název musí začínat písmenem a může obsahovat jen alfanumerické znaky a podtržítko",
+        "NAME_ALREADY_EXISTS": "Názvy proměnných musí být jedinečné",
+        "FILE_ALREADY_EXISTS": "Soubor již existuje"
+      },
+      "TABS": {
+        "VIEWER": "Prohlížeč vlastností",
+        "JSON_EDITOR": "Editor JSON"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Název",
+        "COLUMN_TYPE": "Typ",
+        "COLUMN_REQUIRED": "Povinné",
+        "COLUMN_VALUE": "Hodnota",
+        "NO_PROPERTIES": "Vyberte nebo vytvořte proměnnou, jejíž vlastnosti chcete zobrazit",
+        "CLEAR": "Vymazat",
+        "ANALYTICS": "Analýza"
+      }
+    },
+    "VARIABLE_MAPPING": {
+      "PARAMETER": "Parametr",
+      "VALUE": "Hodnota",
+      "PROCESS_VARIABLE": "Proměnná procesu",
+      "SWITCH_VAR_VAL": "Přepnout proměnnou/hodnotu",
+      "NO_PROCESS_PROPERTIES": "Žádné vlastnosti procesu",
+      "NO_PAYLOAD": "Zpráva nemá žádnou datovou část. Přidejte datovou část do události aktivace zprávy.",
+      "CLEAR_ASSIGNMENT": "Vymazat přiřazení",
+      "MAPPING_TYPE": "Typ mapování",
+      "MAP_VARIABLES": "Mapovat proměnné",
+      "MAP_NO_VARIABLE": "Nemapovat proměnné",
+      "MAP_ALL": "Mapovat všechny vstupní/výstupní proměnné",
+      "MAP_ALL_INPUTS": "Mapovat všechny vstupní proměnné",
+      "MAP_ALL_OUTPUTS": "Mapovat všechny výstupní proměnné",
+      "NONE": "Žádný",
+      "NOT_EDITABLE": "Toto je systémový parametr. Systémové parametry nelze upravit."
+    },
+    "MESSAGES_EDITOR": {
+      "TITLE": "Zpráva procesu",
+      "ERRORS": {
+        "EMPTY_NAME": "Název je povinný",
+        "NAME_ALREADY_EXISTS": "Názvy zpráv musí být jedinečné"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Název",
+        "COLUMN_ID": "ID",
+        "NO_MESSAGES": "Vyberte nebo vytvořte zprávu pro zobrazení jejích vlastností"
+      }
+    },
+    "ERRORS_EDITOR": {
+      "TITLE": "Chyby procesu",
+      "ERRORS": {
+        "EMPTY_NAME": "Název je povinný",
+        "EMPTY_CODE": "Je požadován kód chyby",
+        "NAME_ALREADY_EXISTS": "Názvy chyb procesu musí být jedinečné"
+      },
+      "TABLE": {
+        "COLUMN_NAME": "Název chyby",
+        "COLUMN_CODE": "Kód chyby",
+        "COLUMN_ID": "ID chyby",
+        "NO_PROCESS_ERRORS": "Vyberte nebo vytvořte chybu procesu pro zobrazení jejích vlastností"
+      }
+    },
+    "MAPPING_DIALOG": {
+      "TITLE": "Upravit mapování proměnných",
+      "SELECTOR_TITLE": "Vyberte typ mapování proměnných pro úpravu",
+      "INPUT_MAPPING": "Mapování vstupu",
+      "OUTPUT_MAPPING": "Mapování výstupu",
+      "PROCESS_VARIABLE": "Proměnná procesu",
+      "INPUT_PARAMETER": "Vstupní parametr",
+      "OUTPUT_PARAMETER": "Výstupní parametr",
+      "VALUE_MAPPING": "Hodnota",
+      "EXPRESSION_MAPPING": "Výraz",
+      "NONE": "Žádný",
+      "TYPE": "Typ",
+      "WRONG_OUTPUT_MAPPING": "Mapování výstupu je nesprávné. Ne všechna přidaná mapování mapují výraz na proměnnou."
+    },
+    "SAVE_AS_DIALOG": {
+      "TITLE": "Uložit jako",
+      "FIELD_PROPERTIES": {
+        "NAME": "Název",
+        "DESCRIPTION": "Popis"
+      }
+    },
+    "EXPRESSION_CODE_EDITOR": {
+      "EDIT_IN_DIALOG": "Upravit v dialogu",
+      "EXPRESSION_EDITOR": "Editor výrazů",
+      "NO_BRACKETS_HINT": "Celý výraz v tomto editoru bude uložen uzavřený do složených závorek (${...}), takže je nemusíte zapisovat",
+      "JUEL_EXPRESSION_SIMULATOR": "Simulátor výrazu JUEL",
+      "TEST": "Test",
+      "TEST_DISABLED_TOOLTIP": "Před provedením testu do něj přidejte proměnnou",
+      "TEST_ENABLED_TOOLTIP": "Otestujte výraz pomocí hodnot zadaných pro proměnné",
+      "OPEN_TESTER": "Otevřít testovací nástroj",
+      "CLOSE_TESTER": "Zavřít testovací nástroj",
+      "SET_VARIABLES_VALUES": "Nastavit hodnoty proměnné",
+      "SET_VARIABLES_VALUES_TOOLTIP": "Vyberte proměnnou, pro kterou chcete nastavit hodnotu v testu",
+      "DELETE_VARIABLE_FROM_TEST": "Odstranit proměnnou z testu"
+    },
+    "VARIABLES_SELECTORS": {
+      "ACTIONS": {
+        "SEARCH": "Hledat"
+      }
+    },
+    "CONDITION": {
+      "TYPES": {
+        "START_EVENT": "Počáteční událost",
+        "PROCESS": "Proces",
+        "SERVICE_TASK": "Servisní úkol",
+        "CALLED_ELEMENT": "Volaný element",
+        "SCRIPT_TASK": "Úkol skriptu",
+        "DECISION_TABLE": "Rozhodovací tabulka",
+        "USER_TASK": "Uživatelský úkol",
+        "NONE": "Žádný",
+        "EVENT": "Událost",
+        "EMAIL_SERVICE_TASK": "Úloha e-mailové služby",
+        "DOCGEN_SERVICE": "Úkol služby Docgen",
+        "PARTICIPANT": "Proces",
+        "FORM_FIELDS": "Pole formulářů",
+        "FORM_VARIABLES": "Proměnné formuláře",
+        "CONTENT_SERVICE": "Služba obsahu"
+      },
+      "TOOLTIP": {
+        "VARIABLE": "Proměnná",
+        "PROCESS_VARIABLE_TOOLTIP": "Proměnná procesu {{processName}}",
+        "NONE_VARIABLE_TOOLTIP": "Výběr vymažete zvolením možnosti ,Žádný‘",
+        "OUTPUT_VARIABLE_TOOLTIP": "Výstup úlohy {{taskType}} {{taskName}}",
+        "PROPERTIES": "Vlastnosti"
+      }
+    },
+    "VARIABLE_EXPRESSION": {
+      "TITLE": {
+        "VARIABLES": "Proměnné",
+        "EXPRESSION": "Výraz",
+        "OPEN_EXPRESSION_EDITOR": "Otevřít dialogové okno editoru výrazů",
+        "SWITCH_TO_VARIABLES": "Přepnout na volič proměnných",
+        "CLEAR_SELECTION": "Vymazat výběr"
+      }
+    },
+    "VARIABLE_TYPE_INPUT": {
+      "PRIMITIVE_PROPERTIES_TYPES": "Primitivy",
+      "CUSTOM_INPUTS_PROPERTIES_TYPES": "Vlastní vstupy",
+      "DATE": {
+        "CURRENT_DATE": "Dnes",
+        "CLEAR_BUTTON": "Vymazat"
+      },
+      "DATE_TIME": {
+        "CURRENT_DATE_TIME": "Teď",
+        "CLEAR_BUTTON": "Vymazat"
+      },
+      "ARRAY_INPUT": {
+        "VALUE_TO_ADD_TO_ARRAY": "Hodnota, která se přidá do pole",
+        "ADD": "Přidat",
+        "EDIT_VALUE": "Upravit hodnotu",
+        "EDIT": "Upravit"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Je požadován vstup",
+        "INVALID_FORMAT": "Neplatný formát vstupu: {{error}}",
+        "INVALID_MIN_LENGTH": "Neplatná minimální délka: {{error}}",
+        "INVALID_MAX_LENGTH": "Neplatná maximální délka: {{error}}",
+        "INVALID_MIN_VALUE": "Neplatná hodnota. Musí být větší než nebo rovna: {{error}}",
+        "INVALID_MAX_VALUE": "Neplatná hodnota. Musí být menší než nebo rovna: {{error}}",
+        "INVALID_MULTIPLE_OF_VALUE": "Neplatná hodnota. Musí být násobkem: {{error}}",
+        "GENERIC_ERROR": "Neplatná hodnota: {{error_1}} - {{error_2}}"
+      }
+    },
+    "JSON_SCHEMA_EDITOR": {
+      "EXPAND": "Rozbalit",
+      "COLLAPSE": "Sbalit",
+      "NAME": "Název",
+      "INVALID_NAME": "Neplatný název",
+      "REQUIRED": "Povinné",
+      "REFERENCE": "Reference",
+      "TITLE": "Označení",
+      "ADD_PROPERTY": "Přidat vlastnost",
+      "ADD_CHILD_ALL_OF": "Přidat podřízený prvek k allOf",
+      "ADD_CHILD_ANY_OF": "Přidat podřízený prvek k anyOf",
+      "ADD_CHILD_ONE_OF": "Přidat podřízený prvek k oneOf",
+      "ADVANCED_SETTINGS": "Pokročilá nastavení",
+      "REMOVE_NODE": "Odebrat uzel",
+      "ADD_DEFINITION": "Přidat definici",
+      "BASIC_ATTRIBUTES": "Základní atributy",
+      "CUSTOM_ATTRIBUTES": "Vlastní atributy",
+      "ADD_CUSTOM_ATTRIBUTE": "Přidat vlastní atribut",
+      "DELETE_CUSTOM_ATTRIBUTE": "Odstranit vlastní atribut",
+      "ATTRIBUTE_NAME": "Název atributu",
+      "ATTRIBUTE_VALUE": "Hodnota atributu",
+      "CONFIRM_ATTRIBUTE_ADDITION": "Potvrdit přidání atributu",
+      "CANCEL_ATTRIBUTE_ADDITION": "Zrušit přidání atributu",
+      "TYPES_GROUPS": {
+        "JSON_SCHEMA_TYPES": "Typy schémat JSON",
+        "ENUMERATION": "Výčet",
+        "MODELING_APP": "Aplikace modelování",
+        "COMPOSITION": "Kompozice"
+      },
+      "ATTRIBUTES": {
+        "DESCRIPTION": "Popis",
+        "MAX_ITEMS": "Max. počet položek",
+        "MIN_ITEMS": "Min. počet položek",
+        "UNIQUE_ITEMS": "Jedinečné položky",
+        "ENUMERATED_VALUES": "Hodnoty výčtu",
+        "MAXIMUM": "Maximum",
+        "MINIMUM": "Minimum",
+        "EXCLUSIVE_MAXIMUM": "Výlučné maximum",
+        "EXCLUSIVE_MINIMUM": "Výlučné minimum",
+        "MAX_PROPERTIES": "Vlastnosti maxima",
+        "MIN_PROPERTIES": "Vlastnosti minima",
+        "MAX_LENGTH": "Max. délka",
+        "MIN_LENGTH": "Min. délka",
+        "PATTERN": "Vzor",
+        "FORMAT": "Formát",
+        "ADDITIONAL_PROPERTIES": "Další vlastnosti"
+      },
+      "PREVIEW": "Náhled"
+    },
+    "PROPERTY_TYPE_SELECTOR": {
+      "CREATE_MODEL": "Vytvořit vlastní model",
+      "CREATE_MODEL_DESCRIPTION": "Vytvořte vlastní model a přiřaďte ho entitě",
+      "EDIT_MODEL": "Upravit vlastní model",
+      "EDIT_MODEL_DESCRIPTION": "Upravit dříve vytvořený vlastní model entity"
+    },
+    "PREFER_BUTTON": {
+      "ARIA_LABEL": "Přepnout pro preferované"
+    }
+  }
+}

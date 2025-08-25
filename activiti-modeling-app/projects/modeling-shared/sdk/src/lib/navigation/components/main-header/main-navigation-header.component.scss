@@ -1,0 +1,116 @@
+.studio-project-list-header {
+    box-sizing: content-box;
+    height: 30px;
+    line-height: 40px;
+    padding: 25px 0 35px 15px;
+    border: 1px solid var(--theme-border-color);
+
+    @media only screen and (max-width: 320px) {
+        padding: 25px 0 35px;
+    }
+
+    &-title {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    &-section {
+        display: flex;
+
+        .studio-title-actions {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            flex: 1 1 auto;
+        }
+
+        .studio-header-vertical {
+            height: 32px;
+            display: flex;
+            margin-top: 2px;
+            border: 1px solid rgba(33, 33, 33, 0.12);
+        }
+
+        .studio-header-search-bar-inactive {
+            float: right;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            .mat-form-field {
+                display: none;
+            }
+
+            modelingsdk-search-header {
+                display: flex;
+                align-items: center;
+
+                /* stylelint-disable-next-line */
+                .ng-trigger-transitionMessages {
+                    transform: translateX(12%) !important;
+                }
+            }
+        }
+
+        .studio-header-search-bar-active {
+            width: 100%;
+
+            .adf-input-form-field-divider {
+                width: 84%;
+            }
+
+            .mat-form-field-underline {
+                display: none;
+            }
+
+            .adf-search-text-input {
+                width: inherit;
+            }
+        }
+    }
+
+    &-actions {
+        width: 25%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 12px;
+        align-items: center;
+        flex: 1 1 auto;
+
+        .mat-button {
+            border-radius: 6px;
+            font-family: var(--theme-font-family);
+            letter-spacing: 0.25px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .studio-upload-button {
+            background: var(--theme-studio-gray-color);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--theme-text-white);
+        }
+
+        .studio-create-button {
+            background-color: var(--theme-primary-color);
+            margin-left: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .studio-create-button.mat-mini-fab.mat-accent {
+                background-color: var(--theme-primary-color);
+                box-shadow: unset;
+            }
+
+            .studio-upload-button.mat-mini-fab.mat-accent {
+                background-color: var(--theme-studio-gray-color);
+                box-shadow: unset;
+            }
+        }
+    }
+}

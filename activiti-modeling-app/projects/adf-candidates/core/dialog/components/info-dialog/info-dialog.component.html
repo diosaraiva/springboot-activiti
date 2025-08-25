@@ -1,0 +1,21 @@
+<h2 mat-dialog-title>{{ title | translate }}</h2>
+
+<mat-dialog-content>
+    <p *ngIf="subtitle">{{ subtitle | translate }}</p>
+
+    <ul *ngIf="messages.length">
+        <li *ngFor="let message of messages">{{ message | translate }}</li>
+    </ul>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <span class="adf-fill-remaining-space"></span>
+
+    <button mat-button
+        [attr.data-automation-id]="'dialog-close'"
+        mat-dialog-close
+        (click)="close()">
+        {{ 'APP.DIALOGS.CLOSE' | translate }}
+    </button>
+
+</mat-dialog-actions>

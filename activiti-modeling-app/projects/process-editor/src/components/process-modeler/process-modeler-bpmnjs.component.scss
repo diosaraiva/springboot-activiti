@@ -1,0 +1,181 @@
+/* stylelint-disable */
+.bjs-container {
+
+    .djs-palette {
+        display: none;
+        background: var(--theme-app-bar-bg-color);
+        border-color: var(--theme-border-color);
+
+        .entry {
+            color: var(--theme-text-fg-color);
+            cursor: pointer;
+
+            &:hover {
+                color: var(--theme-primary-color);
+            }
+        }
+
+        .separator {
+            border-color: var(--theme-border-color);
+        }
+    }
+
+    .djs-overlay-container {
+        position: relative !important;
+    }
+
+    .djs-overlay-context-pad {
+        width: 84px;
+    }
+
+    .djs-context-pad .entry {
+        background-color: var(--theme-card-background-color);
+        box-shadow: 0 0 2px 1px var(--theme-border-color);
+        -webkit-box-shadow: 0 0 2px 1px var(--theme-border-color);
+        padding: 2px;
+
+        &:hover {
+            background-color: var(--theme-primary-color);
+        }
+
+        &.bpmn-icon-intermediate-event-none {
+            display: none;
+        }
+    }
+
+    .djs-popup-body {
+        background-color: var(--theme-card-background-color);
+
+        .entry {
+            &.bpmn-icon-start-event-condition,
+            &.bpmn-icon-end-event-escalation,
+            &.bpmn-icon-end-event-compensation,
+            &.bpmn-icon-intermediate-event-catch-condition,
+            &.bpmn-icon-intermediate-event-catch-link,
+            &.bpmn-icon-intermediate-event-throw-escalation,
+            &.bpmn-icon-intermediate-event-throw-link,
+            &.bpmn-icon-intermediate-event-throw-compensation,
+            &.bpmn-icon-intermediate-event-none,
+            &.bpmn-icon-send,
+            &.bpmn-icon-receive,
+            &.bpmn-icon-manual,
+            &.bpmn-icon-business-rule,
+            &.bpmn-icon-script,
+            &.bpmn-icon-end-event-signal,
+            &.bpmn-icon-gateway-eventbased,
+            &.bpmn-icon-gateway-complex,
+            &.bpmn-icon-intermediate-event-catch-escalation,
+            &.bpmn-icon-intermediate-event-catch-cancel,
+            &.bpmn-icon-intermediate-event-catch-compensation,
+            &.bpmn-icon-intermediate-event-catch-non-interrupting-escalation,
+            &.bpmn-icon-intermediate-event-catch-non-interrupting-condition,
+            &.bpmn-icon-intermediate-event-catch-non-interrupting-signal,
+            &.bpmn-icon-transaction {
+                display: none;
+            }
+
+            &.bpmn-icon-business-rule.activiti,
+            &.bpmn-icon-script.activiti {
+                display: inherit;
+            }
+        }
+
+        .entry:hover {
+            background-color: var(--theme-primary-color);
+        }
+    }
+}
+
+.bpmn-properties .bpp-properties-panel {
+    background-color: transparent;
+    border-left: 1px solid var(--theme-border-color);
+
+    & [type=text],
+    & [contenteditable],
+    & textarea,
+    & select {
+        box-sizing: border-box;
+    }
+
+    & [contenteditable],
+    & input,
+    & select {
+        background: var(--theme-card-background-color);
+        color: var(--theme-text-fg-color);
+
+        &:focus {
+            border-color: var(--theme-primary-color);
+        }
+    }
+
+    .bpp-field-wrapper {
+        input {
+            height: 30px;
+            line-height: 30px;
+        }
+
+        input + button.clear {
+            background-color: transparent;
+            margin-top: 3px;
+        }
+    }
+
+    & [contenteditable] {
+        min-height: 30px;
+    }
+
+    button {
+        background-color: var(--theme-raised-button-bg-color);
+        color: var(--theme-text-fg-color);
+    }
+
+    .bpp-properties-group {
+        & > .group-toggle:hover {
+            background-color: var(--theme-primary-color);
+        }
+
+        &:hover {
+            & > .group-toggle {
+                background-color: var(--theme-border-color);
+
+                &:hover {
+                    background-color: var(--theme-primary-color);
+                }
+            }
+        }
+
+        &.group-closed {
+            max-height: 30px;
+            line-height: 30px;
+            background-color: transparent;
+
+            &:hover > .group-label {
+                color: var(--theme-primary-color);
+            }
+        }
+
+        & > .group-label {
+            font-style: normal;
+            color: var(--theme-text-fg-color);
+        }
+    }
+
+    & label {
+        color: var(--theme-text-fg-color);
+    }
+
+    ul.bpp-properties-tabs-links > li > a {
+        background-color: transparent;
+        color: var(--theme-text-fg-color);
+        border-color: var(--theme-border-color);
+        border-width: 2px;
+    }
+
+    ul.bpp-properties-tabs-links > li.bpp-active a {
+        border-top: 2px solid var(--theme-primary-color);
+    }
+}
+
+.bpp-properties-tab-bar {
+    border-color: var(--theme-border-color);
+}

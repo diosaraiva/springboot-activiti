@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "应用程序",
+    "BACKEND_SERVICE": "后端服务",
+    "MORE_ACTIONS": "更多操作",
+    "VALIDATE_PROJECT": "验证项目",
+    "DOWNLOAD_PROJECT": "下载项目",
+    "ADD_ACTION": "添加新操作",
+    "ADD_EVENT": "添加新事件",
+    "HEADER": {
+      "APP_NAME": "建模应用程序",
+      "SIGN_OUT": "退出",
+      "SETTINGS": "设置",
+      "ABOUT": "关于",
+      "LANGUAGE": "语言",
+      "SEARCH": "搜索",
+      "APPEARANCE": "外观"
+    },
+    "DIALOGS": {
+      "CANCEL": "取消",
+      "SAVE": "保存",
+      "CREATE": "创建",
+      "UPDATE": "更新",
+      "CLOSE": "关闭",
+      "DONT_SAVE": "不保存",
+      "UNSAVED_PAGE_TITLE": "是否要保存对以下内容进行的更改",
+      "EDIT_PROPERTIES": "编辑流程变量",
+      "EDIT_PROCESS_MESSAGES": "编辑消息",
+      "EDIT_PROCESS_ERRORS": "编辑错误",
+      "EDIT_FORM_PROPERTIES": "编辑表单变量",
+      "EDIT_VISIBILITY_CONDITIONS": "编辑可见性条件",
+      "ERROR": {
+        "TITLE": "仍然要保存它吗?",
+        "SUBTITLE": "验证错误：",
+        "NAME_DOESNT_MATCH_PATTERN": "名称与以下模式不匹配",
+        "GENERAL_NAME_VALIDATION": "名称必须为小写，且字符长度在 1 和 26 之间。允许使用字母数字字符和连字符，但名称必须以字母开头并以字母数字结尾。",
+        "PROCESS_NAME_VALIDATION": "名称的长度必须介于1到26个字符之间，并且不能以空格开头"
+      },
+      "CONFIRM": {
+        "TITLE": "确定吗？",
+        "SUBTITLE": "确定要执行此操作吗？",
+        "EMAIL_TEMPLATE_DESCRIPTION": "此操作无法撤消",
+        "BUTTON": "确认",
+        "RELEASE": "确定要发布新版本的此项目吗？",
+        "TYPES": {
+          "DECISION": "决策表",
+          "DATA_MODEL": "数据模型",
+          "UI": "UI",
+          "CONNECTOR": "连接器",
+          "FORM": "表单",
+          "PROCESS": "流程",
+          "FILE": "文件",
+          "SCRIPT": "脚本",
+          "TRIGGER": "触发器",
+          "MODEL": "内容模型",
+          "CUSTOM-FORM-WIDGET": "表单小组件"
+        },
+        "DELETE": {
+          "PROJECT": "确定要删除此项目吗？",
+          "DATA_MODEL": "确定要删除此数据对象吗？"
+        },
+        "SAVE": {
+          "PROCESS": "确定要保存此流程吗？",
+          "DATA_MODEL": "确定要保存此数据对象吗？",
+          "EMAIL_TEMPLATE": "确定要覆盖电子邮件模板吗？"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "确定要复制这个数据对象吗？"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "确定要下载此流程的 SVG 图像吗？",
+          "DATA_MODEL": "确定要下载此数据对象吗？"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "编辑",
+      "DELETE": "删除",
+      "RELEASE": "发布",
+      "COLLABORATORS": "协作者",
+      "SEE_RELEASES": "查看发布",
+      "LOG_HISTORY": "日志历史记录",
+      "DOWNLOAD": "下载",
+      "SAVE_AS": "保存为",
+      "EDITORS_MENU": "编辑菜单",
+      "MORE_MENU": "更多菜单"
+    },
+    "SETTINGS": {
+      "HEADER": "App 设置"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "更改用户",
+        "NOT_VALID_JSON": "无效的 JSON 对象",
+        "NOT_VALID_HTML": "无效的 HTML 对象",
+        "NOT_VALID_SCHEMA": "JSON 对象与架构不匹配"
+      }
+    },
+    "EDITOR": {
+      "NAME": "名称",
+      "DESCRIPTION": "说明",
+      "TITLE": "应用程序标题"
+    },
+    "THEME": {
+      "LIGHT": "浅色主题",
+      "DARK": "深色主题"
+    }
+  }
+}

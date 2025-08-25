@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Application",
+    "BACKEND_SERVICE": "Service principal",
+    "MORE_ACTIONS": "Plus d'actions",
+    "VALIDATE_PROJECT": "Valider le projet",
+    "DOWNLOAD_PROJECT": "Télécharger le projet",
+    "ADD_ACTION": "Ajouter une nouvelle action",
+    "ADD_EVENT": "Ajouter un nouvel événement",
+    "HEADER": {
+      "APP_NAME": "Application de modélisation",
+      "SIGN_OUT": "Déconnexion",
+      "SETTINGS": "Paramètres",
+      "ABOUT": "A propos de",
+      "LANGUAGE": "Langue",
+      "SEARCH": "Rechercher",
+      "APPEARANCE": "Apparence"
+    },
+    "DIALOGS": {
+      "CANCEL": "Annuler",
+      "SAVE": "Enregistrer",
+      "CREATE": "Créer",
+      "UPDATE": "Mettre à jour",
+      "CLOSE": "Fermer",
+      "DONT_SAVE": "Ne pas enregistrer",
+      "UNSAVED_PAGE_TITLE": "Voulez-vous enregistrer les modifications apportées à",
+      "EDIT_PROPERTIES": "Modifier les variables de processus",
+      "EDIT_PROCESS_MESSAGES": "Modifier les messages",
+      "EDIT_PROCESS_ERRORS": "Modifier les erreurs",
+      "EDIT_FORM_PROPERTIES": "Modifier les variables de formulaire",
+      "EDIT_VISIBILITY_CONDITIONS": "Modifier les conditions de visibilité",
+      "ERROR": {
+        "TITLE": "Voulez-vous vraiment l'enregistrer ?",
+        "SUBTITLE": "Erreurs de validation :",
+        "NAME_DOESNT_MATCH_PATTERN": "Le nom ne correspond pas au modèle suivant",
+        "GENERAL_NAME_VALIDATION": "Le nom doit être en minuscules et comporter entre 1 et 26 caractères. Les caractères alphanumériques et les traits d'union sont autorisés, toutefois le nom doit commencer par une lettre et se terminer par un caractère alphanumérique.",
+        "PROCESS_NAME_VALIDATION": "Le nom doit comporter entre 1 et 26 caractères et ne peut pas commencer par un espace vide"
+      },
+      "CONFIRM": {
+        "TITLE": "Vous êtes sûr ?",
+        "SUBTITLE": "Voulez-vous vraiment effectuer cette action ?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Cette action ne peut pas être annulée",
+        "BUTTON": "Confirmer",
+        "RELEASE": "Voulez-vous vraiment lancer une nouvelle version de ce projet ?",
+        "TYPES": {
+          "DECISION": "table de décision",
+          "DATA_MODEL": "Modèle de données",
+          "UI": "IU",
+          "CONNECTOR": "connecteur",
+          "FORM": "Formulaire",
+          "PROCESS": "Processus",
+          "FILE": "fichier",
+          "SCRIPT": "script",
+          "TRIGGER": "Déclencheur",
+          "MODEL": "Modèle de contenu",
+          "CUSTOM-FORM-WIDGET": "Widget de formulaire"
+        },
+        "DELETE": {
+          "PROJECT": "Voulez-vous vraiment supprimer ce projet ?",
+          "DATA_MODEL": "Voulez-vous vraiment supprimer cet objet de données ?"
+        },
+        "SAVE": {
+          "PROCESS": "Voulez-vous vraiment enregistrer ce processus ?",
+          "DATA_MODEL": "Voulez-vous vraiment enregistrer cet objet de données ?",
+          "EMAIL_TEMPLATE": "Voulez-vous vraiment remplacer le modèle d'e-mail ?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Voulez-vous vraiment copier cet objet de données ?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Voulez-vous vraiment télécharger l'image svg de ce processus ?",
+          "DATA_MODEL": "Voulez-vous vraiment télécharger cet objet de données ?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Modifier",
+      "DELETE": "Supprimer",
+      "RELEASE": "Version à publier",
+      "COLLABORATORS": "Collaborateurs",
+      "SEE_RELEASES": "Voir les versions",
+      "LOG_HISTORY": "Historique du journal",
+      "DOWNLOAD": "Télécharger",
+      "SAVE_AS": "Enregistrer sous",
+      "EDITORS_MENU": "Menu éditeurs",
+      "MORE_MENU": "Plus de menu"
+    },
+    "SETTINGS": {
+      "HEADER": "Paramètres de l'application"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Changer d'utilisateur",
+        "NOT_VALID_JSON": "Objet JSON non valide",
+        "NOT_VALID_HTML": "Objet HTML non valide",
+        "NOT_VALID_SCHEMA": "L'objet JSON ne correspond pas au schéma"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Nom",
+      "DESCRIPTION": "Description",
+      "TITLE": "Titre de l'application"
+    },
+    "THEME": {
+      "LIGHT": "Thème clair",
+      "DARK": "Thème sombre"
+    }
+  }
+}

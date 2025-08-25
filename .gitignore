@@ -1,42 +1,54 @@
+### JAVA ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
-### MAC ###
-.DS_Store
 
 ### DRAWIO ###
 .bkp
 .dtmp
 
 ### STS ###
-**/bin
 .apt_generated
+.c9/
 .classpath
 .factorypath
+.history
 .project
 .settings
+.settings/
 .springBeans
 .sts4-cache
-
-### VS Code ###
-.vscode/
+*.iml
+*.launch
+*.sublime-workspace
+*.tar
+**/bin
+/.idea
 
 ### Shell ###
 *.log
 
 ### Node ###
-node_modules/
+.angular
 .expo/
-dist/
-npm-debug.*
 *.jks
-*.p8
-*.p12
 *.key
 *.mobileprovision
 *.orig.*
+*.p12
+*.p8
+**/node_modules
+/.tmp
+/e2e-output
+/lib/
+/nxcache
+/out-tsc
+/reports
+/tmp
+dist/
+node_modules/
+npm-debug.*
 web-build/
 
 # testing
@@ -47,11 +59,22 @@ web-build/
 
 # misc
 .DS_Store
-.env.local
+#.env
 .env.development.local
-.env.test.local
+.env.local
 .env.production.local
-.env
+.env.test.local
+**/coverage
+**/versions.json
+/.sass-cache
+/connect.lock
+/envs/
+/libpeerconnection.log
+/typings
+app/.tmp
+npm-debug.log
+testem.log
+Thumbs.db
 
 npm-debug.log*
 yarn-debug.log*
@@ -65,3 +88,26 @@ runall.bat
 
 # H2 Database
 database/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/closest-config-finder.sh
+!.vscode/vscode-e2e-launcher.sh
+.history
+
+# e2e
+/e2e/*.map
+/e2e/*.env
+.protractor-fail-fast
+.protractor-smartrunner
+/protractorFailuresReport
+
+# Project specific
+**/.app.config.json
+community.patch
+.os_repo
+!/licenses.txt

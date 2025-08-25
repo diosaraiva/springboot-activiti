@@ -1,0 +1,110 @@
+{
+    "APP": {
+        "APPLICATION": "Application",
+        "BACKEND_SERVICE": "Backend service",
+        "MORE_ACTIONS": "More actions",
+        "VALIDATE_PROJECT": "Validate project",
+        "DOWNLOAD_PROJECT": "Download project",
+        "ADD_ACTION": "Add new action",
+        "ADD_EVENT": "Add new event",
+        "HEADER": {
+            "APP_NAME": "Modeling Application",
+            "SIGN_OUT": "Sign Out",
+            "SETTINGS": "Settings",
+            "ABOUT": "About",
+            "LANGUAGE": "Language",
+            "SEARCH": "Search",
+            "APPEARANCE": "Appearance"
+        },
+        "DIALOGS": {
+            "CANCEL": "Cancel",
+            "SAVE": "Save",
+            "CREATE": "Create",
+            "UPDATE": "Update",
+            "CLOSE": "Close",
+            "DONT_SAVE": "Don't Save",
+            "UNSAVED_PAGE_TITLE": "Do you want to save the changes made to",
+            "EDIT_PROPERTIES": "Edit Process Variables",
+            "EDIT_PROCESS_MESSAGES": "Edit Messages",
+            "EDIT_PROCESS_ERRORS": "Edit Errors",
+            "EDIT_FORM_PROPERTIES": "Edit Form Variables",
+            "EDIT_VISIBILITY_CONDITIONS": "Edit Visibility Conditions",
+            "EDIT_PROCESS_PERMISSIONS": "Edit Process Permissions",
+            "ERROR": {
+                "TITLE": "Do you want to save it anyway?",
+                "SUBTITLE": "Validation errors:",
+                "NAME_DOESNT_MATCH_PATTERN": "The name doesn't match the following pattern",
+                "GENERAL_NAME_VALIDATION": "The name must be in lowercase and between 1 and 26 characters in length. Alphanumeric characters and hyphens are allowed, however the name must begin with a letter and end alphanumerically.",
+                "PROCESS_NAME_VALIDATION": "The name must be between 1 and 26 characters in length and cannot start with blank space"
+            },
+            "CONFIRM": {
+                "TITLE": "Are you sure?",
+                "SUBTITLE": "Are you sure that you want to do this action?",
+                "EMAIL_TEMPLATE_DESCRIPTION": "This action can't be undone",
+                "BUTTON": "Confirm",
+                "RELEASE": "Are you sure you want to release a new version of this project?",
+                "TYPES": {
+                    "DECISION": "decision table",
+                    "DATA_MODEL": "data model",
+                    "UI": "UI",
+                    "CONNECTOR": "connector",
+                    "FORM": "form",
+                    "PROCESS": "process",
+                    "FILE": "file",
+                    "SCRIPT": "script",
+                    "TRIGGER": "Trigger",
+                    "MODEL": "Content Model",
+                    "CUSTOM-FORM-WIDGET": "Form Widget"
+                },
+                "DELETE": {
+                    "PROJECT": "Are you sure you want to delete this project?",
+                    "DATA_MODEL": "Are you sure you want to delete this data object?"
+                },
+                "SAVE": {
+                    "PROCESS": "Are you sure you want to save this process?",
+                    "DATA_MODEL": "Are you sure you want to save this data object?",
+                    "EMAIL_TEMPLATE": "Are you sure you want to overwrite the email template?"
+                },
+                "SAVE_AS": {
+                  "DATA_MODEL": "Are you sure you want to copy this data object?"
+                },
+                "DOWNLOAD": {
+                    "IMAGE": "Are you sure you want to download the svg image of this process?",
+                    "DATA_MODEL": "Are you sure you want to download this data object?"
+                }
+            }
+        },
+        "MENU": {
+            "EDIT": "Edit",
+            "DELETE": "Delete",
+            "RELEASE": "Release",
+            "COLLABORATORS": "Collaborators",
+            "SEE_RELEASES": "View Releases",
+            "LOG_HISTORY": "Log History",
+            "DOWNLOAD": "Download",
+            "SAVE_AS": "Save as",
+            "EDITORS_MENU": "Editors Menu",
+            "MORE_MENU": "More Menu"
+        },
+        "SETTINGS": {
+            "HEADER": "App settings"
+        },
+        "GENERAL": {
+            "ERRORS": {
+                "CHANGE_USER": "Change user",
+                "NOT_VALID_JSON": "Invalid JSON object",
+                "NOT_VALID_HTML": "Invalid HTML object",
+                "NOT_VALID_SCHEMA": "The JSON object does not match the schema"
+            }
+        },
+        "EDITOR": {
+            "NAME": "Name",
+            "DESCRIPTION": "Description",
+            "TITLE": "Application title"
+        },
+        "THEME": {
+          "LIGHT": "Light theme",
+          "DARK": "Dark theme"
+        }
+    }
+}

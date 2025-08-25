@@ -1,0 +1,39 @@
+{
+  "npmScope": "activiti-modeling-app",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "pretest"],
+        "cacheDirectory": "nxcache",
+        "parallel": 1
+      }
+    }
+  },
+  "affected": {
+    "defaultBase": "develop"
+  },
+  "generators": {
+    "@nrwl/angular:application": {
+      "style": "scss",
+      "linter": "eslint",
+      "unitTestRunner": "karma",
+      "e2eTestRunner": "none"
+    },
+    "@nrwl/angular:library": {
+      "linter": "eslint",
+      "unitTestRunner": "karma"
+    },
+    "@nrwl/angular:component": {
+      "style": "scss"
+    }
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "dependsOn": ["pretest"]
+    }
+  }
+}

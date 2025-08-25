@@ -1,0 +1,85 @@
+.ama-variables-selector {
+    &-header {
+        display: flex;
+
+        .ama-variables-selector-clear-button {
+            position: relative;
+            top: 6px;
+        }
+    }
+
+    &-search {
+        font-size: var(--theme-caption-font-size);
+        max-width: 100%;
+        width: 100%;
+
+        .mat-form-field-outline {
+            background: var(--theme-ama-var-selector-bg-color);
+            border-radius: 6px;
+        }
+
+        &-suffix {
+            cursor: pointer;
+        }
+    }
+
+    &-variables {
+        &-group {
+            margin-bottom: 10px;
+
+            h3 {
+                margin-top: 0;
+            }
+
+            &-list {
+                &-item {
+                    cursor: pointer;
+                    padding-top: 6px;
+                    padding-left: 6px;
+                    padding-bottom: 6px;
+                    max-width: 100%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    &-type {
+                        background: var(--theme-border-color-light);
+                        border-radius: 50%;
+                        height: 20px;
+                        width: 20px;
+                        display: inline-block;
+                        text-align: center;
+                        font-weight: bold;
+                        margin: 0 12px 0 0;
+                        color: var(
+                            --theme-primary-color-default-contrast
+                        ) !important;
+                    }
+
+                    &.ama-selected {
+                        background: var(
+                            --theme-ama-var-selector-selected-text-bg-color
+                        );
+                        border: 1px solid var(--theme-border-color-light);
+                        border-radius: 6px;
+                    }
+
+                    &:hover {
+                        background: var(--theme-selected-button-bg-color);
+                        border-radius: 6px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-tooltip {
+        &-first-header {
+            margin-top: 0;
+        }
+    }
+}
+
+div.adf-tooltip-card {
+    border-radius: 0;
+    border: none;
+}

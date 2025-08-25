@@ -1,0 +1,253 @@
+{
+  "ADV_PROCESS_EDITOR": {
+    "DOWNLOAD_PROCESS": "プロセスをダウンロード",
+    "SAVE_PROCESS_IMAGE": "プロセス図を SVG として保存",
+    "VALIDATE_PROCESS": "プロセスの検証",
+    "SAVE_PROCESS": "プロセスの保存"
+  },
+  "PROCESS_EDITOR": {
+    "SELECT_PROCESS_VARIABLE": "プロセス変数の選択",
+    "SCRIPT_NAME": "スクリプト名",
+    "PRIORITIES": {
+      "NONE": "なし",
+      "LOW": "低",
+      "MEDIUM": "中",
+      "HIGH": "高"
+    },
+    "NAME": "プロセスエディタ",
+    "TIMER_TYPES": {
+      "CYCLE": "サイクル",
+      "DURATION": "期間",
+      "DATE": "日付"
+    },
+    "MULTI_INSTANCE_TYPES": {
+      "NONE": "なし",
+      "PARALLEL": "並列",
+      "SEQUENCE": "順次"
+    },
+    "TABS": {
+      "DIAGRAM_EDITOR": "図エディタ",
+      "RAW_EDITOR": "XML エディタ",
+      "EXTENSIONS_EDITOR": "拡張機能エディタ",
+      "JSON_EDITOR": "XML エディタ",
+      "PROCESS_EDITOR": "プロセスエディタ"
+    },
+    "ACTIONS": {
+      "ZOOM_IN": "ズームイン",
+      "ZOOM_OUT": "ズームアウト",
+      "UNDO": "元に戻す",
+      "FIT_VIEW_PORT": "ビューポートに合わせる",
+      "REDO": "やり直し",
+      "LASSO_TOOL": "Lasso ツール"
+    },
+    "ELEMENT_PROPERTIES": {
+      "ID": "ID",
+      "NAME": "名前",
+      "ACTION": "アクション",
+      "PROPERTIES": "プロパティ",
+      "PROCESS_NAME": "プロセス定義名",
+      "PROCESS_ID": "プロセス ID",
+      "DIAGRAM_NAME": "図名",
+      "SIGNAL": "シグナル",
+      "ERROR": "エラー",
+      "MAPPING_TYPE": "マッピングタイプ",
+      "MAP_VARIABLES": "変数の割り当て",
+      "SEND_ALL_VARIABLES": "すべての変数の送信",
+      "EDIT_EMAIL_TEMPLATE": "Eメールテンプレートの編集",
+      "SEND_NO_VARIABLES": "変数を送信しない",
+      "SIGNAL_NAME": "信号名",
+      "ERROR_NAME": "エラー名",
+      "ERROR_CODE": "エラーコード",
+      "CREATE_NEW_SIGNAL": "新しいシグナルの作成",
+      "CREATE_NEW_ERROR": "新しいエラーの作成",
+      "SCOPE": "範囲",
+      "SCOPE_VALUES": {
+        "GLOBAL": "グローバル",
+        "PROCESS_INSTANCE": "プロセスインスタンス"
+      },
+      "VERSION": "バージョン",
+      "VARIABLES": "変数",
+      "DOCUMENTATION": "文書化",
+      "CATEGORY": "カテゴリ",
+      "EXECUTABLE": "実行可能ファイル",
+      "IMPLEMENTATION": "実行",
+      "DECISION_TASK": "意思決定タスク",
+      "DECISION_TABLE_NAME": "意思決定表の名前",
+      "INPUT_MAPPING": "入力割り当て",
+      "OUTPUT_MAPPING": "出力割り当て",
+      "INPUTS": "入力",
+      "OUTPUTS": "出力",
+      "INPUT": "入力",
+      "OUTPUT": "出力",
+      "ASSIGNMENT": "割り当て",
+      "NO_ASSIGNEE": "担当者なし",
+      "ASSIGNEE": "担当者",
+      "CANDIDATE_GROUPS": "候補グループ",
+      "CANDIDATE_USERS": "候補ユーザー",
+      "DUE_DATE": "期限",
+      "PRIORITY": "優先度",
+      "ACTIVITY_NAME": "呼び出された要素",
+      "PROCESS": "プロセス",
+      "PROCESS_VARIABLE": "プロセス変数",
+      "FILTER_PROCESS_VARIABLE": "プロセス変数のフィルタ",
+      "USE_PROCESS_VARIABLE": "プロセス変数の使用",
+      "USE_STATIC_DATE": "静的な日付の使用",
+      "USE_EXPRESSION": "式を使用",
+      "USE_TIME_DURATION": "期間の使用",
+      "TIME_DURATION_UNITS": {
+        "MONTHS": "月",
+        "DAYS": "日",
+        "HOURS": "時間",
+        "MINUTES": "分"
+      },
+      "PROCESS_VARIABLES": "プロセス変数",
+      "EXPRESSION": "条件式",
+      "FORM_SELECTOR": "フォームの名前",
+      "DEFAULT_SEQUENCE_FLOW": "デフォルトのシーケンスフロー",
+      "PROCESS_NAME_REQUIRED": "プロセス名を入力してください",
+      "INVALID_PROCESS_NAME": "無効なプロセス名",
+      "INVALID_NAME_LENGTH": "名前は 40 文字より少ない必要があります",
+      "INVALID_DOCUMENTATION_LENGTH": "説明は256文字未満でなければなりません",
+      "INVALID_FORM_NAME": "無効なフォーム名",
+      "INVALID_EXPRESSION": "無効な式 ${condition}",
+      "MESSAGE": "メッセージ",
+      "MESSAGE_NAME": "メッセージ名",
+      "CREATE_NEW_MESSAGE": "新しいメッセージの作成",
+      "MAP_MESSAGE": "メッセージをプロセス変数にマップ",
+      "CORRELATION_KEY": "関連付けキー",
+      "CLASS": "クラス",
+      "DELEGATE_EXPRESSION": "デリゲート式",
+      "MESSAGE_EXPRESSION": "メッセージ式",
+      "USE_MESSAGE_EXPRESSION": "メッセージ式の使用",
+      "MESSAGE_EXPRESSION_REQUIRED": "メッセージ式が必要です",
+      "MULTI_INSTANCE": {
+        "CARDINALITY_NAME": "カーディナリティ",
+        "COMPLETION_CONDITION": "完了条件",
+        "COLLECTION": "コレクション",
+        "MULTI_INSTANCE_TYPE_NAME": "マルチインスタンスタイプ",
+        "RESULT_COLLECTION": "結果コレクション",
+        "RESULT_ELEMENT_VARIABLE": "結果要素変数"
+      },
+      "ELEMENT_VARIABLE": "要素変数",
+      "INVALID_CARDINALITY": "値は、数字か式にする必要があります",
+      "INVALID_ELEMENT_VARIABLE": "値は、文字列にする必要があります",
+      "MESSAGE_EXPRESSION_INVALID": "値は、数字または式にする必要があります",
+      "MESSAGE_PAYLOAD": {
+        "TITLE": "メッセージペイロード",
+        "ADD": "追加",
+        "CREATE_PROPERTY": "新しいプロパティの作成",
+        "NO_PROPERTIES": "メッセージにペイロードがありません。メッセージのスローイベントにペイロードを追加してください。",
+        "FORM": {
+          "NAME": "名前",
+          "TYPE": "タイプ",
+          "PROCESS_VARIABLE": "プロセス変数",
+          "VALUE": "値"
+        },
+        "INVALID_PAYLOAD_NAME": "無効なペイロード名"
+      },
+      "CALLED_ELEMENT": {
+        "DIALOG": {
+          "TITLE": "呼び出された要素",
+          "STATIC": "静的",
+          "EXPRESSION": "式"
+        }
+      },
+      "TIMERS": {
+        "TIMER_TYPE": "タイマータイプ",
+        "TIMER_DEFINITION": "タイマー定義",
+        "REQUIRED": "必須",
+        "YEARS": "年",
+        "MONTHS": "月",
+        "WEEKS": "週",
+        "DAYS": "日",
+        "HOURS": "時間",
+        "MINUTES": "分",
+        "SECONDS": "秒",
+        "REPETITIONS": "繰り返し",
+        "DATE": "日付",
+        "USE_PROCESS_VARIABLE": "プロセス変数を使用",
+        "PROCESS_VARIABLE": "プロセス変数",
+        "USE_CRON_EXPRESSION": "cron 式の使用",
+        "CRON_EXPRESSION": "Cron式",
+        "INVALID_CRON_EXPRESSION": "無効な cron 式"
+      },
+      "TEXT_ANNOTATION": "テキスト注釈",
+      "TASK_ASSIGNMENT": {
+        "TITLE": "タスク割り当て",
+        "SUB_TITLE": "割りて当てオプションの選択",
+        "SINGLE_USER": "単一ユーザーにタスクを割り当て",
+        "CANDIDATES": "候補にタスクを割り当て",
+        "STATIC": "静的",
+        "IDENTITY": "ID",
+        "ASSIGNEE": "担当者",
+        "CANDIDATE_WARNING": "candidateUsers または candidateGroups の間の1つのフィールドは必須です。値を入力して Enter キーを押してください。",
+        "USER_WARNING": "必須フィールドです。値を入力して Enter を押してください。",
+        "CANDIDATE_USERS": "候補ユーザー",
+        "CANDIDATE_GROUPS": "候補グループ",
+        "USER": "{{count}} ユーザー",
+        "USERS": "{{count}} ユーザー",
+        "GROUP": "{{count}} グループ",
+        "GROUPS": "{{count}} グループ",
+        "ASSIGN": "割り当て",
+        "CLOSE": "閉じる",
+        "STRATEGY": "割り当てタイプ",
+        "EXPRESSION": {
+          "TITLE": "式",
+          "CANDIDATE_EMPTY": "候補を空にすることはできません。candidateUsers または candidateGroups のどちらかを入力してください",
+          "ASSIGNEE_EMPTY": "担当者を空にすることはできません",
+          "ASSIGNEE_INVALID_ERROR": "無効な式 例 { assignee:${var1} }",
+          "CANDIDATE_INVALID_ERROR": "無効な式 例 { candidateUsers: ${var1}, candidateGroups: ${var2} }"
+        }
+      },
+      "INHERIT_BUSINESS_KEY": "ビジネスキーの継承"
+    },
+    "PROPERTIES_BUTTON": "プロパティ",
+    "UPLOAD_SUCCESS": "プロセスがアップロードされました",
+    "PROCESS_SAVED": "プロセスが保存されました",
+    "PROCESS_UPDATED": "プロセスが更新されました",
+    "PROCESS_VALID": "プロセスは無効です",
+    "PROCESS_INVALID": "プロセスに検証エラーがあります。",
+    "ERRORS": {
+      "NO_SUB_PROCESS_VARIABLES": "サブプロセス変数はありません",
+      "LOAD_DIAGRAM": "図の読み込み中に問題が発生しました。ページを再読み込みしてください。",
+      "SAVE_DIAGRAM": "図の保存中に問題が発生しました。保存をやり直してください。",
+      "PARSE_BPMN": "XML の解析中に問題が発生しました。更新をやり直してください。",
+      "DOWNLOAD_DIAGRAM": "プロセスのダウンロード中に問題が発生しました。 ダウンロードをやり直してください。",
+      "CHANGE_FAVORITE": "プロセスのステータスの変更中に問題が発生しました。ページを再読み込みしてやり直してください。",
+      "DOWNLOAD_SVG_IMAGE": "図画像のダウンロード中に問題が発生しました。ダウンロードをやり直してください。",
+      "NO_CONNECTOR_ACTIONS": "コネクタで使用する処理を作成します",
+      "NO_PROCESS_PROPERTIES": "プロセスのプロパティがありません。"
+    },
+    "PROPERTIES": {
+      "TABLE": {
+        "COLUMN_NAME": "名前",
+        "COLUMN_TYPE": "タイプ",
+        "COLUMN_REQUIRED": "必須",
+        "COLUMN_VALUE": "値",
+        "NO_PROPERTIES": "プロパティを表示する変数を選択するか作成してください"
+      },
+      "ERRORS": {
+        "EMPTY_NAME": "名前は必須です"
+      }
+    },
+    "PALETTE": {
+      "CALL_ACTIVITY": "呼び出しアクティビティの作成",
+      "CONNECT_TOOL": "グローバル接続ツール",
+      "CONTAINER": "専用サービス",
+      "END_EVENT": "終了イベントの作成",
+      "GATEWAY": "ゲートウェイの作成",
+      "HAND_TOOL": "手のひらツール",
+      "INTERMEDIATE_CATCH_EVENT_SIGNAL": "シグナル中間キャッチイベントの作成",
+      "INTERMEDIATE_THROW_EVENT": "中間スローイベントの作成",
+      "INTERMEDIATE_THROW_EVENT_SIGNAL": "シグナル中間スローイベントの作成",
+      "LASSO_TOOL": "Lasso ツール",
+      "PARTICIPANT": "プールの作成",
+      "SERVICE_TASK": "サービスタスクの作成",
+      "SPACE_TOOL": "スペース作成/削除ツール",
+      "START_EVENT": "開始イベントの作成",
+      "START_EVENT_SIGNAL": "シグナル開始イベントの作成",
+      "SUB_PROCESS": "サブプロセスの作成",
+      "USER_TASK": "ユーザータスクの作成"
+    }
+  }
+}

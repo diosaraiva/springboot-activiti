@@ -1,0 +1,291 @@
+{
+    "SDK": {
+        "PROJECT_HEADER" : {
+            "VALIDATE" : "Validate",
+            "RELEASE" : "Release",
+            "SAVE_AS": "Save as",
+            "SAVE_AS_ICON": "Save as icon",
+            "DOWNLOAD": "Download project",
+            "VIEW_RELEASES": "View releases",
+            "VERSION": "Version",
+            "UNSAVED_DIALOG_TITLE": "Unsaved Models",
+            "UNSAVED_VALIDATE_MESSAGE": "There are unsaved changes in some of the opened models, please save them before validating",
+            "UNSAVED_RELEASE_MESSAGE": "There are unsaved changes in some of the opened models, please save them before releasing",
+            "UNSAVED_BACK_TO_DASHBOARD_MESSAGE": "There are unsaved changes in some of the opened models, please save them before going back to dashboard"
+        },
+        "MODEL_EDITOR": {
+            "DIALOG": {
+                "CONFIRM_INVALID_MODEL_SAVE": "Are you sure you want to save this {{ modelType }}?",
+                "CONFIRM_DELETE_MODEL": "Are you sure you want to delete this {{ modelType }}?",
+                "CONFIRM_DOWNLOAD_MODEL": "Are you sure you want to download this {{ modelType }}?",
+                "CONFIRM_SAVE_AS_MODEL": "Are you sure you want to copy this {{ modelType }}?",
+                "INVALID_MODEL": "{{ modelType }} contains validation error(s).",
+                "VALID_MODEL" : "{{ modelType }} is valid"
+            },
+            "VALIDATION": {
+                "DEFAULT_ERROR": "Error. Something went wrong."
+            }
+        },
+        "SNACKBAR": {
+            "PASTED_VALUE_NEEDS_TO_FOLLOW_PATTERN": "Pasted values must follow this pattern"
+        },
+        "ALL": "All",
+        "VALUE": "Value",
+        "EXPRESSION": "Expression",
+        "TYPE": "Type",
+        "DISPLAY_NAME_VISIBILITY": {
+            "YES": "Yes",
+            "NO": "No",
+            "DISPLAY_NAME": "Display Name",
+            "DISPLAY_NAME_AVAILABILITY": "Available in the web application",
+            "ENTER_DISPLAY_NAME": "Enter Display name",
+            "DISPLAY_NAME_TOOLTIP": "Display name is used in the web application, for instance as a column name in the Tasks List, in the Processes List and in the API."
+        },
+        "VARIABLES_EDITOR": {
+            "ERRORS": {
+                "EMPTY_NAME": "A name is required",
+                "EMPTY_TYPE": "A type is required",
+                "EMPTY_DISPLAY_NAME": "A display name is required",
+                "INVALID_NAME": "Invalid variable name",
+                "VARIABLE_NAME_TOOLTIP": "The name can must start with a letter and can only contain alphanumeric characters and underscores",
+                "NAME_ALREADY_EXISTS": "Variable names must be unique",
+                "FILE_ALREADY_EXISTS": "File already exists"
+            },
+            "TABS": {
+                "VIEWER": "Properties Viewer",
+                "JSON_EDITOR": "JSON Editor"
+            },
+            "TABLE": {
+                "COLUMN_NAME": "Name",
+                "COLUMN_TYPE": "Type",
+                "COLUMN_REQUIRED": "Required",
+                "COLUMN_VALUE": "Value",
+                "NO_PROPERTIES": "Select or create a variable to view its properties",
+                "CLEAR": "Clear",
+                "ANALYTICS": "Analytics"
+            }
+        },
+        "VARIABLE_MAPPING": {
+            "PARAMETER": "Parameter",
+            "VALUE": "Value",
+            "PROCESS_VARIABLE": "Process variable",
+            "SWITCH_VAR_VAL": "Toggle variable/value",
+            "NO_PROCESS_PROPERTIES": "No process properties",
+            "NO_PAYLOAD": "Message has no payload. Add a payload in the message throw event.",
+            "CLEAR_ASSIGNMENT": "Clear assignment",
+            "MAPPING_TYPE": "Mapping type",
+            "MAP_VARIABLES": "Map variables",
+            "MAP_NO_VARIABLE": "Don't map variables",
+            "MAP_ALL": "Map all inputs/outputs variables",
+            "MAP_ALL_INPUTS": "Map all inputs variables",
+            "MAP_ALL_OUTPUTS": "Map all outputs variables",
+            "NONE": "None",
+            "NOT_EDITABLE": "This is a system parameter. System parameters cannot be edited."
+        },
+        "MESSAGES_EDITOR": {
+            "TITLE": "Process Messages",
+            "ERRORS": {
+                "EMPTY_NAME": "A name is required",
+                "NAME_ALREADY_EXISTS": "Message names must be unique"
+            },
+            "TABLE": {
+                "COLUMN_NAME": "Name",
+                "COLUMN_ID": "ID",
+                "NO_MESSAGES": "Select or create a message to view its properties"
+            }
+        },
+        "ERRORS_EDITOR": {
+            "TITLE": "Process Errors",
+            "ERRORS": {
+                "EMPTY_NAME": "A name is required",
+                "EMPTY_CODE": "An error code is required",
+                "NAME_ALREADY_EXISTS": "Process error names must be unique"
+            },
+            "TABLE": {
+                "COLUMN_NAME": "Error name",
+                "COLUMN_CODE": "Error code",
+                "COLUMN_ID": "Error Id",
+                "NO_PROCESS_ERRORS": "Select or create a process error to view its properties"
+            }
+        },
+        "MAPPING_DIALOG": {
+            "TITLE": "Edit variable mapping",
+            "SELECTOR_TITLE": "Select the variable mapping type to edit",
+            "INPUT_MAPPING": "Input mapping",
+            "OUTPUT_MAPPING": "Output mapping",
+            "PROCESS_VARIABLE": "Process variable",
+            "INPUT_PARAMETER": "Input parameter",
+            "OUTPUT_PARAMETER": "Output parameter",
+            "VALUE_MAPPING": "Value",
+            "EXPRESSION_MAPPING": "Expression",
+            "NONE": "None",
+            "TYPE": "Type",
+            "WRONG_OUTPUT_MAPPING": "The output mapping is incorrect. Not all the added mappings map an expression to a variable"
+        },
+        "SAVE_AS_DIALOG": {
+            "TITLE": "Save as",
+            "FIELD_PROPERTIES": {
+                "NAME": "Name",
+                "DESCRIPTION": "Description"
+            }
+        },
+        "CREATE_DIALOG": {
+            "ERROR": {
+                "REQUIRED": "{{fieldLabel}} is required",
+                "DEFAULT_REQUIRED": "This field is required"
+            }
+        },
+        "FORM_FIELDS_RENDERER": {
+            "ERROR": {
+                "REQUIRED": "{{fieldLabel}} is required",
+                "DEFAULT_REQUIRED": "This field is required"
+            }
+        },
+        "EXPRESSION_CODE_EDITOR": {
+            "EDIT_IN_DIALOG": "Edit in dialog",
+            "EXPRESSION_EDITOR": "Expression editor",
+            "NO_BRACKETS_HINT": "The whole expression in this editor will be saved enclosed inside curly brackets (${...}) so you don't need to type them",
+            "JUEL_EXPRESSION_SIMULATOR": "JUEL expression simulator",
+            "TEST": "Test",
+            "TEST_DISABLED_TOOLTIP": "Add a variable to the test before executing it",
+            "TEST_ENABLED_TOOLTIP": "Test the expression using the values provided for the variables",
+            "OPEN_TESTER": "Open tester",
+            "CLOSE_TESTER": "Close tester",
+            "SET_VARIABLES_VALUES": "Set variable's values",
+            "SET_VARIABLES_VALUES_TOOLTIP": "Select a variable to set its value in the test",
+            "DELETE_VARIABLE_FROM_TEST": "Delete variable from test"
+        },
+        "VARIABLES_SELECTORS": {
+            "ACTIONS": {
+                "SEARCH": "Search"
+            }
+        },
+        "CONDITION": {
+            "TYPES": {
+                "START_EVENT": "Start event",
+                "PROCESS": "Process",
+                "SERVICE_TASK": "Service task",
+                "CALLED_ELEMENT": "Called element",
+                "SCRIPT_TASK": "Script task",
+                "DECISION_TABLE": "Decision table",
+                "USER_TASK": "User task",
+                "NONE": "None",
+                "EVENT": "Event",
+                "EMAIL_SERVICE_TASK": "Email service task",
+                "DOCGEN_SERVICE": "Docgen service task",
+                "PARTICIPANT": "Process",
+                "FORM_FIELDS": "Form fields",
+                "FORM_VARIABLES": "Form variables",
+                "CONTENT_SERVICE": "Content service"
+            },
+            "TOOLTIP": {
+                "VARIABLE": "Variable",
+                "PROCESS_VARIABLE_TOOLTIP": "Process variable of {{processName}}",
+                "NONE_VARIABLE_TOOLTIP": "Select 'None' to clear the selection",
+                "OUTPUT_VARIABLE_TOOLTIP": "Output of the {{taskType}} {{taskName}}",
+                "PROPERTIES": "Properties"
+            }
+        },
+        "VARIABLE_EXPRESSION": {
+            "TITLE": {
+                "VARIABLES": "Variables",
+                "EXPRESSION": "Expression",
+                "OPEN_EXPRESSION_EDITOR": "Open the expression editor dialog",
+                "SWITCH_TO_VARIABLES": "Switch to variables selector",
+                "CLEAR_SELECTION": "Clear selection"
+            }
+        },
+        "VARIABLE_TYPE_INPUT": {
+            "PRIMITIVE_PROPERTIES_TYPES": "Primitives",
+            "CUSTOM_INPUTS_PROPERTIES_TYPES": "Custom inputs",
+            "DATE": {
+                "CURRENT_DATE": "Today",
+                "CLEAR_BUTTON": "Clear"
+            },
+            "DATE_TIME": {
+                "CURRENT_DATE_TIME": "Now",
+                "CLEAR_BUTTON": "Clear"
+            },
+            "ARRAY_INPUT": {
+                "VALUE_TO_ADD_TO_ARRAY": "Value to be added to the array",
+                "ADD": "Add",
+                "EDIT_VALUE": "Edit value",
+                "EDIT": "Edit"
+            },
+            "VALIDATION": {
+                "REQUIRED": "Input is required",
+                "INVALID_FORMAT": "Invalid input format: {{error}}",
+                "INVALID_MIN_LENGTH": "Invalid minimum length: {{error}}",
+                "INVALID_MAX_LENGTH": "Invalid maximum length: {{error}}",
+                "INVALID_MIN_VALUE": "Invalid value. It should be greater or equal than: {{error}}",
+                "INVALID_MAX_VALUE": "Invalid value. It should be less or equal than: {{error}}",
+                "INVALID_MULTIPLE_OF_VALUE": "Invalid value. It should be a multiple of: {{error}}",
+                "GENERIC_ERROR": "Invalid value: {{error_1}} - {{error_2}}"
+            }
+        },
+        "JSON_SCHEMA_EDITOR": {
+            "EXPAND": "Expand",
+            "COLLAPSE": "Collapse",
+            "NAME": "Name",
+            "INVALID_NAME": "Invalid name",
+            "REQUIRED": "Required",
+            "REFERENCE": "Reference",
+            "TITLE": "Title",
+            "ADD_PROPERTY": "Add property",
+            "ADD_CHILD_ALL_OF": "Add child to allOf",
+            "ADD_CHILD_ANY_OF": "Add child to anyOf",
+            "ADD_CHILD_ONE_OF": "Add child to oneOf",
+            "ADVANCED_SETTINGS": "Advanced settings",
+            "REMOVE_NODE": "Remove node",
+            "ADD_DEFINITION": "Add definition",
+            "BASIC_ATTRIBUTES": "Basic attributes",
+            "CUSTOM_ATTRIBUTES": "Custom attributes",
+            "ADD_CUSTOM_ATTRIBUTE": "Add custom attribute",
+            "DELETE_CUSTOM_ATTRIBUTE": "Delete custom attribute",
+            "ATTRIBUTE_NAME": "Attribute name",
+            "ATTRIBUTE_VALUE": "Attribute value",
+            "CONFIRM_ATTRIBUTE_ADDITION": "Confirm attribute addition",
+            "CANCEL_ATTRIBUTE_ADDITION": "Cancel attribute addition",
+            "TYPES_GROUPS": {
+                "JSON_SCHEMA_TYPES": "JSON schema types",
+                "ENUMERATION": "Enumeration",
+                "MODELING_APP": "Modeling app",
+                "COMPOSITION": "Composition"
+            },
+            "ATTRIBUTES": {
+                "DESCRIPTION": "Description",
+                "MAX_ITEMS": "Max. items",
+                "MIN_ITEMS": "Min. items",
+                "UNIQUE_ITEMS": "Unique items",
+                "ENUMERATED_VALUES": "Enumerated values",
+                "MAXIMUM": "Maximum",
+                "MINIMUM": "Minimum",
+                "EXCLUSIVE_MAXIMUM": "Exclusive maximum",
+                "EXCLUSIVE_MINIMUM": "Exclusive minimum",
+                "MAX_PROPERTIES": "Max. properties",
+                "MIN_PROPERTIES": "Min. properties",
+                "MAX_LENGTH": "Max. length",
+                "MIN_LENGTH": "Min. length",
+                "PATTERN": "Pattern",
+                "FORMAT": "Format",
+                "ADDITIONAL_PROPERTIES": "Additional properties"
+            },
+            "PREVIEW": "Preview"
+        },
+        "PROPERTY_TYPE_SELECTOR": {
+            "CREATE_MODEL": "Create custom model",
+            "CREATE_MODEL_DESCRIPTION": "Create a custom model and assign it to the entity",
+            "EDIT_MODEL": "Edit custom model",
+            "EDIT_MODEL_DESCRIPTION": "Edit the previously created custom model of the entity"
+        },
+        "PREFER_BUTTON" : {
+            "ARIA_LABEL" : "Toggle for preferred"
+        },
+        "DUAL_LIST": {
+            "DEFAULT_NOT_SELECTED_LABEL": "Unselected Items",
+            "DEFAULT_SELECTED_LABEL": "Selected Items",
+            "SELECT_ALL": "Select All",
+            "REMOVE_ALL": "Remove All"
+        }
+    }
+}

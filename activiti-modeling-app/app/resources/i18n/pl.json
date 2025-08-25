@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Aplikacja",
+    "BACKEND_SERVICE": "Usługa zaplecza",
+    "MORE_ACTIONS": "Więcej czynności",
+    "VALIDATE_PROJECT": "Weryfikuj projekt",
+    "DOWNLOAD_PROJECT": "Pobierz projekt",
+    "ADD_ACTION": "Dodaj nową czynność",
+    "ADD_EVENT": "Dodaj nowe zdarzenie",
+    "HEADER": {
+      "APP_NAME": "Aplikacja do modelowania",
+      "SIGN_OUT": "Wyloguj się",
+      "SETTINGS": "Ustawienia",
+      "ABOUT": "Informacje",
+      "LANGUAGE": "Język",
+      "SEARCH": "Szukaj",
+      "APPEARANCE": "Wygląd"
+    },
+    "DIALOGS": {
+      "CANCEL": "Anuluj",
+      "SAVE": "Zapisz",
+      "CREATE": "Utwórz",
+      "UPDATE": "Aktualizuj",
+      "CLOSE": "Zamknij",
+      "DONT_SAVE": "Nie zapisuj",
+      "UNSAVED_PAGE_TITLE": "Czy chcesz zapisać zmiany wprowadzone do",
+      "EDIT_PROPERTIES": "Edytuj zmienne procesu",
+      "EDIT_PROCESS_MESSAGES": "Edytuj komunikaty",
+      "EDIT_PROCESS_ERRORS": "Edytuj błędy",
+      "EDIT_FORM_PROPERTIES": "Edytuj zmienne formularza",
+      "EDIT_VISIBILITY_CONDITIONS": "Edytuj warunki widoczności",
+      "ERROR": {
+        "TITLE": "Czy chcesz zapisać mimo to?",
+        "SUBTITLE": "Błędy weryfikacji:",
+        "NAME_DOESNT_MATCH_PATTERN": "Nazwa jest niezgodna z następującym wzorem",
+        "GENERAL_NAME_VALIDATION": "Nazwa musi zawierać tylko małe litery i mieć długość od 1 do 26 znaków. Można używać znaków alfanumerycznych i dywizów, nazwa musi się jednak zaczynać od litery i kończyć znakiem alfanumerycznym.",
+        "PROCESS_NAME_VALIDATION": "Nazwa musi mieć od 1 do 26 znaków i nie może zaczynać się spacją."
+      },
+      "CONFIRM": {
+        "TITLE": "Czy na pewno?",
+        "SUBTITLE": "Czy na pewno chcesz wykonać tę czynność?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Tej czynności nie można cofnąć",
+        "BUTTON": "Potwierdź",
+        "RELEASE": "Czy na pewno chcesz zwolnić nowe wydanie tego projektu?",
+        "TYPES": {
+          "DECISION": "tabela decyzji",
+          "DATA_MODEL": "model danych",
+          "UI": "Interfejs użytkownika",
+          "CONNECTOR": "łącznik",
+          "FORM": "Formularz",
+          "PROCESS": "Proces",
+          "FILE": "plik",
+          "SCRIPT": "skrypt",
+          "TRIGGER": "Wyzwalacz",
+          "MODEL": "Model treści",
+          "CUSTOM-FORM-WIDGET": "Widżet formularza"
+        },
+        "DELETE": {
+          "PROJECT": "Czy na pewno chcesz usunąć ten projekt?",
+          "DATA_MODEL": "Czy na pewno chcesz usunąć ten obiekt danych?"
+        },
+        "SAVE": {
+          "PROCESS": "Czy na pewno chcesz zapisać ten proces?",
+          "DATA_MODEL": "Czy na pewno chcesz zapisać ten obiekt danych?",
+          "EMAIL_TEMPLATE": "Czy na pewno chcesz nadpisać ten szablon wiadomości e-mail?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Czy na pewno chcesz skopiować ten obiekt danych?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Czy na pewno chcesz pobrać obraz svg tego procesu?",
+          "DATA_MODEL": "Czy na pewno chcesz pobrać ten obiekt danych?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Edytuj",
+      "DELETE": "Usuń",
+      "RELEASE": "Zwolnij",
+      "COLLABORATORS": "Współpracownicy",
+      "SEE_RELEASES": "Wyświetl wydania",
+      "LOG_HISTORY": "Historia logu",
+      "DOWNLOAD": "Pobierz",
+      "SAVE_AS": "Zapisz jako",
+      "EDITORS_MENU": "Menu edytorów",
+      "MORE_MENU": "Menu Więcej"
+    },
+    "SETTINGS": {
+      "HEADER": "Ustawienia aplikacji"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Zmień użytkownika",
+        "NOT_VALID_JSON": "Nieprawidłowy obiekt JSON",
+        "NOT_VALID_HTML": "Nieprawidłowy obiekt HTML",
+        "NOT_VALID_SCHEMA": "Obiekt JSON nie jest zgodny ze schematem"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Nazwa",
+      "DESCRIPTION": "Opis",
+      "TITLE": "Tytuł aplikacji"
+    },
+    "THEME": {
+      "LIGHT": "Jasny motyw",
+      "DARK": "Ciemny motyw"
+    }
+  }
+}

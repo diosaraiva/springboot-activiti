@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Toepassing",
+    "BACKEND_SERVICE": "Back-endservice",
+    "MORE_ACTIONS": "Meer acties",
+    "VALIDATE_PROJECT": "Project valideren",
+    "DOWNLOAD_PROJECT": "Project downloaden",
+    "ADD_ACTION": "Nieuwe actie toevoegen",
+    "ADD_EVENT": "Nieuwe gebeurtenis toevoegen",
+    "HEADER": {
+      "APP_NAME": "Modeling Application",
+      "SIGN_OUT": "Afmelden",
+      "SETTINGS": "Instellingen",
+      "ABOUT": "Info",
+      "LANGUAGE": "Taal",
+      "SEARCH": "Zoeken",
+      "APPEARANCE": "Vormgeving"
+    },
+    "DIALOGS": {
+      "CANCEL": "Annuleren",
+      "SAVE": "Opslaan",
+      "CREATE": "Maken",
+      "UPDATE": "Bijwerken",
+      "CLOSE": "Sluiten",
+      "DONT_SAVE": "Niet opslaan",
+      "UNSAVED_PAGE_TITLE": "Wilt u de wijzigingen opslaan die zijn gemaakt in",
+      "EDIT_PROPERTIES": "Procesvariabelen bewerken",
+      "EDIT_PROCESS_MESSAGES": "Berichten bewerken",
+      "EDIT_PROCESS_ERRORS": "Fouten bewerken",
+      "EDIT_FORM_PROPERTIES": "Formuliervariabelen bewerken",
+      "EDIT_VISIBILITY_CONDITIONS": "Zichtbaarheidsvoorwaarden bewerken",
+      "ERROR": {
+        "TITLE": "Wilt u toch opslaan?",
+        "SUBTITLE": "Validatiefouten:",
+        "NAME_DOESNT_MATCH_PATTERN": "De naam komt niet overeen met het volgende patroon",
+        "GENERAL_NAME_VALIDATION": "De naam moet uit kleine letters bestaan en mag minimaal 1 en maximaal 26 tekens lang zijn. Alfanumerieke tekens en afbreekstreepjes zijn toegestaan, maar de naam moet beginnen met een letter en eindigen met een cijfer.",
+        "PROCESS_NAME_VALIDATION": "De naam mag minimaal 1 en maximaal 26 tekens lang zijn en mag niet beginnen met een spatie"
+      },
+      "CONFIRM": {
+        "TITLE": "Weet u het zeker?",
+        "SUBTITLE": "Weet u zeker dat u deze actie wilt uitvoeren?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Deze actie kan niet ongedaan worden gemaakt",
+        "BUTTON": "Bevestigen",
+        "RELEASE": "Weet u zeker dat u een nieuwe versie van dit project wilt vrijgeven?",
+        "TYPES": {
+          "DECISION": "beslissingstabel",
+          "DATA_MODEL": "gegevensmodel",
+          "UI": "UI",
+          "CONNECTOR": "connector",
+          "FORM": "Formulier",
+          "PROCESS": "Proces",
+          "FILE": "bestand",
+          "SCRIPT": "script",
+          "TRIGGER": "Trigger",
+          "MODEL": "Contentmodel",
+          "CUSTOM-FORM-WIDGET": "Formulierwidget"
+        },
+        "DELETE": {
+          "PROJECT": "Weet u zeker dat u dit project wilt verwijderen?",
+          "DATA_MODEL": "Weet u zeker dat u dit gegevensobject wilt verwijderen?"
+        },
+        "SAVE": {
+          "PROCESS": "Weet u zeker dat u dit proces wilt opslaan?",
+          "DATA_MODEL": "Weet u zeker dat u dit gegevensobject wilt opslaan?",
+          "EMAIL_TEMPLATE": "Weet u zeker dat u de e-mailsjabloon wilt overschrijven?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Weet u zeker dat u dit gegevensobject wilt kopiëren?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Weet u zeker dat u de svg-afbeelding van dit proces wilt downloaden?",
+          "DATA_MODEL": "Weet u zeker dat u dit gegevensobject wilt downloaden?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Bewerken",
+      "DELETE": "Verwijderen",
+      "RELEASE": "Te publiceren versie",
+      "COLLABORATORS": "Samenwerkers",
+      "SEE_RELEASES": "Versies weergeven",
+      "LOG_HISTORY": "Logboekgeschiedenis",
+      "DOWNLOAD": "Downloaden",
+      "SAVE_AS": "Opslaan als",
+      "EDITORS_MENU": "Menu Editors",
+      "MORE_MENU": "Menu Meer"
+    },
+    "SETTINGS": {
+      "HEADER": "App-instellingen"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Gebruiker wijzigen",
+        "NOT_VALID_JSON": "Ongeldig JSON-object",
+        "NOT_VALID_HTML": "Ongeldig HTML-object",
+        "NOT_VALID_SCHEMA": "Het JSON-object komt niet overeen met het schema"
+      }
+    },
+    "EDITOR": {
+      "NAME": "Naam",
+      "DESCRIPTION": "Beschrijving",
+      "TITLE": "Toepassingsnaam"
+    },
+    "THEME": {
+      "LIGHT": "Licht thema",
+      "DARK": "Donker thema"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<div mat-dialog-title>
+    <form class="ama-search-element-dialog-search-results-input-form">
+        <mat-form-field class="ama-search-element-dialog-search-results-input-text" appearance="legacy">
+            <mat-icon matPrefix>search</mat-icon>
+            <input
+                id="input-search-project-tree"
+                type="text"
+                matInput
+                [formControl]="modelControl">
+        </mat-form-field>
+    </form>
+</div>
+
+<mat-dialog-content class="ama-search-element-dialog-search-results">
+    <ng-container *ngFor="let option of filteredOptions$ | async ; let i = index">
+        <mat-divider class="ama-search-element-dialog-search-results-divider" *ngIf="i === 0"></mat-divider>
+        <mat-option [value]="option" (click)="navigateToModel(option)">
+            <mat-icon>{{option.icon}}</mat-icon>
+            {{option.name}}
+        </mat-option>
+    </ng-container>
+</mat-dialog-content>

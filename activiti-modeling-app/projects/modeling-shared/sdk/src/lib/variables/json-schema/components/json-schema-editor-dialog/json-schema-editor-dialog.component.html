@@ -1,0 +1,25 @@
+<h1 mat-dialog-title>{{'SDK.JSON_SCHEMA_EDITOR.ADVANCED_SETTINGS' | translate}}</h1>
+
+<mat-dialog-content class="modelingsdk-json-schema-advanced-settings">
+    <modelingsdk-json-schema-node-settings
+    [value]="this.data.value"
+    (changed)="onChange($event)"
+    [dataModelType]="this.data.dataModelType"
+    [allowCustomAttributes]="this.data.allowCustomAttributes"
+    [allowAttributesPreview]="this.data.allowAttributesPreview"
+    [schema]="this.data.schema"
+    [accessor]="this.data.accessor">
+    </modelingsdk-json-schema-node-settings>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close
+        data-automation-id="modelingsdk-json-schema-editor-dialog-close-button">
+        {{ 'APP.DIALOGS.CANCEL' | translate }}
+    </button>
+
+    <button class="adf-dialog-action-button studio-save-btn" color="primary" mat-button (click)="onSave()"
+        data-automation-id="modelingsdk-json-schema-editor-dialog-save-button">
+        {{ 'APP.DIALOGS.SAVE' | translate }}
+    </button>
+</mat-dialog-actions>

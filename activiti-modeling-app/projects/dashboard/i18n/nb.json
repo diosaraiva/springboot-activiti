@@ -1,0 +1,151 @@
+{
+  "DASHBOARD": {
+    "NEW_MENU": {
+      "LABEL": "Ny",
+      "CREATE_PROJECT_TITLE": "Opprett prosjekt",
+      "OVERRIDE_PROJECT_TITLE": "Et prosjekt med det navnet finnes alt.",
+      "EDIT_PROJECT_TITLE": "Rediger prosjekt",
+      "PROJECT_CREATED": "Prosjekt opprettet",
+      "PROJECT_UPLOADED": "Prosjekt opplastet",
+      "PROJECT_UPDATED": "Prosjekt lagret",
+      "PROJECT_RELEASED": "Prosjekt utgitt",
+      "PROJECT_DELETED": "Prosjekt slettet",
+      "MENU_ITEMS": {
+        "CREATE_PROJECT": "Opprett prosjekt",
+        "UPLOAD_PROJECT": "Last opp prosjekt",
+        "CREATE_MODEL": "Innholdsmodell"
+      }
+    },
+    "DIALOGS": {
+      "PROJECT_NAME": "Prosjektnavn:",
+      "PROJECT_DESC": "Prosjektbeskrivelse:"
+    },
+    "NAVIGATION": {
+      "PROJECTS": {
+        "LABEL": "Prosjekter",
+        "TOOLTIP": "Publiserte prosjekter"
+      },
+      "RELEASES": {
+        "LABEL": "Utgivelser",
+        "TOOLTIP": "Utgivelser"
+      },
+      "PROCESSES": {
+        "LABEL": "Prosesser",
+        "TOOLTIP": "Publiserte prosesser"
+      },
+      "FAVORITES": {
+        "LABEL": "Favoritter",
+        "TOOLTIP": "Favoritter"
+      }
+    },
+    "SEARCH_PLACEHOLDER": "Søk",
+    "TABLE": {
+      "COLUMN_NAME": "Navn",
+      "COLUMN_VERSION": "Versjon",
+      "COLUMN_CREATED": "Opprettet",
+      "COLUMN_CREATED_BY": "Opprettet av",
+      "COLUMN_MODIFIED": "Oppdatert",
+      "COLUMN_OPTIONS": "Alternativer",
+      "COLUMN_ACTIONS": "Handlinger",
+      "COLUMN_COLLABORATORS": "Samarbeidspartnere",
+      "NO_ITEMS": "Opprett eller importer et prosjekt å vise i listen.",
+      "NO_FAV_PROCESSES": "Gjør en prosess til favoritt for å gjøre den tilgjengelig her.",
+      "NO_FAV_PROJECTS": "Gjør et prosjekt til favoritt for å gjøre det tilgjengelig her.",
+      "RELEASE_ID": "Utgivelses-ID",
+      "RELEASE_COMMENT": "Kommentar",
+      "PROJECT_NAME": "Prosjektnavn"
+    },
+    "ERROR": {
+      "LOAD_PROJECTS": "Vi støtte på et problem med å laste inn prosjektene. Prøv å oppdatere siden.",
+      "LOAD_RELEASES": "Vi støtte på et problem med å laste inn utgivelsene. Prøv å oppdatere siden.",
+      "LOAD_PROCESSES": "Vi støtte på et problem med å laste inn prosessene. Prøv å oppdatere siden"
+    }
+  },
+  "NEW_STUDIO_DASHBOARD": {
+    "NAME": "Modeling Application",
+    "NAVIGATION": {
+      "PROJECT_TITLE": "Prosjekter",
+      "CONTENT_MODEL_TITLE": "Innholdsmodeller",
+      "DATA_MODELS_TITLE": "Datamodeller",
+      "HXP_DOC_TYPES_TITLE": "HxP Document Types",
+      "HXP_MIXINS_TITLE": "HxP Mixins",
+      "HXP_SCHEMAS_TITLE": "HxP Schemas",
+      "ALL_PROJECTS": {
+        "HEADER_LABEL": "Mine prosjekter",
+        "LABEL": "Alle prosjekter",
+        "TOOLTIP": "Alle publiserte prosjekter",
+        "ACTIONS": {
+          "CREATE": "Opprett prosjekt",
+          "UPLOAD": "Last opp prosjekt"
+        }
+      },
+      "FAVORITE_PROJECTS": {
+        "HEADER_LABEL": "Mine favorittprosjekter",
+        "LABEL": "Favorittprosjekter",
+        "TOOLTIP": "Favorittprosjekter"
+      },
+      "MY_MODELS": {
+        "HEADER_LABEL": "Mine modeller",
+        "LABEL": "Mine modeller",
+        "TOOLTIP": "Modeller opprettet av brukeren",
+        "ACTIONS": {
+          "CREATE": "Opprett modell"
+        }
+      },
+      "SHARED_MODELS": {
+        "HEADER_LABEL": "Mine delte modeller",
+        "LABEL": "Globale modeller",
+        "TOOLTIP": "Modeller som er delt mellom prosjektene",
+        "ACTIONS": {
+          "CREATE": "Opprett innholdsmodell"
+        }
+      },
+      "DATA_MODELS": {
+        "HEADER_LABEL": "Mine datamodeller",
+        "LABEL": "Globale modeller",
+        "TOOLTIP": "Publiserte datamodeller",
+        "ACTIONS": {
+          "CREATE": "Opprett datamodell"
+        }
+      },
+      "HXP_DOC_TYPES": {
+        "HEADER_LABEL": "My HxP Document Types",
+        "LABEL": "Global HxP Document Types",
+        "TOOLTIP": "Published HxP Document Types",
+        "ACTIONS": {
+          "CREATE": "Create HxP Document Type"
+        }
+      },
+      "HXP_MIXINS": {
+        "HEADER_LABEL": "My HxP Mixins",
+        "LABEL": "Global HxP Mixins",
+        "TOOLTIP": "Published HxP Mixins",
+        "ACTIONS": {
+          "CREATE": "Create HxP Mixin"
+        }
+      },
+      "HXP_SCHEMAS": {
+        "HEADER_LABEL": "My HxP Schemas",
+        "LABEL": "Global HxP Schemas",
+        "TOOLTIP": "Published HxP Schemas",
+        "ACTIONS": {
+          "CREATE": "Create HxP Schema"
+        }
+      }
+    },
+    "USER_INFO_MENU": {
+      "ADMIN": "Administrator",
+      "DOCUMENTATION": "Dokumentasjon"
+    },
+    "ADD_TO_FAVORITES": "Prosjekt lagt til i favoritter",
+    "REMOVE_FROM_FAVORITES": "Prosjekt fjernet fra favoritter",
+    "ERROR": {
+      "LOAD_FAVORITE_PROJECTS": "Vi støtte på et problem med å laste inn favorittprosjekter. Prøv å oppdatere siden."
+    }
+  },
+  "SEARCH": {
+    "BUTTON": {
+      "TOOLTIP": "Søk"
+    }
+  }
+}

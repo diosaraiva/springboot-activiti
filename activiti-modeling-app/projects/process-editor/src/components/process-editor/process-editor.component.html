@@ -1,0 +1,66 @@
+<div class="ama-process-editor">
+    <ng-container *ngIf="!(loading$ | async); else loading;">
+        <div class="ama-process-editor-modeling" [attr.data-automation-id]="'process-editor-modeling'">
+            <div class="ama-process-header-section">
+                <modelingsdk-model-header [modelName]="modelType" class="ama-process-header-actions">
+                </modelingsdk-model-header>
+                <ama-process-modeler-actions *ngIf="selectedTabIndex===0" class="ama-process-modeler-actions"></ama-process-modeler-actions>
+            </div>
+
+            <mat-tab-group class="ama-process-tab-group" *ngIf="modelMetadata$ | async as process;"
+                           (selectedTabChange)="selectedTabChange($event)"
+                           [(selectedIndex)]="selectedTabIndex" animationDuration="0ms">
+                <mat-tab label="{{ 'PROCESS_EDITOR.TABS.DIAGRAM_EDITOR' | translate }}">
+                    <div class="ama-process-editor-modeling-area" style="flex-direction: column">
+
+                        <modelingsdk-workbench-layout>
+                            <modelingsdk-workbench-layout-sidenav>
+                                <ama-process-properties [attr.data-automation-id]="'process-editor-properties'">
+                                </ama-process-properties>
+                            </modelingsdk-workbench-layout-sidenav>
+
+                            <modelingsdk-workbench-layout-content>
+                                <ama-process-modeler class="ama-process-modeler"
+                                    (onChange)="onBpmnEditorChange()"
+                                    [source]="contentFromStore$ | async"
+                                    [attr.data-automation-id]="'process-editor-modeler'">
+                                </ama-process-modeler>
+                                <ama-process-palette class="ama-process-palette"></ama-process-palette>
+                            </modelingsdk-workbench-layout-content>
+                        </modelingsdk-workbench-layout>
+
+                    </div>
+                </mat-tab>
+                <mat-tab label="{{ 'PROCESS_EDITOR.TABS.RAW_EDITOR' | translate }}">
+                    <div class="ama-process-code-editor" data-automation-id="process-basic-tab">
+                        <modelingsdk-code-editor
+                            (changed)="onXmlEditorChange($event)"
+                            (positionChanged)="codeEditorPositionChanged($event)"
+                            [options]="$any({language: 'xml'})"
+                            [content]="editorContent$ | async"
+                            [fileUri]="processFileUri"
+                            [language]="processesLanguageType">
+                        </modelingsdk-code-editor>
+                    </div>
+                </mat-tab>
+                <mat-tab label="{{ 'PROCESS_EDITOR.TABS.EXTENSIONS_EDITOR' | translate }}">
+                    <div class="ama-process-code-editor" data-automation-id="extensions-tab">
+                        <modelingsdk-code-editor
+                            (changed)="onExtensionEditorChange($event)"
+                            (positionChanged)="codeEditorPositionChanged($event)"
+                            [content]="extensions$ | async"
+                            [fileUri]="extensionFileUri"
+                            [language]="extensionsLanguageType">
+                        </modelingsdk-code-editor>
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+    </ng-container>
+
+    <ng-template #loading>
+        <div class="ama-process-editor-spinner">
+            <mat-spinner></mat-spinner>
+        </div>
+    </ng-template>
+</div>

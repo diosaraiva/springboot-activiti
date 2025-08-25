@@ -1,0 +1,43 @@
+<h2 mat-dialog-title>
+    {{ 'PROCESS_EDITOR.ELEMENT_PROPERTIES.CALLED_ELEMENT.DIALOG.TITLE' | translate }}
+</h2>
+
+<mat-dialog-content data-automation-id="called-element-dialog">
+    <mat-tab-group mat-stretch-tabs class="ama-called-element-dialog-content" [selectedIndex]="currentActiveTab"
+        (selectedTabChange)="onTabChange($event)">
+        <mat-tab label="{{'PROCESS_EDITOR.ELEMENT_PROPERTIES.CALLED_ELEMENT.DIALOG.STATIC' | translate}}">
+            <h3>{{ 'PROCESS_EDITOR.ELEMENT_PROPERTIES.PROCESS_NAME' | translate }}</h3>
+            <modelingsdk-value-type-input [value]="processId" [extendedProperties]="extendedProperties"
+                [type]="'process'" (onChange)="onProcessChange($event)">
+            </modelingsdk-value-type-input>
+        </mat-tab>
+
+        <mat-tab label="{{'PROCESS_EDITOR.ELEMENT_PROPERTIES.CALLED_ELEMENT.DIALOG.EXPRESSION' | translate }}">
+                <modelingsdk-expression-code-editor class="ama-called-element-dialog-expression"
+                    [attr.data-automation-id]="'called-element-dialog-expression'"
+                    [expression]="expression"
+                    (expressionChange)="expressionChanged($event)"
+                    [variables]="processVariables"
+                    [removeEnclosingBrackets]="true"
+                    [enableDialogEditor]="true"
+                    [enableInlineEditor]="true"
+                    [removeLineNumbers]="true"
+                    [lineWrapping]="true"
+                    [nonBracketedOutput]="false">
+                </modelingsdk-expression-code-editor>
+        </mat-tab>
+    </mat-tab-group>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <span class="adf-fill-remaining-space"></span>
+
+    <button mat-button mat-dialog-close data-automation-id="cancel-called-element">
+        {{ 'APP.DIALOGS.CANCEL' | translate }}
+    </button>
+
+    <button class="adf-dialog-action-button" data-automation-id="save-called-element" mat-button (click)="save()"
+        [disabled]="!isCalledElementValid">
+        {{ 'APP.DIALOGS.SAVE' | translate }}
+    </button>
+</mat-dialog-actions>

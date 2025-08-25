@@ -1,0 +1,233 @@
+modelingsdk-mapping-dialog {
+    .mat-card {
+        box-shadow: none !important;
+    }
+}
+
+.mat-dialog-title {
+    margin: 0 0 20px;
+    display: block;
+}
+
+.ama-mapping-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+div.ama-mapping-dialog-content-container {
+    min-height: 385px;
+    display: flex;
+    flex-direction: column;
+
+    .ama-mapping-dialog-selector-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .ama-mapping-dialog-selector-title {
+            line-height: 33px;
+            font-size: 18px;
+        }
+
+        .ama-mapping-dialog-selector {
+            width: 30%;
+        }
+    }
+
+    .ama-mapping-body {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .ama-mapping-table-viewer {
+            min-height: 90px;
+            margin-top: 10px;
+            width: 50%;
+            padding-right: 12px;
+            height: 295px;
+
+            .mat-table {
+                border: 1px solid var(--theme-border-color);
+                height: 100%;
+                overflow: scroll;
+
+                .mat-column-name {
+                    width: 50%;
+                }
+
+                .mat-column-value {
+                    width: 50%;
+                }
+
+                .mat-column-icon {
+                    max-width: 24px;
+                    padding: 0 12px;
+                }
+
+                .mat-column-delete {
+                    max-width: 24px;
+                    padding: 0 12px;
+                }
+
+                .ama-input-disabled {
+                    cursor: default;
+                }
+
+                span {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .mat-header-row {
+                top: 0;
+                position: sticky;
+                background-color: var(--theme-card-background-color);
+            }
+
+            .mat-row {
+                cursor: pointer;
+
+                &.active {
+                    background-color: var(--theme-border-color);
+
+                    .mat-cell {
+                        color: var(--theme-text-fg-color);
+                    }
+                }
+
+                &:last-of-type {
+                    border-bottom: 0;
+                }
+
+                .ama-ellipsis-cell {
+                    display: flex;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    line-height: 48px;
+                }
+
+                .ama-required-indicator {
+                    color: red;
+                }
+
+                .ama-non-variable-mapping {
+                    font-style: italic;
+                }
+            }
+
+            .ama-add-btn {
+                float: right;
+                padding: 0 10px;
+                min-width: 30px;
+                margin-top: 10px;
+            }
+
+            .mat-column-delete {
+                text-align: right;
+            }
+        }
+
+        .ama-mapping-table-viewer.ama-input-mapping-table {
+            height: 340px;
+        }
+
+        .ama-mapping-value-form {
+            width: 50%;
+            padding-left: 12px;
+            display: flex;
+            flex-direction: column;
+
+            .ama-variable-selector {
+                display: flex;
+                flex-direction: row;
+                padding: 12px 0;
+
+                mat-label {
+                    width: 40%;
+                }
+
+                mat-select {
+                    width: 60%;
+                }
+            }
+
+            div.ama-mapping-value {
+                height: 100%;
+
+                mat-tab-group {
+                    height: 100%;
+
+                    .mat-tab-label,
+                    .mat-tab-label-active {
+                        min-width: 33%;
+                    }
+
+                    div.mat-tab-body-wrapper {
+                        height: 100%;
+
+                        mat-tab-body {
+                            height: 100%;
+                            padding: 24px 24px 24px 0;
+                        }
+
+                        mat-form-field {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                modelingsdk-input-mapping-table {
+                    .mat-row,
+                    .mat-header-row {
+                        padding: 0 8px;
+                    }
+                }
+
+                .ama-value-mapping-input {
+                    modelingsdk-expression-code-editor {
+                        display: block;
+                        height: 235px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ama-help-icon {
+    line-height: 10px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 4px;
+    padding: 0 4px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.ama-mapping-dialog-expression-editor {
+    display: block;
+    height: 235px;
+}
+
+.ama-mapping-dialog-variable-selector {
+    display: block;
+    height: 235px;
+    overflow: auto;
+
+    &-clear-button {
+        position: absolute;
+        left: 7px;
+        top: 0;
+        line-height: 30px;
+        height: 30px;
+        font-size: var(--theme-caption-font-size);
+
+        mat-icon {
+            font-size: var(--theme-title-font-size);
+        }
+    }
+}

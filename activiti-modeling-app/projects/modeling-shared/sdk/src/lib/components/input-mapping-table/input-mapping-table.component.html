@@ -1,0 +1,77 @@
+<mat-table [dataSource]="dataSource" data-automation-id="input-mapping-table">
+    <ng-container matColumnDef="name">
+        <mat-header-cell data-automation-id="table-header-cell-name" *matHeaderCellDef [ngClass]="'input-mapping'">
+            {{ parameterColumnHeader | translate }}</mat-header-cell>
+        <mat-cell *matCellDef="let parameter" [attr.data-automation-id]="'param-id-' + parameter.id">
+            <span>
+                <span class="{{parameter.readOnly ? 'mat-select-placeholder' : ''}}">
+                    {{ parameter.label || parameter.name }}
+                    <span class="ama-required-parameter" *ngIf="parameter.required">*</span>
+                </span>
+            </span>
+            <mat-icon matTooltip="{{ parameter.description + ' (type: ' + parameter.type + ')' }}"
+                      matTooltipPosition="below" class="ama-help-icon">help</mat-icon>
+        </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="process-variable">
+        <mat-header-cell data-automation-id="table-header-cell-process-variables" *matHeaderCellDef
+            [ngClass]="'input-mapping'">
+            {{ variableColumnHeader | translate }} /
+            {{ 'SDK.VARIABLE_MAPPING.VALUE' | translate }}
+        </mat-header-cell>
+        <mat-cell *matCellDef="let parameter; let i = index">
+            <ng-container *ngIf="parameter.type !== 'process'">
+                    <modelingsdk-mapping-variable-expression-dropdown
+                    [variables]="enableVariableSelection ? processProperties : []"
+                    [mapping]="data[parameter.name] || null"
+                    [typeFilter]="parameter | variablePrimitiveType"
+                    [placeholder]="placeholder | translate"
+                    [noVariablePlaceholder]="enableVariableSelection ? 'SDK.VARIABLE_MAPPING.NO_PROCESS_PROPERTIES' : 'SDK.VARIABLE_MAPPING.NONE'"
+                    (mappingChanged)="selectVariable($event, parameter)"
+                    [panelHeight]="panelHeight"
+                    [panelWidth]="panelWidth"
+                    [expressionEditorVariables]="expressionEditorVariables"
+                    [required]="parameter.required || false"
+                    [disabled]="parameter.readOnly"
+                    [attr.data-automation-id]="'variable-selector-' + parameter.id"
+                    [ngClass]="'input-mapping'"
+                    [expressionSyntax]="expressionSyntax">
+                    </modelingsdk-mapping-variable-expression-dropdown>
+            </ng-container>
+            <ng-container *ngIf="parameter.type === 'process'">
+                <div *ngIf="(mappingTypes[parameter.name] === VALUE_TYPE && values[parameter.name] && values[parameter.name].startsWith('${'))
+                           || (mappingTypes[parameter.name] === VARIABLE_TYPE && values[parameter.name] && values[parameter.name].length >0) ; else elseBlock"
+                    class="modelingsdk-input-mapping-table-mapped-value-div ama-ellipsis-cell">
+                    <span [attr.data-automation-id]="'value-input-' + parameter.id"
+                        *ngIf="mappingTypes[parameter.name] === VALUE_TYPE"
+                        class="ama-input-mapping-table-mapped-value-div-value value-process-input-mapping ama-variable-value-type-value {{parameter.readOnly ? 'mat-select-placeholder' : ''}}">
+                        {{values[parameter.name] | variablevalue}}
+                    </span>
+                    <span [attr.data-automation-id]="'variable-input-' + parameter.id"
+                        *ngIf="mappingTypes[parameter.name] === VARIABLE_TYPE"
+                        class="ama-input-mapping-table-mapped-value-div-value value-process-input-mapping {{parameter.readOnly ? 'mat-select-placeholder' : ''}}">
+                        {{paramName2VariableName[parameter.name]}}
+                    </span>
+                </div>
+                <ng-template #elseBlock>
+                    <modelingsdk-value-type-input [disabled]="parameter.readOnly" [type]="'process'"
+                        [extendedProperties]="{plain:true}" [value]="values[parameter.name]"
+                        [required]="parameter.required" [attr.data-automation-id]="'process-selector-' + parameter.id"
+                        [ngClass]="'selector-process-input-mapping'" (onChange)="setParamWithValue($event, parameter)">
+                    </modelingsdk-value-type-input>
+                </ng-template>
+            </ng-container>
+            <mat-icon *ngIf="!parameter.readOnly" (click)="edit(i)"
+                class="modelingsdk-input-mapping-table__mapping-icon adf-textitem-action"
+                [attr.data-automation-id]="'edit-value-mapping-' + parameter.id">
+                edit
+            </mat-icon>
+        </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns; let i = index;"></mat-row>
+</mat-table>
+
+<ng-template #noProcessPropertiesTmpl>
+    <span class="ama-no-process-properties-msg">{{ 'SDK.VARIABLE_MAPPING.NO_PROCESS_PROPERTIES' | translate }}</span>
+</ng-template>

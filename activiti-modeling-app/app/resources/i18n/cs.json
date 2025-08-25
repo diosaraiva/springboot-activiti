@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "APPLICATION": "Aplikace",
+    "BACKEND_SERVICE": "Back-endová služba",
+    "MORE_ACTIONS": "Další akce",
+    "VALIDATE_PROJECT": "Ověřit projekt",
+    "DOWNLOAD_PROJECT": "Stáhnout projekt",
+    "ADD_ACTION": "Přidat novou akci",
+    "ADD_EVENT": "Přidat novou událost",
+    "HEADER": {
+      "APP_NAME": "Aplikace Modeling",
+      "SIGN_OUT": "Odhlásit se",
+      "SETTINGS": "Nastavení",
+      "ABOUT": "O aplikaci",
+      "LANGUAGE": "Jazyk",
+      "SEARCH": "Hledat",
+      "APPEARANCE": "Vzhled"
+    },
+    "DIALOGS": {
+      "CANCEL": "Zrušit",
+      "SAVE": "Uložit",
+      "CREATE": "Vytvořit",
+      "UPDATE": "Aktualizovat",
+      "CLOSE": "Zavřít",
+      "DONT_SAVE": "Neukládat",
+      "UNSAVED_PAGE_TITLE": "Chcete uložit změny provedené v položce",
+      "EDIT_PROPERTIES": "Upravit proměnné procesu",
+      "EDIT_PROCESS_MESSAGES": "Upravit zprávy",
+      "EDIT_PROCESS_ERRORS": "Upravit chyby",
+      "EDIT_FORM_PROPERTIES": "Upravit proměnné formuláře",
+      "EDIT_VISIBILITY_CONDITIONS": "Upravit podmínky viditelnosti",
+      "ERROR": {
+        "TITLE": "Chcete přesto provést uložení?",
+        "SUBTITLE": "Chyba ověřování:",
+        "NAME_DOESNT_MATCH_PATTERN": "Název neodpovídá následujícímu vzoru",
+        "GENERAL_NAME_VALIDATION": "Název se musí psát malými písmeny a musí mít délku 1 až 26 znaků. Jsou povoleny alfanumerické znaky a pomlčky, avšak název musí začínat písmenem a končit alfanumerickým znakem.",
+        "PROCESS_NAME_VALIDATION": "Název musí mít délku 1 až 26 znaků a nesmí začínat mezerou."
+      },
+      "CONFIRM": {
+        "TITLE": "Jste si jistí?",
+        "SUBTITLE": "Opravdu chcete tuto akci provést?",
+        "EMAIL_TEMPLATE_DESCRIPTION": "Tuto akci nelze vzít zpět",
+        "BUTTON": "Potvrdit",
+        "RELEASE": "Opravdu chcete vydat novou verzi tohoto projektu?",
+        "TYPES": {
+          "DECISION": "Rozhodovací tabulka",
+          "DATA_MODEL": "datový model",
+          "UI": "Uživatelské rozhraní",
+          "CONNECTOR": "Konektor",
+          "FORM": "Formulář",
+          "PROCESS": "Proces",
+          "FILE": "Soubor",
+          "SCRIPT": "skript",
+          "TRIGGER": "Aktivační procedura",
+          "MODEL": "Model obsahu",
+          "CUSTOM-FORM-WIDGET": "Widget formuláře"
+        },
+        "DELETE": {
+          "PROJECT": "Opravdu chcete tento projekt odstranit?",
+          "DATA_MODEL": "Opravdu chcete tento datový objekt odstranit?"
+        },
+        "SAVE": {
+          "PROCESS": "Opravdu chcete tento proces uložit?",
+          "DATA_MODEL": "Opravdu chcete tento datový objekt uložit?",
+          "EMAIL_TEMPLATE": "Opravdu chcete přepsat e-mailovou šablonu?"
+        },
+        "SAVE_AS": {
+          "DATA_MODEL": "Opravdu chcete kopírovat tento datový objekt?"
+        },
+        "DOWNLOAD": {
+          "IMAGE": "Opravdu chcete stáhnout obraz SVG tohoto procesu?",
+          "DATA_MODEL": "Opravdu chcete tento datový objekt stáhnout?"
+        }
+      }
+    },
+    "MENU": {
+      "EDIT": "Upravit",
+      "DELETE": "Odstranit",
+      "RELEASE": "Vzdát se",
+      "COLLABORATORS": "Spolupracovníci",
+      "SEE_RELEASES": "Zobrazit verze",
+      "LOG_HISTORY": "Historie protokolu",
+      "DOWNLOAD": "Stáhnout",
+      "SAVE_AS": "Uložit jako",
+      "EDITORS_MENU": "Nabídka Editory",
+      "MORE_MENU": "Nabídka Více"
+    },
+    "SETTINGS": {
+      "HEADER": "Nastavení aplikace"
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "CHANGE_USER": "Změnit uživatele",
+        "NOT_VALID_JSON": "Neplatný objekt JSON",
+        "NOT_VALID_HTML": "Neplatný objekt HTML",
+        "NOT_VALID_SCHEMA": "Objekt JSON neodpovídá schématu."
+      }
+    },
+    "EDITOR": {
+      "NAME": "Název",
+      "DESCRIPTION": "Popis",
+      "TITLE": "Název aplikace"
+    },
+    "THEME": {
+      "LIGHT": "Světlý motiv",
+      "DARK": "Tmavý motiv"
+    }
+  }
+}

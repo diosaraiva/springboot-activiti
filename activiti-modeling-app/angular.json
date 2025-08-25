@@ -1,0 +1,602 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "version": 2,
+    "newProjectRoot": "projects",
+    "projects": {
+        "modeling-ce": {
+            "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+            "root": "app",
+            "sourceRoot": "app/src",
+            "projectType": "application",
+            "targets": {
+                "build": {
+                    "executor": "@angular-devkit/build-angular:browser",
+                    "options": {
+                        "outputPath": "dist/modeling-ce",
+                        "index": "app/src/index.html",
+                        "main": "app/src/main.ts",
+                        "tsConfig": "app/tsconfig.app.json",
+                        "polyfills": "app/src/polyfills.ts",
+                        "allowedCommonJsDependencies": [
+                            "moment-es6",
+                            "minimatch",
+                            "moment",
+                            "@editorjs/code",
+                            "@editorjs/editorjs",
+                            "@editorjs/header",
+                            "@editorjs/inline-code",
+                            "@editorjs/list",
+                            "@editorjs/marker",
+                            "@editorjs/underline",
+                            "@quanzo/change-font-size",
+                            "cropperjs",
+                            "editorjs-html",
+                            "editorjs-text-color-plugin"
+                        ],
+                        "stylePreprocessorOptions": {
+                            "includePaths": [
+                                "./lib",
+                                "./node_modules/@alfresco",
+                                "./node_modules",
+                                "",
+                                "projects/modeling-shared/sdk/src/lib/theming"
+                            ]
+                        },
+                        "assets": [
+                            {
+                                "input": "app/.tmp",
+                                "output": "/",
+                                "glob": "app.config.json"
+                            },
+                            "app/src/favicon-96x96.png",
+                            {
+                                "input": "app/src/assets",
+                                "output": "/assets",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "projects/app-shell/resources",
+                                "output": "/resources",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "app/resources",
+                                "output": "/resources",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "projects/dashboard/i18n",
+                                "output": "/assets/dashboard/i18n",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "projects/project-editor/i18n",
+                                "output": "/assets/project-editor/i18n",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "projects/process-editor/i18n",
+                                "output": "/assets/process-editor/i18n",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "projects/connector-editor/i18n",
+                                "output": "/assets/connector-editor/i18n",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "projects/modeling-shared/sdk/i18n",
+                                "output": "/assets/modeling-sdk/i18n",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "node_modules/ngx-monaco-editor/assets/monaco",
+                                "output": "/assets/monaco",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "node_modules/pdfjs-dist/web",
+                                "output": "/~pdfjs-dist/web",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "node_modules/@alfresco/adf-core/prebuilt-themes",
+                                "output": "/assets/prebuilt-themes",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "node_modules/@alfresco/adf-core/bundles/assets",
+                                "output": "/assets",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "node_modules/@alfresco/adf-process-services-cloud/bundles/assets",
+                                "output": "/assets",
+                                "glob": "**/*"
+                            },
+                            {
+                                "input": "app/src/assets/svg/icons",
+                                "output": "/assets/svg/icons",
+                                "glob": "**/*"
+                            }
+                        ],
+                        "styles": [
+                            "node_modules/cropperjs/dist/cropper.min.css",
+                            "app/src/styles.scss",
+                            "app/src/assets/fonts/material-icons/material-icons.css",
+                            "app/src/assets/fonts/material-icons/material-icons-outlined.css",
+                            "app/src/assets/fonts/Inter/Inter.css"
+                        ],
+                        "scripts": []
+                    },
+                    "configurations": {
+                        "adf": {
+                            "tsConfig": "app/tsconfig.app.adf.json",
+                            "vendorChunk": true,
+                            "extractLicenses": false,
+                            "buildOptimizer": false,
+                            "sourceMap": true,
+                            "optimization": false,
+                            "namedChunks": true
+                        },
+                        "e2e": {
+                            "budgets": [
+                                {
+                                    "type": "anyComponentStyle",
+                                    "maximumWarning": "6kb"
+                                }
+                            ]
+                        },
+                        "production": {
+                            "budgets": [
+                                {
+                                    "type": "anyComponentStyle",
+                                    "maximumWarning": "6kb"
+                                }
+                            ],
+                            "outputHashing": "all",
+                            "fileReplacements": [
+                                {
+                                    "replace": "app/src/environments/environment.ts",
+                                    "with": "app/src/environments/environment.prod.ts"
+                                }
+                            ]
+                        },
+                        "adfprod": {
+                            "tsConfig": "app/tsconfig.app.adf.json",
+                            "outputHashing": "all",
+                            "fileReplacements": [
+                                {
+                                    "replace": "app/src/environments/environment.ts",
+                                    "with": "app/src/environments/environment.prod.ts"
+                                }
+                            ]
+                        },
+                        "release": {
+                            "budgets": [
+                                {
+                                    "type": "anyComponentStyle",
+                                    "maximumWarning": "6kb"
+                                }
+                            ],
+                            "outputHashing": "all",
+                            "fileReplacements": [
+                                {
+                                    "replace": "app/src/environments/environment.ts",
+                                    "with": "app/src/environments/environment.release.ts"
+                                }
+                            ]
+                        },
+                        "canary": {
+                            "styles": [
+                                "node_modules/cropperjs/dist/cropper.min.css",
+                                "app/src/styles.scss",
+                                "app/src/assets/fonts/material-icons/material-icons.css",
+                                "app/src/assets/fonts/material-icons/material-icons-outlined.css",
+                                "app/src/assets/fonts/Inter/Inter.css"
+                            ],
+                            "fileReplacements": [
+                                {
+                                    "replace": "app/src/environments/environment.ts",
+                                    "with": "app/src/environments/environment.canary.ts"
+                                }
+                            ],
+                            "vendorChunk": true,
+                            "extractLicenses": false,
+                            "buildOptimizer": false,
+                            "sourceMap": true,
+                            "optimization": false,
+                            "namedChunks": true
+                        },
+                        "development": {
+                            "vendorChunk": true,
+                            "extractLicenses": false,
+                            "buildOptimizer": false,
+                            "sourceMap": true,
+                            "optimization": false,
+                            "namedChunks": true
+                        }
+                    },
+                    "outputs": ["{options.outputPath}"],
+                    "defaultConfiguration": "development"
+                },
+                "serve": {
+                    "executor": "@angular-devkit/build-angular:dev-server",
+                    "options": {
+                        "port": 4201,
+                        "disableHostCheck": true,
+                        "open": true,
+                        "proxyConfig": "app/proxy.conf.js"
+                    },
+                    "configurations": {
+                        "adf": {
+                            "browserTarget": "modeling-ce:build:adf"
+                        },
+                        "production": {
+                            "browserTarget": "modeling-ce:build:production",
+                            "disableHostCheck": false
+                        },
+                        "canary": {
+                            "browserTarget": "modeling-ce:build:canary"
+                        },
+                        "development": {
+                            "browserTarget": "modeling-ce:build:development"
+                        }
+                    },
+                    "defaultConfiguration": "development"
+                }
+            },
+            "tags": ["scope:modeling-ce", "type:app", "category:modeling-ce"]
+        },
+        "modeling-sdk": {
+            "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+            "root": "projects/modeling-shared/sdk",
+            "sourceRoot": "projects/modeling-shared/sdk/src",
+            "projectType": "library",
+            "prefix": "modelingsdk",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/modeling-shared/sdk/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/modeling-shared/sdk/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": [
+                        "coverage/apps/modeling-ce/projects/modeling-shared/sdk"
+                    ]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/modeling-shared/sdk/src/**/*.ts",
+                            "projects/modeling-shared/sdk/src/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": ["scope:modeling-sdk", "category:modeling-ce"]
+        },
+        "modeling-ce-connector-editor": {
+            "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+            "root": "projects/connector-editor",
+            "sourceRoot": "projects/connector-editor/src",
+            "projectType": "library",
+            "prefix": "modeling-ce-connector-editor",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/connector-editor/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/connector-editor/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": [
+                        "coverage/apps/modeling-ce/projects/connector-editor"
+                    ]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/connector-editor/src/**/*.ts",
+                            "projects/connector-editor/src/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": [
+                "scope:modeling-ce-connector-editor",
+                "type:lib",
+                "category:modeling-ce"
+            ],
+            "implicitDependencies": ["modeling-ce-app-shell"]
+        },
+        "modeling-ce-dashboard": {
+            "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+            "root": "projects/dashboard",
+            "sourceRoot": "projects/dashboard/src",
+            "projectType": "library",
+            "prefix": "modeling-ce-dashboard",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/dashboard/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/dashboard/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": ["coverage/apps/modeling-ce/projects/dashboard"]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/dashboard/src/**/*.ts",
+                            "projects/dashboard/src/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": [
+                "scope:modeling-ce-dashboard",
+                "type:lib",
+                "category:modeling-ce"
+            ],
+            "implicitDependencies": ["modeling-ce-app-shell"]
+        },
+        "modeling-ce-project-editor": {
+            "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+            "root": "projects/project-editor",
+            "sourceRoot": "projects/project-editor/src",
+            "projectType": "library",
+            "prefix": "modeling-ce-project-editor",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/project-editor/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/project-editor/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": [
+                        "coverage/apps/modeling-ce/projects/project-editor"
+                    ]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/project-editor/src/**/*.ts",
+                            "projects/project-editor/src/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": [
+                "scope:modeling-ce-project-editor",
+                "category:modeling-ce"
+            ],
+            "implicitDependencies": ["modeling-ce-app-shell"]
+        },
+        "modeling-ce-process-editor": {
+            "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+            "root": "projects/process-editor",
+            "sourceRoot": "projects/process-editor/src",
+            "projectType": "library",
+            "prefix": "modeling-ce-process-editor",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/process-editor/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/process-editor/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": [
+                        "coverage/apps/modeling-ce/projects/process-editor"
+                    ]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/process-editor/src/**/*.ts",
+                            "projects/process-editor/src/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": [
+                "scope:modeling-ce-process-editor",
+                "category:modeling-ce"
+            ],
+            "implicitDependencies": ["modeling-ce-app-shell"]
+        },
+        "adf-candidates": {
+            "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+            "projectType": "library",
+            "root": "projects/adf-candidates",
+            "sourceRoot": "projects/adf-candidates",
+            "prefix": "adf-candidates",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/adf-candidates/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/adf-candidates/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": [
+                        "coverage/apps/modeling-ce/projects/adf-candidates"
+                    ]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/adf-candidates/**/*.ts",
+                            "projects/adf-candidates/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": ["scope:adf-candidates", "type:lib", "category:modeling-ce"]
+        },
+        "modeling-ce-app-shell": {
+            "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+            "root": "projects/app-shell",
+            "sourceRoot": "projects/app-shell/src",
+            "projectType": "library",
+            "prefix": "modeling-ce-app-shell",
+            "targets": {
+                "pretest": {
+                    "executor": "nx:run-commands",
+                    "options": {
+                        "command": "nx run shared-unit-testing:build"
+                    }
+                },
+                "test": {
+                    "executor": "@nrwl/jest:jest",
+                    "options": {
+                        "jestConfig": "projects/app-shell/jest.config.ts",
+                        "runInBand": true
+                    },
+                    "configurations": {
+                        "adf": {
+                            "jestConfig": "projects/app-shell/jest.adf.config.ts",
+                            "codeCoverage": false,
+                            "silent": true
+                        }
+                    },
+                    "outputs": ["coverage/apps/modeling-ce/projects/app-shell"]
+                },
+                "lint": {
+                    "executor": "@nrwl/linter:eslint",
+                    "options": {
+                        "lintFilePatterns": [
+                            "projects/app-shell/src/**/*.ts",
+                            "projects/app-shell/src/**/*.html"
+                        ]
+                    },
+                    "outputs": ["{options.outputFile}"]
+                }
+            },
+            "tags": [
+                "scope:modeling-ce-app-shell",
+                "type:lib",
+                "category:modeling-ce"
+            ]
+        },
+        "shared-unit-testing": {
+            "root": "projects/shared/testing",
+            "sourceRoot": "projects/shared/testing",
+            "projectType": "library",
+            "targets": {
+                "build": {
+                    "executor": "@nrwl/js:tsc",
+                    "outputs": ["{options.outputPath}"],
+                    "options": {
+                        "outputPath": "node_modules/@alfresco-dbp/shared/testing",
+                        "main": "projects/shared/testing/index.ts",
+                        "tsConfig": "projects/shared/testing/tsconfig.lib.json",
+                        "assets": ["projects/shared/testing/*.md"]
+                    }
+                }
+            },
+            "tags": []
+        }
+    },
+    "defaultProject": "modeling-ce",
+    "schematics": {
+        "@ngrx/schematics:component": {
+            "prefix": "app",
+            "styleext": "scss"
+        },
+        "cli": {
+            "analytics": "cab81094-0dcd-4c8e-9ed3-a91b9c5e57e3"
+        }
+    },
+    "cli": {
+        "analytics": "cab81094-0dcd-4c8e-9ed3-a91b9c5e57e3"
+    }
+}
